@@ -1,0 +1,277 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #1d9954;
+  display: flex;
+  height: 100vh;
+}
+.list {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.item {
+  width: 95%;
+  border: 5px solid #464646;
+  border-bottom: none;
+  margin-top: 50px;
+  border-radius: 20px 20px 0 0;
+  background-color: #afafaf;
+}
+.item ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.item ul li {
+  width: calc(100% / 10);
+  /* height: 70px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: #afafaf;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.item ul li.check {
+  background-color: white;
+}
+.item ul li:nth-child(10) {
+  border-right: none;
+}
+.item ul li:nth-child(11) {
+  border-bottom: none;
+}
+.item ul li:nth-child(12) {
+  border-bottom: none;
+}
+.item ul li:nth-child(13) {
+  border-bottom: none;
+}
+.item ul li:nth-child(14) {
+  border-bottom: none;
+}
+.item ul li:nth-child(15) {
+  border-bottom: none;
+}
+.item ul li:nth-child(16) {
+  border-bottom: none;
+}
+.item ul li:nth-child(17) {
+  border-bottom: none;
+}
+
+.item ul li:hover {
+  background-color: rgb(167, 167, 167);
+}
+.item img {
+  width: 80%;
+  object-fit: cover;
+}
+.item-box {
+  width: 100%;
+  height: 55%;
+  border: 5px solid #464646;
+  border-radius: 20px;
+  background-color: white;
+  /* overflow-y: scroll; */
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+}
+/* .item-box::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+.item-box::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 5px;
+} */
+.item-box h3 {
+  width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: transparent;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: #707070;
+  pointer-events: none;
+}
+.item-box .item-box-list {
+  width: 98%;
+  height: 450px;
+  overflow-y: scroll;
+  background-color: #d4d4d4;
+  border-radius: 20px;
+}
+.item-box .item-box-list::-webkit-scrollbar {
+  display: none;
+}
+
+.item-box-list ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12.4px;
+  padding: 20px 10px 20px 10px;
+}
+.item-box-list ul li {
+  width: calc(100% / 5 - 10px);
+  border: 3px solid #707070;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.item-box-list ul li img {
+  width: 100%;
+}
+
+.item-bottom {
+  width: 100%;
+  height: 20%;
+  min-height: 130px;
+  border: 5px solid #464646;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+}
+.item-bottom img {
+  width: calc(100% / 5);
+  aspect-ratio: 1/1;
+  border: 3px solid #707070;
+  border-radius: 10px;
+}
+.item-bottom h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #707070;
+  pointer-events: none;
+}
+.item-bottom .link {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.default {
+  width: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.default-inner {
+  width: 70%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default-inner img {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.default .default-inner img.default-package {
+  z-index: 0;
+}
+.default .default-inner img.default-bzone {
+  z-index: 1;
+}
+.default .default-inner img.default-czone {
+  z-index: 1;
+}
+.default .default-inner img.default-boxeffect {
+  z-index: 1;
+}
+.default .default-inner img.default-slot {
+  z-index: 2;
+}
+.default .default-inner img.default-pattern {
+  z-index: 3;
+}
+.default .default-inner img.default-design {
+  z-index: 4;
+}
+.default .default-inner img.default-basics {
+  z-index: 5;
+}
+.default .default-inner img.default-azone {
+  z-index: 6;
+}
+.default .default-inner img.default-body {
+  z-index: 7;
+}
+.default .default-inner img.default-eye {
+  z-index: 7;
+}
+
+.default .default-inner img.default-feel {
+  z-index: 7;
+}
+.default .default-inner img.default-hair {
+  z-index: 8;
+}
+.default .default-inner img.default-bottom {
+  z-index: 11;
+}
+.default .default-inner img.default-shoes {
+  z-index: 12;
+}
+.default .default-inner img.default-arms {
+  z-index: 13;
+}
+.default .default-inner img.default-top {
+  z-index: 14;
+}
+.default .default-inner img.default-acc {
+  z-index: 15;
+}
+.default .default-inner img.default-face {
+  z-index: 16;
+}
+
+.default .default-inner img.default-head {
+  z-index: 16;
+}
+.default .default-inner img.default-clearboard {
+  z-index: 20;
+}
+.default .default-inner img.default-seal {
+  z-index: 21;
+}
