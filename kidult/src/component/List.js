@@ -61,7 +61,10 @@ function List() {
         <div className="item-bottom">
           <img src={store.showimg.src}></img>
           <h2>{store.showimg.name}</h2>
-          <img src="assets/image/emoticon/reset.png" className="link"></img>
+          <div className="reset-box">
+            <img src="assets/image/emoticon/reset.png" className="reset"></img>
+            <img src="assets/image/emoticon/link.png" className="link"></img>
+          </div>
         </div>
       </div>
     </div>

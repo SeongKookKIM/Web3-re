@@ -449,7 +449,7 @@ let shoesimg = createSlice({
       name: "authentic-sneakers",
     },
     { src: "assets/image/shoes/sandal.png", name: "sandal" },
-    { src: "assets/image/shoes/shoes-stocking.png", name: "shoes-stocking" },
+    // { src: "assets/image/shoes/shoes-stocking.png", name: "shoes-stocking" },
     { src: "assets/image/shoes/slip-sneakers.png", name: "slip-sneakers" },
     { src: "assets/image/shoes/Thong-Sandal.png", name: "Thong-Sandal" },
   ],
