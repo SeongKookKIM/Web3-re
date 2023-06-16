@@ -59,8 +59,8 @@ function List() {
         </div>
 
         <div className="item-bottom">
-          <img src="assets/image/eyes/eyesA-blue-out.png"></img>
-          <h2>eyesA-blue-out</h2>
+          <img src={store.showimg.src}></img>
+          <h2>{store.showimg.name}</h2>
           <img src="assets/image/emoticon/reset.png" className="link"></img>
         </div>
       </div>

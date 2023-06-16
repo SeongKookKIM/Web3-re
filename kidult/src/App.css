@@ -149,6 +149,9 @@
   background-color: white;
   cursor: pointer;
 }
+.item-box-list ul li:hover {
+  background-color: #d4d4d4;
+}
 
 .item-box-list ul li img {
   width: 100%;
@@ -163,7 +166,7 @@
   background-color: white;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 60px;
   padding: 20px;
@@ -181,6 +184,7 @@
   text-transform: uppercase;
   color: #707070;
   pointer-events: none;
+  text-align: center;
 }
 .item-bottom .link {
   width: 50px;
