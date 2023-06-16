@@ -541,9 +541,9 @@ let sealimg = createSlice({
   name: "sealimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/seal/seal-silver1-out.png", name: "seal-silver1-out" },
-    { src: "assets/image/seal/seal-silver2-out.png", name: "seal-silver2-out" },
-    { src: "assets/image/seal/seal-silver3-out.png", name: "seal-silver3-out" },
+    { src: "assets/image/seal/seal-silver1-out.png", name: "seal-silver1" },
+    { src: "assets/image/seal/seal-silver2-out.png", name: "seal-silver2" },
+    { src: "assets/image/seal/seal-silver3-out.png", name: "seal-silver3" },
     { src: "assets/image/seal/dia-a.png", name: "dia-a" },
     { src: "assets/image/seal/dia-b.png", name: "dia-b" },
     { src: "assets/image/seal/haert-a.png", name: "haert-a" },
@@ -603,6 +603,95 @@ let sealimg = createSlice({
       src: "assets/image/seal/starburst-security-out.png",
       name: "starburst-security",
     },
+  ],
+});
+
+let stickerImg = createSlice({
+  name: "stickerImg",
+  initialState: [
+    [
+      { src: "assets/image/seal/zigzag-a.png", name: "zigzag-a" },
+      { src: "assets/image/seal/zigzag-b.png", name: "zigzag-b" },
+      {
+        src: "assets/image/seal/starburst-architecture-out.png",
+        name: "starburst-architecture",
+      },
+      {
+        src: "assets/image/seal/starburst-artist-out.png",
+        name: "starburst-artist",
+      },
+      {
+        src: "assets/image/seal/starburst-beauty-fashion-out.png",
+        name: "starburst-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/starburst-education-out.png",
+        name: "starburst-education",
+      },
+      {
+        src: "assets/image/seal/starburst-music-out.png",
+        name: "starburst-music",
+      },
+      {
+        src: "assets/image/seal/starburst-science-technology-out.png",
+        name: "starburst-science-technology",
+      },
+      {
+        src: "assets/image/seal/starburst-security-out.png",
+        name: "starburst-security",
+      },
+    ],
+    [
+      {
+        src: "assets/image/seal/seal-silver1-out.png",
+        name: "seal-silver1-out",
+      },
+      {
+        src: "assets/image/seal/seal-silver2-out.png",
+        name: "seal-silver2-out",
+      },
+    ],
+    [
+      {
+        src: "assets/image/seal/seal-silver3-out.png",
+        name: "seal-silver3",
+      },
+    ],
+    [
+      { src: "assets/image/seal/dia-a.png", name: "dia-a" },
+      { src: "assets/image/seal/dia-b.png", name: "dia-b" },
+      { src: "assets/image/seal/seal-DIA.png", name: "seal-DIA" },
+    ],
+    [
+      { src: "assets/image/seal/haert-a.png", name: "haert-a" },
+      { src: "assets/image/seal/haert-b.png", name: "haert-b" },
+      {
+        src: "assets/image/seal/heart-architecture-out.png",
+        name: "heart-architecture",
+      },
+      { src: "assets/image/seal/heart-artist-out.png", name: "heart-artist" },
+      {
+        src: "assets/image/seal/heart-beauty-fashion-out.png",
+        name: "heart-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/heart-education-out.png",
+        name: "heart-education",
+      },
+      { src: "assets/image/seal/heart-music-out.png", name: "heart-music" },
+      {
+        src: "assets/image/seal/heart-science-technology-out.png",
+        name: "heart-science-technology",
+      },
+      {
+        src: "assets/image/seal/heart-security-out.png",
+        name: "heart-educatisecurityon",
+      },
+    ],
+    [
+      { src: "assets/image/seal/star-a.png", name: "star-a" },
+      { src: "assets/image/seal/star-b.png", name: "star-b" },
+    ],
   ],
 });
 
@@ -795,5 +884,6 @@ export default configureStore({
     boxeffectimg: boxeffectimg.reducer,
     itemimg: itemimg.reducer,
     showimg: showimg.reducer,
+    stickerImg: stickerImg.reducer,
   },
 });

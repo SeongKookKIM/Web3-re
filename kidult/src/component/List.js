@@ -4,11 +4,12 @@ import { useSelector } from "react-redux";
 import ListMenu from "./ListMenu";
 
 function List() {
+  let [tab, setTab] = useState(0);
+  let [sealNum, setSealNum] = useState(0);
+
   let store = useSelector((state) => {
     return state;
   });
-
-  let [tab, setTab] = useState(0);
 
   return (
     <div className="list">
@@ -54,8 +55,62 @@ function List() {
               <h3>sticker</h3>,
             ][tab]
           }
+          {tab == 17 && (
+            <div className="seal-list">
+              <ul>
+                <li className="sticker-a">
+                  <img
+                    src="assets/image/emoticon/sticker_A.png"
+                    onClick={() => {
+                      setSealNum(1);
+                    }}
+                  />
+                </li>
+                <li className="sticker-b">
+                  <img
+                    src="assets/image/emoticon/sticker_B.png"
+                    onClick={() => {
+                      setSealNum(2);
+                    }}
+                  />
+                </li>
+                <li className="sticker-c">
+                  <img
+                    src="assets/image/emoticon/sticker_C.png"
+                    onClick={() => {
+                      setSealNum(3);
+                    }}
+                  />
+                </li>
+                <li className="sticker-d">
+                  <img
+                    src="assets/image/emoticon/sticker_D.png"
+                    onClick={() => {
+                      setSealNum(4);
+                    }}
+                  />
+                </li>
+                <li className="sticker-e">
+                  <img
+                    src="assets/image/emoticon/sticker_E.png"
+                    onClick={() => {
+                      setSealNum(5);
+                    }}
+                  />
+                </li>
+                <li className="sticker-f">
+                  <img
+                    src="assets/image/emoticon/sticker_F.png"
+                    onClick={() => {
+                      setSealNum(6);
+                    }}
+                  />
+                </li>
+              </ul>
+            </div>
+          )}
           <div className="item-box-list">
-            <ListMenu tab={tab} />
+            <ListMenu tab={tab} sealNum={sealNum} />
           </div>
         </div>
 

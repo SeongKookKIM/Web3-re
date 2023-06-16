@@ -1009,7 +1009,6 @@ function handleBoxEffectImg(e) {
 function handleSealImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-seal").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
@@ -1026,6 +1025,43 @@ function handleSealImg(e) {
     case "/assets/image/seal/seal-silver3-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/seal-silver3-in.png";
+      break;
+
+    case "/assets/image/seal/dia-a.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/dia-a.png";
+      break;
+    case "/assets/image/seal/dia-b.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/dia-b.png";
+      break;
+    case "/assets/image/seal/haert-a.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/haert-a.png";
+      break;
+    case "/assets/image/seal/haert-b.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/haert-b.png";
+      break;
+    case "/assets/image/seal/seal-DIA.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/seal-DIA.png";
+      break;
+    case "/assets/image/seal/star-a.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-a.png";
+      break;
+    case "/assets/image/seal/star-b.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-b.png";
+      break;
+    case "/assets/image/seal/zigzag-a.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/zigzag-a.png";
+      break;
+    case "/assets/image/seal/zigzag-b.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/zigzag-b.png";
       break;
     // 06-13추가
     case "/assets/image/seal/heart-architecture-out.png":

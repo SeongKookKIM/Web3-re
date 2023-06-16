@@ -22,7 +22,7 @@ import {
   handleTopImg,
 } from "../event/HandlerEvent";
 
-function ListMenu({ tab }) {
+function ListMenu({ tab, sealNum }) {
   let [imgTab, setImgTab] = useState(0);
   let [imgTab1, setImgTab1] = useState(0);
   let [imgTab2, setImgTab2] = useState(0);
@@ -41,6 +41,13 @@ function ListMenu({ tab }) {
   let [imgTab15, setImgTab15] = useState(0);
   let [imgTab16, setImgTab16] = useState(0);
   let [imgTab17, setImgTab17] = useState(0);
+
+  let [imgTab18, setImgTab18] = useState(0);
+  let [imgTab19, setImgTab19] = useState(0);
+  let [imgTab20, setImgTab20] = useState(0);
+  let [imgTab21, setImgTab21] = useState(0);
+  let [imgTab22, setImgTab22] = useState(0);
+  let [imgTab23, setImgTab23] = useState(0);
 
   let store = useSelector((state) => {
     return state;
@@ -391,26 +398,152 @@ function ListMenu({ tab }) {
               </li>
             );
           }),
-          store.sealimg.map((it, i) => {
-            return (
-              <li key={i} className={imgTab17 === i ? "checked" : ""}>
-                <img
-                  src={it.src}
-                  alt="seal"
-                  onClick={(e) => {
-                    setImgTab17(i);
-                    handleSealImg(e);
-                    dispatch(
-                      changeShow({
-                        src: it.src,
-                        name: it.name,
-                      })
-                    );
-                  }}
-                ></img>
-              </li>
-            );
-          }),
+          sealNum == 1
+            ? store.stickerImg[0].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab18 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab18(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : sealNum == 2
+            ? store.stickerImg[1].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab19 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab19(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : sealNum == 3
+            ? store.stickerImg[2].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab20 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab20(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : sealNum == 4
+            ? store.stickerImg[3].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab21 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab21(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : sealNum == 5
+            ? store.stickerImg[4].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab22 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab22(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : sealNum == 6
+            ? store.stickerImg[5].map((it, i) => {
+                return (
+                  <li key={i} className={imgTab23 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab23(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              })
+            : store.sealimg.map((it, i) => {
+                return (
+                  <li key={i} className={imgTab17 === i ? "checked" : ""}>
+                    <img
+                      src={it.src}
+                      alt="seal"
+                      onClick={(e) => {
+                        setImgTab17(i);
+                        handleSealImg(e);
+                        dispatch(
+                          changeShow({
+                            src: it.src,
+                            name: it.name,
+                          })
+                        );
+                      }}
+                    ></img>
+                  </li>
+                );
+              }),
         ][tab]
       }
     </ul>
