@@ -17,6 +17,7 @@ function Kidult() {
         <img src="" className="default-face"></img>
         <img src="" className="default-hair"></img>
         <img src="" className="default-top"></img>
+        <img src="" className="default-onepiece"></img>
         <img src="" className="default-acc"></img>
         <img src="" className="default-head"></img>
         <img src="" className="default-bottom"></img>
@@ -24,7 +25,7 @@ function Kidult() {
         <img src="" className="default-boxeffect"></img>
         <img src="" className="default-azone"></img>
         <img src="" className="default-bzone"></img>
-        <img src="" className="default-czone"></img>
+        <img src="" className="default-partner"></img>
         <img
           src="/assets/image/packcolor/pack-color-white-in.png"
           className="default-package"

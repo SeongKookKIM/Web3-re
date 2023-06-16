@@ -493,8 +493,8 @@ let bzoneimg = createSlice({
   ],
 });
 
-let czoneimg = createSlice({
-  name: "czoneimg",
+let partnerimg = createSlice({
+  name: "partnerimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
     { src: "assets/image/czone/crow-out.png", name: "crow" },
@@ -786,7 +786,7 @@ export default configureStore({
     accimg: accimg.reducer,
     azoneimg: azoneimg.reducer,
     bzoneimg: bzoneimg.reducer,
-    czoneimg: czoneimg.reducer,
+    partnerimg: partnerimg.reducer,
     packageimg: packageimg.reducer,
     sealimg: sealimg.reducer,
     packslotimg: packslotimg.reducer,

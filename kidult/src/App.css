@@ -217,7 +217,7 @@
 .default .default-inner img.default-bzone {
   z-index: 1;
 }
-.default .default-inner img.default-czone {
+.default .default-inner img.default-partner {
   z-index: 1;
 }
 .default .default-inner img.default-boxeffect {
@@ -261,6 +261,9 @@
   z-index: 13;
 }
 .default .default-inner img.default-top {
+  z-index: 14;
+}
+.default .default-inner img.default-onepiece {
   z-index: 14;
 }
 .default .default-inner img.default-acc {

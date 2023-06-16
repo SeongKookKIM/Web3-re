@@ -1,6 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeShow } from "../Sotre";
+import {
+  handleAzoneImg,
+  handleBodyImg,
+  handleBottomImg,
+  handleBoxEffectImg,
+  handleBzoneImg,
+  handleDesignImg,
+  handleEyesImg,
+  handleFaceImg,
+  handleFeelingImg,
+  handleHairImg,
+  handleHeadImg,
+  handleOnepieceImg,
+  handlePackageImg,
+  handlePartnerImg,
+  handlePatternImg,
+  handleSealImg,
+  handleShoesImg,
+  handleTopImg,
+} from "../event/HandlerEvent";
 
 function ListMenu({ tab }) {
   let store = useSelector((state) => {
@@ -18,7 +38,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="body"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleBodyImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -36,7 +57,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="hair"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleHairImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -54,7 +76,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="eye"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleEyesImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -72,7 +95,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="top"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleTopImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -90,7 +114,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="onepiece"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleOnepieceImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -108,7 +133,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="bottom"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleBottomImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -126,7 +152,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="shoes"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleShoesImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -144,7 +171,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="head"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleHeadImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -162,7 +190,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="feel"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleFeelingImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -180,7 +209,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="face"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleFaceImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -198,7 +228,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="a-zone"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleAzoneImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -216,7 +247,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="b-zone"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleBzoneImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -228,13 +260,14 @@ function ListMenu({ tab }) {
               </li>
             );
           }),
-          store.czoneimg.map((it, i) => {
+          store.partnerimg.map((it, i) => {
             return (
               <li key={i}>
                 <img
                   src={it.src}
                   alt="c-zone"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handlePartnerImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -252,7 +285,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="package"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handlePackageImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -270,7 +304,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="design"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleDesignImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -288,7 +323,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="pattern"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handlePatternImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -306,7 +342,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="box-effect"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleBoxEffectImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
@@ -324,7 +361,8 @@ function ListMenu({ tab }) {
                 <img
                   src={it.src}
                   alt="seal"
-                  onClick={() => {
+                  onClick={(e) => {
+                    handleSealImg(e);
                     dispatch(
                       changeShow({
                         src: it.src,
