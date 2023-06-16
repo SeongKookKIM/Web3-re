@@ -1,3 +1,4 @@
+/*eslint-disable */
 import React from "react";
 
 function Kidult() {
@@ -39,7 +40,10 @@ function Kidult() {
           src="/assets/image/packbasic/pack-basics.png"
           className="default-basics"
         ></img>
-        <img src="" className="default-slot"></img>
+        <img
+          src="/assets/image/packslot/pack-slot-1-in.png"
+          className="default-slot"
+        ></img>
         <img src="" className="default-design"></img>
         <img src="" className="default-pattern"></img>
       </div>

@@ -3,7 +3,6 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 let bodyimg = createSlice({
   name: "bodyimg",
   initialState: [
-    { src: "assets/image/none.png", name: "none" },
     { src: "assets/image/body/asian1-out.png", name: "asian1" },
     { src: "assets/image/body/asian2-out.png", name: "asian2" },
     { src: "assets/image/body/black1-out.png", name: "black1" },

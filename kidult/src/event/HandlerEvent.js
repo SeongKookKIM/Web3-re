@@ -1,12 +1,14 @@
+/*eslint-disable */
+
 function handleBodyImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
 
   switch (relativeSrc) {
-    case "/assets/image/none.png":
-      document.querySelector(".default-body").src = "";
-      document.querySelector(".default-arms").src = "";
-      break;
+    // case "/assets/image/none.png":
+    //   document.querySelector(".default-body").src = "";
+    //   document.querySelector(".default-arms").src = "";
+    //   break;
     case "/assets/image/body/asian1-out.png":
       document.querySelector(".default-body").src =
         "/assets/image/default-arms/asian1-body-in.png";
