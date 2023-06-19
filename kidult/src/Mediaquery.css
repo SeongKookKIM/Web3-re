@@ -105,6 +105,12 @@
   .item-box-list ul li {
     width: 100px;
   }
+  .item-box-list ul li:hover {
+    background-color: white;
+  }
+  .item-box-list ul li:hover img {
+    transform: scale(1);
+  }
   .item-bottom h2 {
     font-size: 1.3rem;
   }
