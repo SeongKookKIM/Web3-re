@@ -610,6 +610,7 @@ let stickerImg = createSlice({
   name: "stickerImg",
   initialState: [
     [
+      { src: "assets/image/none.png", name: "none" },
       { src: "assets/image/seal/zigzag-a.png", name: "zigzag-a" },
       { src: "assets/image/seal/zigzag-b.png", name: "zigzag-b" },
       {
@@ -642,6 +643,7 @@ let stickerImg = createSlice({
       },
     ],
     [
+      { src: "assets/image/none.png", name: "none" },
       {
         src: "assets/image/seal/seal-silver1-out.png",
         name: "seal-silver1-out",
@@ -652,17 +654,20 @@ let stickerImg = createSlice({
       },
     ],
     [
+      { src: "assets/image/none.png", name: "none" },
       {
         src: "assets/image/seal/seal-silver3-out.png",
         name: "seal-silver3",
       },
     ],
     [
+      { src: "assets/image/none.png", name: "none" },
       { src: "assets/image/seal/dia-a.png", name: "dia-a" },
       { src: "assets/image/seal/dia-b.png", name: "dia-b" },
       { src: "assets/image/seal/seal-DIA.png", name: "seal-DIA" },
     ],
     [
+      { src: "assets/image/none.png", name: "none" },
       { src: "assets/image/seal/haert-a.png", name: "haert-a" },
       { src: "assets/image/seal/haert-b.png", name: "haert-b" },
       {
@@ -689,6 +694,7 @@ let stickerImg = createSlice({
       },
     ],
     [
+      { src: "assets/image/none.png", name: "none" },
       { src: "assets/image/seal/star-a.png", name: "star-a" },
       { src: "assets/image/seal/star-b.png", name: "star-b" },
     ],

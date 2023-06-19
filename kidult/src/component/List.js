@@ -1,15 +1,27 @@
 /*eslint-disable */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import ListMenu from "./ListMenu";
 
 function List() {
   let [tab, setTab] = useState(0);
   let [sealNum, setSealNum] = useState(0);
+  let [fade, setFade] = useState("");
 
   let store = useSelector((state) => {
     return state;
   });
+
+  useEffect(() => {
+    let a = setTimeout(() => {
+      setFade("action");
+    }, 200);
+
+    return () => {
+      setFade("");
+      clearTimeout(a);
+    };
+  }, [tab]);
 
   return (
     <div className="list">
@@ -110,7 +122,7 @@ function List() {
             </div>
           )}
           <div className="item-box-list">
-            <ListMenu tab={tab} sealNum={sealNum} />
+            <ListMenu tab={tab} sealNum={sealNum} fade={fade} />
           </div>
         </div>
 
@@ -118,14 +130,20 @@ function List() {
           <img src={store.showimg.src}></img>
           <h2>{store.showimg.name}</h2>
           <div className="reset-box">
-            <img
-              src="assets/image/emoticon/reset.png"
-              className="reset"
-              onClick={() => {
-                window.location.reload();
-              }}
-            ></img>
-            <img src="assets/image/emoticon/link.png" className="link"></img>
+            <div className="reset">
+              <img
+                src="assets/image/emoticon/reset.png"
+                className="reset"
+                onClick={() => {
+                  window.location.reload();
+                }}
+              ></img>
+              <p>RESET</p>
+            </div>
+            <div>
+              <img src="assets/image/emoticon/link.png" className="link"></img>
+              <p>LINK</p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeShow } from "../Sotre";
 import {
@@ -22,7 +22,7 @@ import {
   handleTopImg,
 } from "../event/HandlerEvent";
 
-function ListMenu({ tab, sealNum }) {
+function ListMenu({ tab, sealNum, fade }) {
   let [imgTab, setImgTab] = useState(0);
   let [imgTab1, setImgTab1] = useState(0);
   let [imgTab2, setImgTab2] = useState(0);
@@ -41,7 +41,6 @@ function ListMenu({ tab, sealNum }) {
   let [imgTab15, setImgTab15] = useState(0);
   let [imgTab16, setImgTab16] = useState(0);
   let [imgTab17, setImgTab17] = useState(0);
-
   let [imgTab18, setImgTab18] = useState(0);
   let [imgTab19, setImgTab19] = useState(0);
   let [imgTab20, setImgTab20] = useState(0);
@@ -55,7 +54,7 @@ function ListMenu({ tab, sealNum }) {
 
   let dispatch = useDispatch();
   return (
-    <ul>
+    <ul className={fade}>
       {
         [
           store.bodyimg.map((it, i) => {

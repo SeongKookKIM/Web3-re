@@ -1,6 +1,7 @@
 /*eslint-disable */
 import React from "react";
 import "./App.css";
+import "./Mediaquery.css";
 import List from "./component/List";
 import Kidult from "./component/Kidult";
 

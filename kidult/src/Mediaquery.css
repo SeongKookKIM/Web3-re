@@ -1,0 +1,140 @@
+@media screen and (max-width: 1200px) {
+  .item-box-list ul {
+    gap: calc(100% / 8 - 0px);
+  }
+  .item-box-list ul li {
+    width: calc((100% / 4));
+    margin-bottom: 20px;
+  }
+  .item-bottom {
+    gap: 30px;
+  }
+  .item-bottom img {
+    width: calc(100% / 5);
+  }
+  .item-bottom h2 {
+    font-size: 1.3rem;
+  }
+  .reset-box div img {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .item-box h3 {
+    font-size: 1.6rem;
+  }
+  .item-bottom h2 {
+    font-size: 1.1rem;
+  }
+  .reset-box div img {
+    width: 40px;
+  }
+  .reset-box p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  .App {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    left: 10px;
+    top: 20px !important;
+    width: 40px;
+  }
+  .list {
+    width: 100%;
+  }
+  .default {
+    width: 70%;
+  }
+  .item-box h3 {
+    font-size: 2rem;
+  }
+  .item-box-list ul {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .item-box-list ul li {
+    width: calc(100% / 4.5);
+  }
+  .item-bottom {
+    margin-bottom: 50px;
+  }
+  .item-bottom img {
+    width: calc(100% / 7);
+  }
+  .item-bottom h2 {
+    font-size: 1.6rem;
+  }
+  .reset-box .reset {
+    display: none;
+  }
+  .reset-box div img {
+    width: 60px;
+  }
+  .reset-box p {
+    font-size: 1rem;
+  }
+  .default .default-reset {
+    display: block;
+    position: absolute;
+    top: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .default .default-reset img {
+    width: 50px;
+  }
+  .default .default-reset p {
+    font-size: 1rem;
+    color: #707070;
+  }
+}
+@media screen and (max-width: 650px) {
+  .item-box h3 {
+    font-size: 1.4rem;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #707070;
+  }
+  .item-box-list ul li {
+    width: 100px;
+  }
+  .item-bottom h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .item-box h3 {
+    font-size: 1.2rem;
+  }
+  .item-box .item-box-list {
+    height: 300px;
+  }
+  .item-box-list ul li {
+    width: 80px;
+  }
+  .item-bottom {
+    min-height: 100px;
+  }
+  .item-bottom img {
+    width: 80px;
+  }
+  .item-bottom h2 {
+    font-size: 0.9rem;
+  }
+  .reset-box div img {
+    width: 40px;
+  }
+  .default .default-reset img {
+    width: 40px;
+  }
+  .default .default-reset p {
+    font-size: 0.7rem;
+  }
+}

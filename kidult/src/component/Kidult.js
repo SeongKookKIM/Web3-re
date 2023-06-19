@@ -47,6 +47,16 @@ function Kidult() {
         <img src="" className="default-design"></img>
         <img src="" className="default-pattern"></img>
       </div>
+      <div className="default-reset">
+        <img
+          src="assets/image/emoticon/reset.png"
+          className="reset"
+          onClick={() => {
+            window.location.reload();
+          }}
+        ></img>
+        <p>RESET</p>
+      </div>
     </div>
   );
 }
