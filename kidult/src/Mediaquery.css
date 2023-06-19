@@ -105,6 +105,9 @@
   }
 }
 @media screen and (max-width: 650px) {
+  .item {
+    width: 90%;
+  }
   .item-box h3 {
     font-size: 1.4rem;
     -webkit-text-stroke: 2px;
