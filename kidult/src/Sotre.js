@@ -573,7 +573,7 @@ let sealimg = createSlice({
     },
     {
       src: "assets/image/seal/heart-security-out.png",
-      name: "heart-educatisecurityon",
+      name: "heart-education-securityon",
     },
     {
       src: "assets/image/seal/starburst-architecture-out.png",
@@ -690,7 +690,7 @@ let stickerImg = createSlice({
       },
       {
         src: "assets/image/seal/heart-security-out.png",
-        name: "heart-educatisecurityon",
+        name: "heart-education-securityon",
       },
     ],
     [
