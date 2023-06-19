@@ -94,6 +94,7 @@
     box-sizing: border-box;
     background-color: white;
     cursor: pointer;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.7);
   }
   .default .default-reset img {
     width: 50px;
