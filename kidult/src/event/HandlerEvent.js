@@ -575,52 +575,114 @@ function handleBottomImg(e) {
       break;
 
     // Hight
-    case "/assets/image/bottom-High/long-skirt-out.png":
+    case "/assets/image/bottom-High/boots-cut-pants-black-out.png":
       document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-High/long-skirt-in.png";
-      break;
-    case "/assets/image/bottom-High/mini-skirt-black-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-High/mini-skirt-black-in.png";
-      break;
-    case "/assets/image/bottom-High/lace-skirt-black-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-High/lace-skirt-black-in.png";
+        "/assets/image/bottom-High/boots-cut-pants-black-in.png";
       break;
     case "/assets/image/bottom-High/boots-cut-pants-blue-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-High/boots-cut-pants-blue-in.png";
       break;
-    case "/assets/image/bottom-High/boots-cut-pants-black-out.png":
+    case "/assets/image/bottom-High/boots-cut-pants-white-out.png":
       document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-High/boots-cut-pants-black-in.png";
-      break;
-    case "/assets/image/bottom-High/boots-cut-pants-black-checkered-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-High/boots-cut-pants-black-checkered-in.png";
+        "/assets/image/bottom-High/boots-cut-pants-white-in.png";
       break;
     case "/assets/image/bottom-High/cracked-pants-blue-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-High/cracked-pants-blue-in.png";
       break;
+    case "/assets/image/bottom-High/cracked-pants-green-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/cracked-pants-green-in.png";
+      break;
+    case "/assets/image/bottom-High/cracked-pants-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/cracked-pants-red-in.png";
+      break;
     case "/assets/image/bottom-High/flower-skirt-blue-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-High/flower-skirt-blue-in.png";
       break;
-    default:
+    case "/assets/image/bottom-High/flower-skirt-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/flower-skirt-red-in.png";
+      break;
+    case "/assets/image/bottom-High/flower-skirt-yellow-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/flower-skirt-yellow-in.png";
+      break;
+    case "/assets/image/bottom-High/lace-skirt-black-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/lace-skirt-black-in.png";
+      break;
+    case "/assets/image/bottom-High/lace-skirt-reopard-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/lace-skirt-reopard-in.png";
+      break;
+    case "/assets/image/bottom-High/lace-skirt-white-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/lace-skirt-white-in.png";
+      break;
+    case "/assets/image/bottom-High/long-skirt-blue-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/long-skirt-blue-in.png";
+      break;
+    case "/assets/image/bottom-High/long-skirt-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/long-skirt-red-in.png";
+      break;
+    case "/assets/image/bottom-High/long-skirt-yellow-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/long-skirt-yellow-in.png";
+      break;
+    case "/assets/image/bottom-High/mini-skirt-black-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/mini-skirt-black-in.png";
+      break;
+    case "/assets/image/bottom-High/mini-skirt-mint-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/mini-skirt-mint-in.png";
+      break;
+    case "/assets/image/bottom-High/mini-skirt-orange-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/mini-skirt-orange-in.png";
+      break;
+    case "/assets/image/bottom-High/wrap-skirt-blue-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/wrap-skirt-blue-in.png";
+      break;
+    case "/assets/image/bottom-High/wrap-skirt-green-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/wrap-skirt-green-in.png";
+      break;
+    case "/assets/image/bottom-High/wrap-skirt-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-High/wrap-skirt-red-in.png";
       break;
   }
 
   if (
-    relativeSrc == "/assets/image/bottom-High/long-skirt-out.png" ||
-    relativeSrc == "/assets/image/bottom-High/mini-skirt-black-out.png" ||
-    relativeSrc == "/assets/image/bottom-High/lace-skirt-black-out.png" ||
-    relativeSrc == "/assets/image/bottom-High/boots-cut-pants-blue-out.png" ||
     relativeSrc == "/assets/image/bottom-High/boots-cut-pants-black-out.png" ||
-    relativeSrc ==
-      "/assets/image/bottom-High/boots-cut-pants-black-checkered-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/boots-cut-pants-blue-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/boots-cut-pants-white-out.png" ||
     relativeSrc == "/assets/image/bottom-High/cracked-pants-blue-out.png" ||
-    relativeSrc == "/assets/image/bottom-High/flower-skirt-blue-out.png"
+    relativeSrc == "/assets/image/bottom-High/cracked-pants-green-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/cracked-pants-red-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/flower-skirt-blue-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/flower-skirt-red-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/flower-skirt-yellow-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/lace-skirt-black-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/lace-skirt-reopard-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/lace-skirt-white-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/long-skirt-blue-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/long-skirt-red-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/long-skirt-yellow-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/mini-skirt-black-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/mini-skirt-mint-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/mini-skirt-orange-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/wrap-skirt-blue-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/wrap-skirt-green-out.png" ||
+    relativeSrc == "/assets/image/bottom-High/wrap-skirt-red-out.png"
   ) {
     document.querySelector(".default-shoes").style.zIndex = 10;
   } else {

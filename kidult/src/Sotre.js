@@ -382,36 +382,88 @@ let bottomimg = createSlice({
 
     // Hight
     {
-      src: "assets/image/bottom-High/long-skirt-out.png",
-      name: "long-skirt-out",
-    },
-    {
-      src: "assets/image/bottom-High/mini-skirt-black-out.png",
-      name: "mini-skirt-black-",
-    },
-    {
-      src: "assets/image/bottom-High/lace-skirt-black-out.png",
-      name: "lace-skirt-black",
+      src: "assets/image/bottom-High/boots-cut-pants-black-out.png",
+      name: "boots-cut-pants-black",
     },
     {
       src: "assets/image/bottom-High/boots-cut-pants-blue-out.png",
       name: "boots-cut-pants-blue",
     },
     {
-      src: "assets/image/bottom-High/boots-cut-pants-black-out.png",
-      name: "boots-cut-pants-black",
-    },
-    {
-      src: "assets/image/bottom-High/boots-cut-pants-black-checkered-out.png",
-      name: "boots-cut-pants-black-checkered",
+      src: "assets/image/bottom-High/boots-cut-pants-white-out.png",
+      name: "boots-cut-pants-white",
     },
     {
       src: "assets/image/bottom-High/cracked-pants-blue-out.png",
-      name: "cracked-pants-blue-out",
+      name: "cracked-pants-blue",
+    },
+    {
+      src: "assets/image/bottom-High/cracked-pants-green-out.png",
+      name: "cracked-pants-green",
+    },
+    {
+      src: "assets/image/bottom-High/cracked-pants-red-out.png",
+      name: "cracked-pants-red",
     },
     {
       src: "assets/image/bottom-High/flower-skirt-blue-out.png",
       name: "flower-skirt-blue",
+    },
+    {
+      src: "assets/image/bottom-High/flower-skirt-red-out.png",
+      name: "flower-skirt-red",
+    },
+    {
+      src: "assets/image/bottom-High/flower-skirt-yellow-out.png",
+      name: "flower-skirt-yellow",
+    },
+    {
+      src: "assets/image/bottom-High/lace-skirt-black-out.png",
+      name: "lace-skirt-black",
+    },
+    {
+      src: "assets/image/bottom-High/lace-skirt-reopard-out.png",
+      name: "lace-skirt-reopard",
+    },
+    {
+      src: "assets/image/bottom-High/lace-skirt-white-out.png",
+      name: "lace-skirt-white",
+    },
+    {
+      src: "assets/image/bottom-High/long-skirt-blue-out.png",
+      name: "long-skirt-blue",
+    },
+    {
+      src: "assets/image/bottom-High/long-skirt-red-out.png",
+      name: "long-skirt-red",
+    },
+    {
+      src: "assets/image/bottom-High/long-skirt-yellow-out.png",
+      name: "long-skirt-yellow",
+    },
+    {
+      src: "assets/image/bottom-High/mini-skirt-black-out.png",
+      name: "mini-skirt-black",
+    },
+    {
+      src: "assets/image/bottom-High/mini-skirt-mint-out.png",
+      name: "mini-skirt-mint",
+    },
+    {
+      src: "assets/image/bottom-High/mini-skirt-orange-out.png",
+      name: "mini-skirt-orange",
+    },
+    {
+      src: "assets/image/bottom-High/wrap-skirt-blue-out.png",
+      name: "wrap-skirt-blue",
+    },
+    {
+      src: "assets/image/bottom-High/wrap-skirt-green-out.png",
+      name: "wrap-skirt-green",
+    },
+    {
+      src: "assets/image/bottom-High/wrap-skirt-red-out.png",
+      name: "wrap-skirt-red",
     },
   ],
 });
