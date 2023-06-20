@@ -919,11 +919,34 @@ function handleHeadImg(e) {
 function handleFeelingImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-feel").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
       document.querySelector(".default-face").src = "";
+      break;
+    case "/assets/image/feeling/blush-L-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/blush-L-in.png";
+      break;
+    case "/assets/image/feeling/blush-S-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/blush-S-in.png";
+      break;
+    case "/assets/image/feeling/nausea-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/nausea-in.png";
+      break;
+    case "/assets/image/feeling/rage-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/rage-in.png";
+      break;
+    case "/assets/image/feeling/shady-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/shady-in.png";
+      break;
+    case "/assets/image/feeling/shyness-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/feeling/shyness-in.png";
       break;
 
     default:

@@ -85,19 +85,28 @@ let feelingimg = createSlice({
   initialState: [
     { src: "assets/image/none.png", name: "none" },
     {
-      src: "assets/image/feeling/feeling-blush-L.png",
-      name: "feeling-blush-L",
+      src: "assets/image/feeling/blush-L-out.png",
+      name: "blush-L",
     },
     {
-      src: "assets/image/feeling/feeling-blush-S.png",
-      name: "feeling-blush-S",
+      src: "assets/image/feeling/blush-S-out.png",
+      name: "blush-S",
     },
-    { src: "assets/image/feeling/feeling-nausea.png", name: "feeling-nausea" },
-    { src: "assets/image/feeling/feeling-rage.png", name: "feeling-rage" },
-    { src: "assets/image/feeling/feeling-shady.png", name: "feeling-shady" },
     {
-      src: "assets/image/feeling/feeling-shyness.png",
-      name: "feeling-shyness",
+      src: "assets/image/feeling/nausea-out.png",
+      name: "nausea",
+    },
+    {
+      src: "assets/image/feeling/rage-out.png",
+      name: "rage",
+    },
+    {
+      src: "assets/image/feeling/shady-out.png",
+      name: "shady",
+    },
+    {
+      src: "assets/image/feeling/shyness-out.png",
+      name: "shyness",
     },
   ],
 });
