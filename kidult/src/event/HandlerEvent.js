@@ -89,42 +89,187 @@ function handleHairImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-hair").src = "";
       break;
-    case "/assets/image/hair/bowl-cut-black-out.png":
+    case "/assets/image/hair/angry-cut-black-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/bowl-cut-black-in.png";
+        "/assets/image/hair/angry-cut-black-in.png";
+      break;
+    case "/assets/image/hair/angry-cut-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/angry-cut-green-in.png";
+      break;
+    case "/assets/image/hair/angry-cut-red-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/angry-cut-red-in.png";
+      break;
+    case "/assets/image/hair/blind-cut-black-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/blind-cut-black-in.png";
+      break;
+    case "/assets/image/hair/blind-cut-mint-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/blind-cut-mint-in.png";
+      break;
+    case "/assets/image/hair/blind-cut-red-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/blind-cut-red-in.png";
       break;
     case "/assets/image/hair/bun-brown-out.png":
       document.querySelector(".default-hair").src =
         "/assets/image/hair/bun-brown-in.png";
       break;
-    case "/assets/image/hair/long-brown-out.png":
+    case "/assets/image/hair/bun-pink-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/long-brown-in.png";
+        "/assets/image/hair/bun-pink-in.png";
+      break;
+    case "/assets/image/hair/bun-white-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/bun-white-in.png";
+      break;
+    case "/assets/image/hair/buzz-cut-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/buzz-cut-brown-in.png";
+      break;
+    case "/assets/image/hair/buzz-cut-sky-blue-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/buzz-cut-sky-blue-in.png";
+      break;
+    case "/assets/image/hair/buzz-cut-yellow-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/buzz-cut-yellow-in.png";
+      break;
+    case "/assets/image/hair/calm-hair-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-brown-in.png";
+      break;
+    case "/assets/image/hair/calm-hair-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-green-in.png";
+      break;
+    case "/assets/image/hair/calm-hair-red-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-red-in.png";
+      break;
+    case "/assets/image/hair/curly-cut-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/curly-cut-brown-in.png";
+      break;
+    case "/assets/image/hair/curly-cut-white-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/curly-cut-white-in.png";
+      break;
+    case "/assets/image/hair/curly-cut-yellow-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/curly-cut-yellow-in.png";
+      break;
+    case "/assets/image/hair/dread-lock-blue-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/dread-lock-blue-in.png";
       break;
     case "/assets/image/hair/dread-lock-brown-out.png":
       document.querySelector(".default-hair").src =
         "/assets/image/hair/dread-lock-brown-in.png";
       break;
-    case "/assets/image/hair/pouty-hair-black-out.png":
+    case "/assets/image/hair/dread-lock-red-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/pouty-hair-black-in.png";
+        "/assets/image/hair/dread-lock-red-in.png";
       break;
-    case "/assets/image/hair/pouty-short-hair-black-out.png":
+    case "/assets/image/hair/flexible-cut-black-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/pouty-short-hair-black-in.png";
+        "/assets/image/hair/flexible-cut-black-in.png";
       break;
-    case "/assets/image/hair/soft-haircut-black-out.png":
+    case "/assets/image/hair/flexible-cut-gray-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/soft-haircut-black-in.png";
+        "/assets/image/hair/flexible-cut-gray-in.png";
+      break;
+    case "/assets/image/hair/flexible-cut-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/flexible-cut-green-in.png";
+      break;
+    case "/assets/image/hair/front-point-hair-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/front-point-hair-brown-in.png";
+      break;
+    case "/assets/image/hair/front-point-hair-lavender-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/front-point-hair-lavender-in.png";
+      break;
+    case "/assets/image/hair/front-point-hair-yellow-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/front-point-hair-yellow-in.png";
+      break;
+    case "/assets/image/hair/long-hair1-blue-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/long-hair1-blue-in.png";
+      break;
+    case "/assets/image/hair/long-hair1-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/long-hair1-brown-in.png";
+      break;
+    case "/assets/image/hair/long-hair1-yellow-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/long-hair1-yellow-in.png";
       break;
     case "/assets/image/hair/long-hair2-brown-out.png":
       document.querySelector(".default-hair").src =
         "/assets/image/hair/long-hair2-brown-in.png";
       break;
-    case "/assets/image/hair/short-cut-brown-out.png":
+    case "/assets/image/hair/long-hair2-green-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/short-cut-brown-in.png";
+        "/assets/image/hair/long-hair2-green-in.png";
       break;
+    case "/assets/image/hair/long-hair2-yellow-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/long-hair2-yellow-in.png";
+      break;
+    case "/assets/image/hair/mischievous-cut-black-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/mischievous-cut-black-in.png";
+      break;
+    case "/assets/image/hair/mischievous-cut-orange-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/mischievous-cut-orange-in.png";
+      break;
+    case "/assets/image/hair/mischievous-cut-ping-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/mischievous-cut-ping-in.png";
+      break;
+    case "/assets/image/hair/pomade-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pomade-brown-in.png";
+      break;
+    case "/assets/image/hair/pomade-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pomade-green-in.png";
+      break;
+    case "/assets/image/hair/pomade-white-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pomade-white-in.png";
+      break;
+    case "/assets/image/hair/pouty-hair-black-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pouty-hair-black-in.png";
+      break;
+    case "/assets/image/hair/pouty-hair-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pouty-hair-green-in.png";
+      break;
+    case "/assets/image/hair/pouty-hair-lavender-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/pouty-hair-lavender-in.png";
+      break;
+    case "/assets/image/hair/tied-short-hair-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/tied-short-hair-brown-in.png";
+      break;
+    case "/assets/image/hair/tied-short-hair-gray-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/tied-short-hair-gray-in.png";
+      break;
+    case "/assets/image/hair/tied-short-hair-purple-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/tied-short-hair-purple-in.png";
+      break;
+
     default:
       break;
   }

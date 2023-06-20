@@ -133,32 +133,185 @@ let hairimg = createSlice({
   name: "hairimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/hair/bowl-cut-black-out.png", name: "bowl-cut-black" },
-    { src: "assets/image/hair/bun-brown-out.png", name: "bun-brown" },
-    { src: "assets/image/hair/long-brown-out.png", name: "long-brown" },
+    {
+      src: "assets/image/hair/angry-cut-black-out.png",
+      name: "angry-cut-black",
+    },
+    {
+      src: "assets/image/hair/angry-cut-green-out.png",
+      name: "angry-cut-green",
+    },
+    {
+      src: "assets/image/hair/angry-cut-red-out.png",
+      name: "angry-cut-red",
+    },
+    {
+      src: "assets/image/hair/blind-cut-black-out.png",
+      name: "blind-cut-black",
+    },
+    {
+      src: "assets/image/hair/blind-cut-mint-out.png",
+      name: "blind-cut-mint",
+    },
+    {
+      src: "assets/image/hair/blind-cut-red-out.png",
+      name: "blind-cut-red",
+    },
+    {
+      src: "assets/image/hair/bun-brown-out.png",
+      name: "bun-brown",
+    },
+    {
+      src: "assets/image/hair/bun-pink-out.png",
+      name: "bun-pink",
+    },
+    {
+      src: "assets/image/hair/bun-white-out.png",
+      name: "bun-white",
+    },
+    {
+      src: "assets/image/hair/buzz-cut-brown-out.png",
+      name: "buzz-cut-brown",
+    },
+    {
+      src: "assets/image/hair/buzz-cut-sky-blue-out.png",
+      name: "buzz-cut-sky-blue",
+    },
+    {
+      src: "assets/image/hair/buzz-cut-yellow-out.png",
+      name: "buzz-cut-yellow",
+    },
+    {
+      src: "assets/image/hair/calm-hair-brown-out.png",
+      name: "calm-hair-brown",
+    },
+    {
+      src: "assets/image/hair/calm-hair-green-out.png",
+      name: "calm-hair-green",
+    },
+    {
+      src: "assets/image/hair/calm-hair-red-out.png",
+      name: "calm-hair-red",
+    },
+    {
+      src: "assets/image/hair/curly-cut-brown-out.png",
+      name: "curly-cut-brown",
+    },
+    {
+      src: "assets/image/hair/curly-cut-white-out.png",
+      name: "curly-cut-white",
+    },
+    {
+      src: "assets/image/hair/curly-cut-yellow-out.png",
+      name: "curly-cut-yellow",
+    },
+    {
+      src: "assets/image/hair/dread-lock-blue-out.png",
+      name: "dread-lock-blue",
+    },
     {
       src: "assets/image/hair/dread-lock-brown-out.png",
       name: "dread-lock-brown",
+    },
+    {
+      src: "assets/image/hair/dread-lock-red-out.png",
+      name: "dread-lock-red",
+    },
+    {
+      src: "assets/image/hair/flexible-cut-black-out.png",
+      name: "flexible-cut-black",
+    },
+    {
+      src: "assets/image/hair/flexible-cut-gray-out.png",
+      name: "flexible-cut-gray",
+    },
+    {
+      src: "assets/image/hair/flexible-cut-green-out.png",
+      name: "flexible-cut-green",
+    },
+    {
+      src: "assets/image/hair/front-point-hair-brown-out.png",
+      name: "front-point-hair-brown",
+    },
+    {
+      src: "assets/image/hair/front-point-hair-lavender-out.png",
+      name: "front-point-hair-lavender",
+    },
+    {
+      src: "assets/image/hair/front-point-hair-yellow-out.png",
+      name: "front-point-hair-yellow",
+    },
+    {
+      src: "assets/image/hair/long-hair1-blue-out.png",
+      name: "long-hair1-blue",
+    },
+    {
+      src: "assets/image/hair/long-hair1-brown-out.png",
+      name: "long-hair1-brown",
+    },
+    {
+      src: "assets/image/hair/long-hair1-yellow-out.png",
+      name: "long-hair1-yellow",
+    },
+    {
+      src: "assets/image/hair/long-hair2-brown-out.png",
+      name: "llong-hair2-brown",
+    },
+    {
+      src: "assets/image/hair/long-hair2-green-out.png",
+      name: "llong-hair2-green",
+    },
+    {
+      src: "assets/image/hair/long-hair2-yellow-out.png",
+      name: "llong-hair2-yellow",
+    },
+    {
+      src: "assets/image/hair/mischievous-cut-black-out.png",
+      name: "mischievous-cut-black",
+    },
+    {
+      src: "assets/image/hair/mischievous-cut-orange-out.png",
+      name: "mischievous-cut-orange",
+    },
+    {
+      src: "assets/image/hair/mischievous-cut-ping-out.png",
+      name: "mischievous-cut-ping",
+    },
+    {
+      src: "assets/image/hair/pomade-brown-out.png",
+      name: "pomade-brown",
+    },
+    {
+      src: "assets/image/hair/pomade-green-out.png",
+      name: "pomade-green",
+    },
+    {
+      src: "assets/image/hair/pomade-white-out.png",
+      name: "pomade-white",
     },
     {
       src: "assets/image/hair/pouty-hair-black-out.png",
       name: "pouty-hair-black",
     },
     {
-      src: "assets/image/hair/pouty-short-hair-black-out.png",
-      name: "pouty-short-hair-black",
+      src: "assets/image/hair/pouty-hair-green-out.png",
+      name: "pouty-hair-green",
     },
     {
-      src: "assets/image/hair/soft-haircut-black-out.png",
-      name: "soft-haircut-black",
+      src: "assets/image/hair/pouty-hair-lavender-out.png",
+      name: "pouty-hair-lavender",
     },
     {
-      src: "assets/image/hair/long-hair2-brown-out.png",
-      name: "long-hair2-brown",
+      src: "assets/image/hair/tied-short-hair-brown-out.png",
+      name: "tied-short-hair-brown",
     },
     {
-      src: "assets/image/hair/short-cut-brown-out.png",
-      name: "short-cut-brown",
+      src: "assets/image/hair/tied-short-hair-gray-out.png",
+      name: "tied-short-hair-gray",
+    },
+    {
+      src: "assets/image/hair/tied-short-hair-purple-out.png",
+      name: "tied-short-hair-purple",
     },
   ],
 });
