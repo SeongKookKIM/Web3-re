@@ -745,7 +745,6 @@ function handleFaceImg(e) {
 function handleAzoneImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-azone").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
@@ -755,14 +754,243 @@ function handleAzoneImg(e) {
       document.querySelector(".default-azone").src =
         "/assets/image/azone/acoustic-guitar-brown-in.png";
       break;
-    case "/assets/image/azone/great-sword-yellow-out.png":
+    case "/assets/image/azone/acoustic-guitar-gold-reopard-out.png":
       document.querySelector(".default-azone").src =
-        "/assets/image/azone/great-sword-yellow-in.png";
+        "/assets/image/azone/acoustic-guitar-gold-reopard-in.png";
       break;
-    case "/assets/image/azone/magic-broom-indigo-out.png":
+    case "/assets/image/azone/acoustic-guitar-mint-out.png":
       document.querySelector(".default-azone").src =
-        "/assets/image/azone/magic-broom-indigo-in.png";
+        "/assets/image/azone/acoustic-guitar-mint-in.png";
       break;
+    case "/assets/image/azone/battle-axe-dark-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/battle-axe-dark-in.png";
+      break;
+    case "/assets/image/azone/battle-axe-gray-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/battle-axe-gray-in.png";
+      break;
+    case "/assets/image/azone/battle-axe-white-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/battle-axe-white-in.png";
+      break;
+    case "/assets/image/azone/brush-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/brush-black-in.png";
+      break;
+    case "/assets/image/azone/brush-pink-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/brush-pink-in.png";
+      break;
+    case "/assets/image/azone/brush-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/brush-yellow-in.png";
+      break;
+    case "/assets/image/azone/christmas-candy-mint-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/christmas-candy-mint-in.png";
+      break;
+    case "/assets/image/azone/christmas-candy-purple-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/christmas-candy-purple-in.png";
+      break;
+    case "/assets/image/azone/christmas-candy-red-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/christmas-candy-red-in.png";
+      break;
+    case "/assets/image/azone/crescent-red-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/crescent-red-in.png";
+      break;
+    case "/assets/image/azone/crescent-white-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/crescent-white-in.png";
+      break;
+    case "/assets/image/azone/crescent-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/crescent-yellow-in.png";
+      break;
+    case "/assets/image/azone/fire-axe-gold-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/fire-axe-gold-in.png";
+      break;
+    case "/assets/image/azone/fire-axe-red-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/fire-axe-red-in.png";
+      break;
+    case "/assets/image/azone/fire-axe-silver-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/fire-axe-silver-in.png";
+      break;
+    case "/assets/image/azone/great-sword-gold-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/great-sword-gold-in.png";
+      break;
+    case "/assets/image/azone/great-sword-iron-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/great-sword-iron-in.png";
+      break;
+    case "/assets/image/azone/great-sword-pink-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/great-sword-pink-in.png";
+      break;
+    case "/assets/image/azone/hanger-with-towels-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/hanger-with-towels-black-in.png";
+      break;
+    case "/assets/image/azone/hanger-with-towels-green-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/hanger-with-towels-green-in.png";
+      break;
+    case "/assets/image/azone/hanger-with-towels-white-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/hanger-with-towels-white-in.png";
+      break;
+    case "/assets/image/azone/key-red-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/key-red-in.png";
+      break;
+    case "/assets/image/azone/key-silver-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/key-silver-in.png";
+      break;
+    case "/assets/image/azone/key-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/key-yellow-in.png";
+      break;
+    case "/assets/image/azone/ladle-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/ladle-black-in.png";
+      break;
+    case "/assets/image/azone/ladle-gray-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/ladle-gray-in.png";
+      break;
+    case "/assets/image/azone/ladle-pink-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/ladle-pink-in.png";
+      break;
+    case "/assets/image/azone/magic-broom-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/magic-broom-black-in.png";
+      break;
+    case "/assets/image/azone/magic-broom-blue-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/magic-broom-blue-in.png";
+      break;
+    case "/assets/image/azone/magic-broom-white-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/magic-broom-white-in.png";
+      break;
+    case "/assets/image/azone/pencil-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/pencil-black-in.png";
+      break;
+    case "/assets/image/azone/pencil-green-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/pencil-green-in.png";
+      break;
+    case "/assets/image/azone/pencil-rainbow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/pencil-rainbow-in.png";
+      break;
+    case "/assets/image/azone/popsicle-blue-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/popsicle-blue-in.png";
+      break;
+    case "/assets/image/azone/popsicle-green-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/popsicle-green-in.png";
+      break;
+    case "/assets/image/azone/popsicle-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/popsicle-yellow-in.png";
+      break;
+    case "/assets/image/azone/rifle-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/rifle-black-in.png";
+      break;
+    case "/assets/image/azone/rifle-brown-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/rifle-brown-in.png";
+      break;
+    case "/assets/image/azone/rifle-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/rifle-yellow-in.png";
+      break;
+    case "/assets/image/azone/skateboard-pink-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/skateboard-pink-in.png";
+      break;
+    case "/assets/image/azone/skateboard-purple-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/skateboard-purple-in.png";
+      break;
+    case "/assets/image/azone/skateboard-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/skateboard-yellow-in.png";
+      break;
+    case "/assets/image/azone/surfboard-blue-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/surfboard-blue-in.png";
+      break;
+    case "/assets/image/azone/surfboard-green-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/surfboard-green-in.png";
+      break;
+    case "/assets/image/azone/surfboard-pink-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/surfboard-pink-in.png";
+      break;
+    case "/assets/image/azone/syringe-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/syringe-black-in.png";
+      break;
+    case "/assets/image/azone/syringe-blue-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/syringe-blue-in.png";
+      break;
+    case "/assets/image/azone/syringe-white-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/syringe-white-in.png";
+      break;
+    case "/assets/image/azone/tennis-racket-blue-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/tennis-racket-blue-in.png";
+      break;
+    case "/assets/image/azone/tennis-racket-orange-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/tennis-racket-orange-in.png";
+      break;
+    case "/assets/image/azone/tennis-racket-red-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/tennis-racket-red-in.png";
+      break;
+    case "/assets/image/azone/toy-hammer-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/toy-hammer-black-in.png";
+      break;
+    case "/assets/image/azone/toy-hammer-mint-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/toy-hammer-mint-in.png";
+      break;
+    case "/assets/image/azone/toy-hammer-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/toy-hammer-yellow-in.png";
+      break;
+    case "/assets/image/azone/umbrella-black-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/umbrella-black-in.png";
+      break;
+    case "/assets/image/azone/umbrella-green-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/umbrella-green-in.png";
+      break;
+    case "/assets/image/azone/umbrella-yellow-out.png":
+      document.querySelector(".default-azone").src =
+        "/assets/image/azone/umbrella-yellow-in.png";
+      break;
+
     default:
       break;
   }
@@ -775,22 +1003,187 @@ function handleBzoneImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-bzone").src = "";
       break;
+    case "/assets/image/bzone/carrier-beige-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/carrier-beige-in.png";
+      break;
+    case "/assets/image/bzone/carrier-brown-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/carrier-brown-in.png";
+      break;
+    case "/assets/image/bzone/carrier-yellow-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/carrier-yellow-in.png";
+      break;
+    case "/assets/image/bzone/dumbbell-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/dumbbell-black-in.png";
+      break;
+    case "/assets/image/bzone/dumbbell-gold-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/dumbbell-gold-in.png";
+      break;
+    case "/assets/image/bzone/dumbbell-red-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/dumbbell-red-in.png";
+      break;
+    case "/assets/image/bzone/excalibur-gold-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/excalibur-gold-in.png";
+      break;
+    case "/assets/image/bzone/excalibur-green-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/excalibur-green-in.png";
+      break;
+    case "/assets/image/bzone/excalibur-pink-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/excalibur-pink-in.png";
+      break;
+    case "/assets/image/bzone/knight's-shield-green-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/knight's-shield-green-in.png";
+      break;
+    case "/assets/image/bzone/knight's-shield-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/knight's-shield-white-in.png";
+      break;
     case "/assets/image/bzone/knight's-shield-yellow-out.png":
       document.querySelector(".default-bzone").src =
         "/assets/image/bzone/knight's-shield-yellow-in.png";
       break;
-    case "/assets/image/bzone/stereo-out.png":
+    case "/assets/image/bzone/leather-backpack-brown-out.png":
       document.querySelector(".default-bzone").src =
-        "/assets/image/bzone/stereo-in.png";
+        "/assets/image/bzone/leather-backpack-brown-in.png";
+      break;
+    case "/assets/image/bzone/leather-backpack-pink-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/leather-backpack-pink-in.png";
+      break;
+    case "/assets/image/bzone/leather-backpack-yellow-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/leather-backpack-yellow-in.png";
+      break;
+    case "/assets/image/bzone/letter-beige-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/letter-beige-in.png";
+      break;
+    case "/assets/image/bzone/letter-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/letter-black-in.png";
+      break;
+    case "/assets/image/bzone/letter-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/letter-white-in.png";
+      break;
+    case "/assets/image/bzone/mimic-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/mimic-black-in.png";
+      break;
+    case "/assets/image/bzone/mimic-brown-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/mimic-brown-in.png";
+      break;
+    case "/assets/image/bzone/mimic-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/mimic-white-in.png";
+      break;
+    case "/assets/image/bzone/pistol-gold-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/pistol-gold-in.png";
+      break;
+    case "/assets/image/bzone/pistol-green-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/pistol-green-in.png";
+      break;
+    case "/assets/image/bzone/pistol-silver-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/pistol-silver-in.png";
+      break;
+    case "/assets/image/bzone/safe-gray-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/safe-gray-in.png";
+      break;
+    case "/assets/image/bzone/safe-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/safe-white-in.png";
+      break;
+    case "/assets/image/bzone/safe-yellow-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/safe-yellow-in.png";
+      break;
+    case "/assets/image/bzone/spread-bag-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/spread-bag-black-in.png";
+      break;
+    case "/assets/image/bzone/spread-bag-gray-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/spread-bag-gray-in.png";
+      break;
+    case "/assets/image/bzone/spread-bag-reopard-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/spread-bag-reopard-in.png";
+      break;
+    case "/assets/image/bzone/stereo-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/stereo-black-in.png";
+      break;
+    case "/assets/image/bzone/stereo-blue-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/stereo-blue-in.png";
+      break;
+    case "/assets/image/bzone/stereo-pink-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/stereo-pink-in.png";
+      break;
+    case "/assets/image/bzone/tombstone-blue-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/tombstone-blue-in.png";
+      break;
+    case "/assets/image/bzone/tombstone-gray-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/tombstone-gray-in.png";
+      break;
+    case "/assets/image/bzone/tombstone-orange-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/tombstone-orange-in.png";
+      break;
+    case "/assets/image/bzone/treasure-chest-gold-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/treasure-chest-gold-in.png";
+      break;
+    case "/assets/image/bzone/treasure-chest-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/treasure-chest-white-in.png";
+      break;
+    case "/assets/image/bzone/treasure-chest-wood-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/treasure-chest-wood-in.png";
       break;
     case "/assets/image/bzone/trophy-gold-out.png":
       document.querySelector(".default-bzone").src =
         "/assets/image/bzone/trophy-gold-in.png";
       break;
-    case "/assets/image/bzone/Witch's-Cauldron-out.png":
+    case "/assets/image/bzone/trophy-green-out.png":
       document.querySelector(".default-bzone").src =
-        "/assets/image/bzone/Witch's-Cauldron-in.png";
+        "/assets/image/bzone/trophy-green-in.png";
       break;
+    case "/assets/image/bzone/trophy-pink-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/trophy-pink-in.png";
+      break;
+    case "/assets/image/bzone/Witch's-Cauldron-black-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/Witch's-Cauldron-black-in.png";
+      break;
+    case "/assets/image/bzone/Witch's-Cauldron-blue-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/Witch's-Cauldron-blue-in.png";
+      break;
+    case "/assets/image/bzone/Witch's-Cauldron-white-out.png":
+      document.querySelector(".default-bzone").src =
+        "/assets/image/bzone/Witch's-Cauldron-white-in.png";
+      break;
+
     default:
       break;
   }

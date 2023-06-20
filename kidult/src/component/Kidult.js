@@ -41,7 +41,7 @@ function Kidult() {
           className="default-basics"
         ></img>
         <img
-          src="/assets/image/packslot/pack-slot-1-in.png"
+          src="/assets/image/packslot/number.png"
           className="default-slot"
         ></img>
         <img src="" className="default-design"></img>

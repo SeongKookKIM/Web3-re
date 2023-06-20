@@ -463,15 +463,241 @@ let azoneimg = createSlice({
       name: "acoustic-guitar-brown",
     },
     {
-      src: "assets/image/azone/great-sword-yellow-out.png",
-      name: "great-sword-yellow",
+      src: "assets/image/azone/acoustic-guitar-gold-reopard-out.png",
+      name: "acoustic-guitar-broreopardwn",
     },
     {
-      src: "assets/image/azone/magic-broom-indigo-out.png",
-      name: "magic-broom-indigo",
+      src: "assets/image/azone/acoustic-guitar-mint-out.png",
+      name: "acoustic-guitar-mint",
     },
-    { src: "assets/image/azone/mjolnir.png", name: "mjolnir" },
-    { src: "assets/image/azone/pistol.png", name: "pistol" },
+    {
+      src: "assets/image/azone/battle-axe-dark-out.png",
+      name: "battle-axe-dark",
+    },
+    {
+      src: "assets/image/azone/battle-axe-gray-out.png",
+      name: "battle-axe-gray",
+    },
+    {
+      src: "assets/image/azone/battle-axe-white-out.png",
+      name: "battle-axe-white",
+    },
+    {
+      src: "assets/image/azone/brush-black-out.png",
+      name: "brush-black",
+    },
+    {
+      src: "assets/image/azone/brush-pink-out.png",
+      name: "brush-pink",
+    },
+    {
+      src: "assets/image/azone/brush-yellow-out.png",
+      name: "brush-yellow",
+    },
+    {
+      src: "assets/image/azone/christmas-candy-mint-out.png",
+      name: "christmas-candy-mint",
+    },
+    {
+      src: "assets/image/azone/christmas-candy-purple-out.png",
+      name: "christmas-candy-purple",
+    },
+    {
+      src: "assets/image/azone/christmas-candy-red-out.png",
+      name: "christmas-candy-red",
+    },
+    {
+      src: "assets/image/azone/crescent-red-out.png",
+      name: "crescent-red",
+    },
+    {
+      src: "assets/image/azone/crescent-white-out.png",
+      name: "crescent-white",
+    },
+    {
+      src: "assets/image/azone/crescent-yellow-out.png",
+      name: "crescent-yellow",
+    },
+    {
+      src: "assets/image/azone/fire-axe-gold-out.png",
+      name: "fire-axe-gold",
+    },
+    {
+      src: "assets/image/azone/fire-axe-red-out.png",
+      name: "fire-axe-red",
+    },
+    {
+      src: "assets/image/azone/fire-axe-silver-out.png",
+      name: "fire-axe-silver",
+    },
+    {
+      src: "assets/image/azone/great-sword-gold-out.png",
+      name: "great-sword-gold",
+    },
+    {
+      src: "assets/image/azone/great-sword-iron-out.png",
+      name: "great-sword-iron",
+    },
+    {
+      src: "assets/image/azone/great-sword-pink-out.png",
+      name: "great-sword-pink",
+    },
+    {
+      src: "assets/image/azone/hanger-with-towels-black-out.png",
+      name: "hanger-with-towels-black",
+    },
+    {
+      src: "assets/image/azone/hanger-with-towels-green-out.png",
+      name: "hanger-with-towels-green",
+    },
+    {
+      src: "assets/image/azone/hanger-with-towels-white-out.png",
+      name: "hanger-with-towels-white",
+    },
+    {
+      src: "assets/image/azone/key-red-out.png",
+      name: "key-red",
+    },
+    {
+      src: "assets/image/azone/key-silver-out.png",
+      name: "key-silver",
+    },
+    {
+      src: "assets/image/azone/key-yellow-out.png",
+      name: "key-yellow",
+    },
+    {
+      src: "assets/image/azone/ladle-black-out.png",
+      name: "ladle-black",
+    },
+    {
+      src: "assets/image/azone/ladle-gray-out.png",
+      name: "ladle-gray",
+    },
+    {
+      src: "assets/image/azone/ladle-pink-out.png",
+      name: "ladle-pink",
+    },
+    {
+      src: "assets/image/azone/magic-broom-black-out.png",
+      name: "magic-broom-black",
+    },
+    {
+      src: "assets/image/azone/magic-broom-blue-out.png",
+      name: "magic-broom-blue",
+    },
+    {
+      src: "assets/image/azone/magic-broom-white-out.png",
+      name: "magic-broom-white",
+    },
+    {
+      src: "assets/image/azone/pencil-black-out.png",
+      name: "pencil-black",
+    },
+    {
+      src: "assets/image/azone/pencil-green-out.png",
+      name: "pencil-green",
+    },
+    {
+      src: "assets/image/azone/pencil-rainbow-out.png",
+      name: "pencil-rainbow",
+    },
+    {
+      src: "assets/image/azone/popsicle-blue-out.png",
+      name: "popsicle-blue",
+    },
+    {
+      src: "assets/image/azone/popsicle-green-out.png",
+      name: "popsicle-green",
+    },
+    {
+      src: "assets/image/azone/popsicle-yellow-out.png",
+      name: "popsicle-yellow",
+    },
+    {
+      src: "assets/image/azone/rifle-black-out.png",
+      name: "rifle-black",
+    },
+    {
+      src: "assets/image/azone/rifle-brown-out.png",
+      name: "rifle-brown",
+    },
+    {
+      src: "assets/image/azone/rifle-yellow-out.png",
+      name: "rifle-yellow",
+    },
+    {
+      src: "assets/image/azone/skateboard-pink-out.png",
+      name: "skateboard-pink",
+    },
+    {
+      src: "assets/image/azone/skateboard-purple-out.png",
+      name: "skateboard-purple",
+    },
+    {
+      src: "assets/image/azone/skateboard-yellow-out.png",
+      name: "skateboard-yellow",
+    },
+    {
+      src: "assets/image/azone/surfboard-blue-out.png",
+      name: "surfboard-blue",
+    },
+    {
+      src: "assets/image/azone/surfboard-green-out.png",
+      name: "surfboard-green",
+    },
+    {
+      src: "assets/image/azone/surfboard-pink-out.png",
+      name: "surfboard-pink",
+    },
+    {
+      src: "assets/image/azone/syringe-black-out.png",
+      name: "syringe-black",
+    },
+    {
+      src: "assets/image/azone/syringe-blue-out.png",
+      name: "syringe-blue",
+    },
+    {
+      src: "assets/image/azone/syringe-white-out.png",
+      name: "syringe-white",
+    },
+    {
+      src: "assets/image/azone/tennis-racket-blue-out.png",
+      name: "tennis-racket-blue",
+    },
+    {
+      src: "assets/image/azone/tennis-racket-orange-out.png",
+      name: "tennis-racket-orange",
+    },
+    {
+      src: "assets/image/azone/tennis-racket-red-out.png",
+      name: "tennis-racket-red",
+    },
+    {
+      src: "assets/image/azone/toy-hammer-black-out.png",
+      name: "toy-hammer-black",
+    },
+    {
+      src: "assets/image/azone/toy-hammer-mint-out.png",
+      name: "toy-hammer-mint",
+    },
+    {
+      src: "assets/image/azone/toy-hammer-yellow-out.png",
+      name: "toy-hammer-yellow",
+    },
+    {
+      src: "assets/image/azone/umbrella-black-out.png",
+      name: "umbrella-black",
+    },
+    {
+      src: "assets/image/azone/umbrella-green-out.png",
+      name: "umbrella-green",
+    },
+    {
+      src: "assets/image/azone/umbrella-yellow-out.png",
+      name: "umbrella-yellow",
+    },
   ],
 });
 
@@ -480,14 +706,181 @@ let bzoneimg = createSlice({
   initialState: [
     { src: "assets/image/none.png", name: "none" },
     {
-      src: "assets/image/bzone/knight's-shield-yellow-out.png",
-      name: "knight's-shield-yellow-out",
+      src: "assets/image/bzone/carrier-beige-out.png",
+      name: "carrier-beige",
     },
-    { src: "assets/image/bzone/stereo-out.png", name: "stereo" },
-    { src: "assets/image/bzone/trophy-gold-out.png", name: "trophy-gold" },
+    { src: "assets/image/bzone/carrier-brown-out.png", name: "carrier-brown" },
     {
-      src: "assets/image/bzone/Witch's-Cauldron-out.png",
-      name: "Witch's-Cauldron",
+      src: "assets/image/bzone/carrier-yellow-out.png",
+      name: "carrier-yellow",
+    },
+    {
+      src: "assets/image/bzone/dumbbell-black-out.png",
+      name: "dumbbell-black",
+    },
+    {
+      src: "assets/image/bzone/dumbbell-gold-out.png",
+      name: "dumbbell-gold",
+    },
+    {
+      src: "assets/image/bzone/dumbbell-red-out.png",
+      name: "dumbbell-red",
+    },
+    {
+      src: "assets/image/bzone/excalibur-gold-out.png",
+      name: "excalibur-gold",
+    },
+    {
+      src: "assets/image/bzone/excalibur-green-out.png",
+      name: "excalibur-green",
+    },
+    {
+      src: "assets/image/bzone/excalibur-pink-out.png",
+      name: "excalibur-pink",
+    },
+    {
+      src: "assets/image/bzone/knight's-shield-green-out.png",
+      name: "knight's-shield-green",
+    },
+    {
+      src: "assets/image/bzone/knight's-shield-white-out.png",
+      name: "knight's-shield-white",
+    },
+    {
+      src: "assets/image/bzone/knight's-shield-yellow-out.png",
+      name: "knight's-shield-yellow",
+    },
+    {
+      src: "assets/image/bzone/leather-backpack-brown-out.png",
+      name: "leather-backpack-brown",
+    },
+    {
+      src: "assets/image/bzone/leather-backpack-pink-out.png",
+      name: "leather-backpack-pink",
+    },
+    {
+      src: "assets/image/bzone/leather-backpack-yellow-out.png",
+      name: "leather-backpack-yellow",
+    },
+    {
+      src: "assets/image/bzone/letter-beige-out.png",
+      name: "letter-beige",
+    },
+    {
+      src: "assets/image/bzone/letter-black-out.png",
+      name: "letter-black",
+    },
+    {
+      src: "assets/image/bzone/letter-white-out.png",
+      name: "letter-white",
+    },
+    {
+      src: "assets/image/bzone/mimic-black-out.png",
+      name: "mimic-black",
+    },
+    {
+      src: "assets/image/bzone/mimic-brown-out.png",
+      name: "mimic-brown",
+    },
+    {
+      src: "assets/image/bzone/mimic-white-out.png",
+      name: "mimic-white",
+    },
+    {
+      src: "assets/image/bzone/pistol-gold-out.png",
+      name: "pistol-gold",
+    },
+    {
+      src: "assets/image/bzone/pistol-green-out.png",
+      name: "pistol-green",
+    },
+    {
+      src: "assets/image/bzone/pistol-silver-out.png",
+      name: "pistol-silver",
+    },
+    {
+      src: "assets/image/bzone/safe-gray-out.png",
+      name: "safe-gray",
+    },
+    {
+      src: "assets/image/bzone/safe-white-out.png",
+      name: "safe-white",
+    },
+    {
+      src: "assets/image/bzone/safe-yellow-out.png",
+      name: "safe-yellow",
+    },
+    {
+      src: "assets/image/bzone/spread-bag-black-out.png",
+      name: "spread-bag-black",
+    },
+    {
+      src: "assets/image/bzone/spread-bag-gray-out.png",
+      name: "spread-bag-gray",
+    },
+    {
+      src: "assets/image/bzone/spread-bag-reopard-out.png",
+      name: "spread-bag-reopard",
+    },
+    {
+      src: "assets/image/bzone/stereo-black-out.png",
+      name: "stereo-black",
+    },
+    {
+      src: "assets/image/bzone/stereo-blue-out.png",
+      name: "stereo-blue",
+    },
+    {
+      src: "assets/image/bzone/stereo-pink-out.png",
+      name: "stereo-pink",
+    },
+    {
+      src: "assets/image/bzone/tombstone-blue-out.png",
+      name: "tombstone-blue",
+    },
+    {
+      src: "assets/image/bzone/tombstone-gray-out.png",
+      name: "tombstone-gray",
+    },
+    {
+      src: "assets/image/bzone/tombstone-orange-out.png",
+      name: "tombstone-orange",
+    },
+    {
+      src: "assets/image/bzone/treasure-chest-gold-out.png",
+      name: "treasure-chest-gold",
+    },
+    {
+      src: "assets/image/bzone/treasure-chest-white-out.png",
+      name: "treasure-chest-white",
+    },
+    {
+      src: "assets/image/bzone/treasure-chest-wood-out.png",
+      name: "treasure-chest-wood",
+    },
+    {
+      src: "assets/image/bzone/trophy-gold-out.png",
+      name: "trophy-gold",
+    },
+    {
+      src: "assets/image/bzone/trophy-green-out.png",
+      name: "trophy-green",
+    },
+    {
+      src: "assets/image/bzone/trophy-pink-out.png",
+      name: "trophy-pink",
+    },
+    {
+      src: "assets/image/bzone/Witch's-Cauldron-black-out.png",
+      name: "Witch's-Cauldron-black",
+    },
+    {
+      src: "assets/image/bzone/Witch's-Cauldron-blue-out.png",
+      name: "Witch's-Cauldron-blue",
+    },
+    {
+      src: "assets/image/bzone/Witch's-Cauldron-white-out.png",
+      name: "Witch's-Cauldron-white",
     },
   ],
 });
