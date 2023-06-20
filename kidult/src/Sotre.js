@@ -489,19 +489,168 @@ let headimg = createSlice({
   name: "headimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/head/cap-yellow-out.png", name: "cap-yellow" },
-    { src: "assets/image/head/gold-crown-out.png", name: "gold-crown" },
-    {
-      src: "assets/image/head/head-phones-sky-blue-out.png",
-      name: "head-phones-sky-blue",
-    },
-    { src: "assets/image/head/magical-hat-out.png", name: "magical-hat" },
+    { src: "assets/image/head/bandana-red-out.png", name: "bandana-red" },
+    { src: "assets/image/head/bandana-white-out.png", name: "bandana-white" },
+    { src: "assets/image/head/bandana-yellow-out.png", name: "bandana-yellow" },
+    { src: "assets/image/head/beret-black-out.png", name: "beret-black" },
+    { src: "assets/image/head/beret-brown-out.png", name: "beret-brown" },
+    { src: "assets/image/head/beret-plaid-out.png", name: "beret-plaid" },
     {
       src: "assets/image/head/bucket-hat-black-out.png",
       name: "bucket-hat-black",
     },
-    { src: "assets/image/head/band.png", name: "band" },
-    { src: "assets/image/head/beret.png", name: "beret" },
+    {
+      src: "assets/image/head/bucket-hat-pink-out.png",
+      name: "bucket-hat-pink",
+    },
+    {
+      src: "assets/image/head/bucket-hat-white-out.png",
+      name: "bucket-hat-white",
+    },
+    {
+      src: "assets/image/head/cap-green-out.png",
+      name: "cap-green",
+    },
+    {
+      src: "assets/image/head/cap-pink-out.png",
+      name: "cap-pink",
+    },
+    {
+      src: "assets/image/head/cap-yellow-out.png",
+      name: "cap-yellow",
+    },
+    {
+      src: "assets/image/head/chef-hat-black-out.png",
+      name: "chef-hat-black",
+    },
+    {
+      src: "assets/image/head/chef-hat-gold-out.png",
+      name: "chef-hat-gold",
+    },
+    {
+      src: "assets/image/head/chef-hat-white-out.png",
+      name: "chef-hat-white",
+    },
+    {
+      src: "assets/image/head/crown-gold-out.png",
+      name: "crown-gold",
+    },
+    {
+      src: "assets/image/head/crown-pink-out.png",
+      name: "crown-pink",
+    },
+    {
+      src: "assets/image/head/crown-silver-out.png",
+      name: "crown-silver",
+    },
+    {
+      src: "assets/image/head/hair-band-green-out.png",
+      name: "hair-band-green",
+    },
+    {
+      src: "assets/image/head/hair-band-mint-out.png",
+      name: "hair-band-mint",
+    },
+    {
+      src: "assets/image/head/hair-band-purple-out.png",
+      name: "hair-band-purple",
+    },
+    {
+      src: "assets/image/head/head-phones-black-out.png",
+      name: "head-phones-black",
+    },
+    {
+      src: "assets/image/head/head-phones-gold-out.png",
+      name: "head-phones-gold",
+    },
+    {
+      src: "assets/image/head/head-phones-white-out.png",
+      name: "head-phones-white",
+    },
+    {
+      src: "assets/image/head/knight-cap-red-out.png",
+      name: "knight-cap-red",
+    },
+    {
+      src: "assets/image/head/knight-cap-silver-out.png",
+      name: "knight-cap-silver",
+    },
+    {
+      src: "assets/image/head/knight-cap-yellow-out.png",
+      name: "knight-cap-yellow",
+    },
+    {
+      src: "assets/image/head/magical-hat-black-out.png",
+      name: "magical-hat-black",
+    },
+    {
+      src: "assets/image/head/magical-hat-blue-out.png",
+      name: "magical-hat-blue",
+    },
+    {
+      src: "assets/image/head/magical-hat-white-out.png",
+      name: "magical-hat-white",
+    },
+    {
+      src: "assets/image/head/propeller-cap-A-out.png",
+      name: "propeller-cap-A",
+    },
+    {
+      src: "assets/image/head/propeller-cap-B-out.png",
+      name: "propeller-cap-B",
+    },
+    {
+      src: "assets/image/head/propeller-cap-C-out.png",
+      name: "propeller-cap-C",
+    },
+    {
+      src: "assets/image/head/rabbit-headband-purple-circle-out.png",
+      name: "rabbit-headband-purple-circle",
+    },
+    {
+      src: "assets/image/head/rabbit-headband-purple-pink-out.png",
+      name: "rabbit-headband-purple-pink",
+    },
+    {
+      src: "assets/image/head/rabbit-headband-purple-red-out.png",
+      name: "rabbit-headband-purple-red",
+    },
+    {
+      src: "assets/image/head/safety-helmet-blue-out.png",
+      name: "safety-helmet-blue",
+    },
+    {
+      src: "assets/image/head/safety-helmet-red-out.png",
+      name: "safety-helmet-red",
+    },
+    {
+      src: "assets/image/head/safety-helmet-yellow-out.png",
+      name: "safety-helmet-yellow",
+    },
+    {
+      src: "assets/image/head/santa-hat-green-out.png",
+      name: "santa-hat-green",
+    },
+    {
+      src: "assets/image/head/santa-hat-lavender-out.png",
+      name: "santa-hat-lavender",
+    },
+    {
+      src: "assets/image/head/santa-hat-red-out.png",
+      name: "santa-hat-red",
+    },
+    {
+      src: "assets/image/head/straw-hat-mint-out.png",
+      name: "straw-hat-mint",
+    },
+    {
+      src: "assets/image/head/straw-hat-purple-out.png",
+      name: "straw-hat-purple",
+    },
+    {
+      src: "assets/image/head/straw-hat-red-out.png",
+      name: "straw-hat-red",
+    },
   ],
 });
 
@@ -1464,18 +1613,6 @@ let sealimg = createSlice({
   name: "sealimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/seal/seal-silver1-out.png", name: "seal-silver1" },
-    { src: "assets/image/seal/seal-silver2-out.png", name: "seal-silver2" },
-    { src: "assets/image/seal/seal-silver3-out.png", name: "seal-silver3" },
-    { src: "assets/image/seal/dia-a.png", name: "dia-a" },
-    { src: "assets/image/seal/dia-b.png", name: "dia-b" },
-    { src: "assets/image/seal/haert-a.png", name: "haert-a" },
-    { src: "assets/image/seal/haert-b.png", name: "haert-b" },
-    { src: "assets/image/seal/seal-DIA.png", name: "seal-DIA" },
-    { src: "assets/image/seal/star-a.png", name: "star-a" },
-    { src: "assets/image/seal/star-b.png", name: "star-b" },
-    { src: "assets/image/seal/zigzag-a.png", name: "zigzag-a" },
-    { src: "assets/image/seal/zigzag-b.png", name: "zigzag-b" },
     {
       src: "assets/image/seal/heart-architecture-out.png",
       name: "heart-architecture",
@@ -1534,8 +1671,6 @@ let stickerImg = createSlice({
   initialState: [
     [
       { src: "assets/image/none.png", name: "none" },
-      { src: "assets/image/seal/zigzag-a.png", name: "zigzag-a" },
-      { src: "assets/image/seal/zigzag-b.png", name: "zigzag-b" },
       {
         src: "assets/image/seal/starburst-architecture-out.png",
         name: "starburst-architecture",
@@ -1565,34 +1700,11 @@ let stickerImg = createSlice({
         name: "starburst-security",
       },
     ],
+    [{ src: "assets/image/none.png", name: "none" }],
+    [{ src: "assets/image/none.png", name: "none" }],
+    [{ src: "assets/image/none.png", name: "none" }],
     [
       { src: "assets/image/none.png", name: "none" },
-      {
-        src: "assets/image/seal/seal-silver1-out.png",
-        name: "seal-silver1-out",
-      },
-      {
-        src: "assets/image/seal/seal-silver2-out.png",
-        name: "seal-silver2-out",
-      },
-    ],
-    [
-      { src: "assets/image/none.png", name: "none" },
-      {
-        src: "assets/image/seal/seal-silver3-out.png",
-        name: "seal-silver3",
-      },
-    ],
-    [
-      { src: "assets/image/none.png", name: "none" },
-      { src: "assets/image/seal/dia-a.png", name: "dia-a" },
-      { src: "assets/image/seal/dia-b.png", name: "dia-b" },
-      { src: "assets/image/seal/seal-DIA.png", name: "seal-DIA" },
-    ],
-    [
-      { src: "assets/image/none.png", name: "none" },
-      { src: "assets/image/seal/haert-a.png", name: "haert-a" },
-      { src: "assets/image/seal/haert-b.png", name: "haert-b" },
       {
         src: "assets/image/seal/heart-architecture-out.png",
         name: "heart-architecture",
@@ -1616,11 +1728,7 @@ let stickerImg = createSlice({
         name: "heart-education-securityon",
       },
     ],
-    [
-      { src: "assets/image/none.png", name: "none" },
-      { src: "assets/image/seal/star-a.png", name: "star-a" },
-      { src: "assets/image/seal/star-b.png", name: "star-b" },
-    ],
+    [{ src: "assets/image/none.png", name: "none" }],
   ],
 });
 

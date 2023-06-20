@@ -1031,32 +1031,192 @@ function handleShoesImg(e) {
 function handleHeadImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-head").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
       document.querySelector(".default-head").src = "";
       break;
-    case "/assets/image/head/cap-yellow-out.png":
+    case "/assets/image/head/bandana-red-out.png":
       document.querySelector(".default-head").src =
-        "/assets/image/head/cap-yellow-in.png";
+        "/assets/image/head/bandana-red-in.png";
       break;
-    case "/assets/image/head/gold-crown-out.png":
+    case "/assets/image/head/bandana-white-out.png":
       document.querySelector(".default-head").src =
-        "/assets/image/head/gold-crown-in.png";
+        "/assets/image/head/bandana-white-in.png";
       break;
-    case "/assets/image/head/head-phones-sky-blue-out.png":
+    case "/assets/image/head/bandana-yellow-out.png":
       document.querySelector(".default-head").src =
-        "/assets/image/head/head-phones-sky-blue-in.png";
+        "/assets/image/head/bandana-yellow-in.png";
       break;
-    case "/assets/image/head/magical-hat-out.png":
+    case "/assets/image/head/beret-black-out.png":
       document.querySelector(".default-head").src =
-        "/assets/image/head/magical-hat-in.png";
+        "/assets/image/head/beret-black-in.png";
+      break;
+    case "/assets/image/head/beret-brown-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/beret-brown-in.png";
+      break;
+    case "/assets/image/head/beret-plaid-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/beret-plaid-in.png";
       break;
     case "/assets/image/head/bucket-hat-black-out.png":
       document.querySelector(".default-head").src =
         "/assets/image/head/bucket-hat-black-in.png";
       break;
+    case "/assets/image/head/bucket-hat-pink-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/bucket-hat-pink-in.png";
+      break;
+    case "/assets/image/head/bucket-hat-white-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/bucket-hat-white-in.png";
+      break;
+    case "/assets/image/head/cap-green-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/cap-green-in.png";
+      break;
+    case "/assets/image/head/cap-pink-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/cap-pink-in.png";
+      break;
+    case "/assets/image/head/cap-yellow-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/cap-yellow-in.png";
+      break;
+    case "/assets/image/head/chef-hat-black-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/chef-hat-black-in.png";
+      break;
+    case "/assets/image/head/chef-hat-gold-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/chef-hat-gold-in.png";
+      break;
+    case "/assets/image/head/chef-hat-white-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/chef-hat-white-in.png";
+      break;
+    case "/assets/image/head/crown-gold-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/crown-gold-in.png";
+      break;
+    case "/assets/image/head/crown-pink-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/crown-pink-in.png";
+      break;
+    case "/assets/image/head/crown-silver-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/crown-silver-in.png";
+      break;
+    case "/assets/image/head/hair-band-green-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/hair-band-green-in.png";
+      break;
+    case "/assets/image/head/hair-band-mint-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/hair-band-mint-in.png";
+      break;
+    case "/assets/image/head/hair-band-purple-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/hair-band-purple-in.png";
+      break;
+    case "/assets/image/head/head-phones-black-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/head-phones-black-in.png";
+      break;
+    case "/assets/image/head/head-phones-gold-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/head-phones-gold-in.png";
+      break;
+    case "/assets/image/head/head-phones-white-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/head-phones-white-in.png";
+      break;
+    case "/assets/image/head/knight-cap-red-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/knight-cap-red-in.png";
+      break;
+    case "/assets/image/head/knight-cap-silver-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/knight-cap-silver-in.png";
+      break;
+    case "/assets/image/head/knight-cap-yellow-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/knight-cap-yellow-in.png";
+      break;
+    case "/assets/image/head/magical-hat-black-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/magical-hat-black-in.png";
+      break;
+    case "/assets/image/head/magical-hat-blue-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/magical-hat-blue-in.png";
+      break;
+    case "/assets/image/head/magical-hat-white-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/magical-hat-white-in.png";
+      break;
+    case "/assets/image/head/propeller-cap-A-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/propeller-cap-A-in.png";
+      break;
+    case "/assets/image/head/propeller-cap-B-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/propeller-cap-B-in.png";
+      break;
+    case "/assets/image/head/propeller-cap-C-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/propeller-cap-C-in.png";
+      break;
+    case "/assets/image/head/rabbit-headband-purple-circle-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/rabbit-headband-purple-circle-in.png";
+      break;
+    case "/assets/image/head/rabbit-headband-purple-pink-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/rabbit-headband-purple-pink-in.png";
+      break;
+    case "/assets/image/head/rabbit-headband-purple-red-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/rabbit-headband-purple-red-in.png";
+      break;
+    case "/assets/image/head/safety-helmet-blue-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/safety-helmet-blue-in.png";
+      break;
+    case "/assets/image/head/safety-helmet-red-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/safety-helmet-red-in.png";
+      break;
+    case "/assets/image/head/safety-helmet-yellow-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/safety-helmet-yellow-in.png";
+      break;
+    case "/assets/image/head/santa-hat-green-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/santa-hat-green-in.png";
+      break;
+    case "/assets/image/head/santa-hat-lavender-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/santa-hat-lavender-in.png";
+      break;
+    case "/assets/image/head/santa-hat-red-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/santa-hat-red-in.png";
+      break;
+    case "/assets/image/head/straw-hat-mint-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/straw-hat-mint-in.png";
+      break;
+    case "/assets/image/head/straw-hat-purple-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/straw-hat-purple-in.png";
+      break;
+    case "/assets/image/head/straw-hat-red-out.png":
+      document.querySelector(".default-head").src =
+        "/assets/image/head/straw-hat-red-in.png";
+      break;
+
     default:
       break;
   }
