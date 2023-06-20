@@ -693,60 +693,54 @@ function handleBottomImg(e) {
 function handleShoesImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-shoes").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
       document.querySelector(".default-shoes").src = "";
       break;
-    case "/assets/image/shoes/boots-brown-out.png":
+    case "/assets/image/shoes/balance-shoes-gray-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/boots-brown-in.png";
+        "/assets/image/shoes/balance-shoes-gray-in.png";
       break;
-    case "/assets/image/shoes/fairy-tale-shoes-blue-out.png":
+    case "/assets/image/shoes/balance-shoes-green-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/fairy-tale-shoes-blue-in.png";
+        "/assets/image/shoes/balance-shoes-green-in.png";
       break;
-    case "/assets/image/shoes/magical-shoes-out.png":
+    case "/assets/image/shoes/balance-shoes-pink-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/magical-shoes-in.png";
-      break;
-    case "/assets/image/shoes/sneakers-orange-out.png":
-      document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/sneakers-orange-in.png";
-      break;
-    case "/assets/image/shoes/foam-shoes2-white-out.png":
-      document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/foam-shoes2-white-in.png";
-      break;
-    case "/assets/image/shoes/foam-shoes1-white-out.png":
-      document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/foam-shoes1-white-in.png";
-      break;
-    case "/assets/image/shoes/chunky-heel-red-out.png":
-      document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/chunky-heel-red-in.png";
+        "/assets/image/shoes/balance-shoes-pink-in.png";
       break;
     case "/assets/image/shoes/basketball-shoes-blue-out.png":
       document.querySelector(".default-shoes").src =
         "/assets/image/shoes/basketball-shoes-blue-in.png";
       break;
-    case "/assets/image/shoes/crocs-blue-out.png":
+    case "/assets/image/shoes/basketball-shoes-green-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/crocs-blue-in.png";
+        "/assets/image/shoes/basketball-shoes-green-in.png";
       break;
-    case "/assets/image/shoes/Heelys-pink-out.png":
+    case "/assets/image/shoes/basketball-shoes-red-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/Heelys-pink-in.png";
+        "/assets/image/shoes/basketball-shoes-red-in.png";
       break;
-    case "/assets/image/shoes/smooth-shoes-green-out.png":
+    case "/assets/image/shoes/boots-black-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/smooth-shoes-green-in.png";
+        "/assets/image/shoes/boots-black-in.png";
       break;
-
-    case "/assets/image/shoes/balance-shoes-gray-out.png":
+    case "/assets/image/shoes/boots-brown-out.png":
       document.querySelector(".default-shoes").src =
-        "/assets/image/shoes/balance-shoes-gray-in.png";
+        "/assets/image/shoes/boots-brown-in.png";
+      break;
+    case "/assets/image/shoes/boots-green-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/boots-green-in.png";
+      break;
+    case "/assets/image/shoes/canvas-shoes-black-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/canvas-shoes-black-in.png";
+      break;
+    case "/assets/image/shoes/canvas-shoes-mint-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/canvas-shoes-mint-in.png";
       break;
     case "/assets/image/shoes/canvas-shoes-red-out.png":
       document.querySelector(".default-shoes").src =
@@ -756,17 +750,133 @@ function handleShoesImg(e) {
       document.querySelector(".default-shoes").src =
         "/assets/image/shoes/chelsea-boots-black-in.png";
       break;
+    case "/assets/image/shoes/chelsea-boots-orange-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/chelsea-boots-orange-in.png";
+      break;
+    case "/assets/image/shoes/chelsea-boots-white-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/chelsea-boots-white-in.png";
+      break;
+    case "/assets/image/shoes/chunky-heel-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/chunky-heel-blue-in.png";
+      break;
+    case "/assets/image/shoes/chunky-heel-red-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/chunky-heel-red-in.png";
+      break;
+    case "/assets/image/shoes/chunky-heel-yellow-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/chunky-heel-yellow-in.png";
+      break;
+    case "/assets/image/shoes/crocs-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/crocs-blue-in.png";
+      break;
+    case "/assets/image/shoes/crocs-red-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/crocs-red-in.png";
+      break;
+    case "/assets/image/shoes/crocs-yellow-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/crocs-yellow-in.png";
+      break;
+    case "/assets/image/shoes/fairy-tale-shoes-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/fairy-tale-shoes-blue-in.png";
+      break;
+    case "/assets/image/shoes/fairy-tale-shoes-brown-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/fairy-tale-shoes-brown-in.png";
+      break;
+    case "/assets/image/shoes/fairy-tale-shoes-pink-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/fairy-tale-shoes-pink-in.png";
+      break;
+    case "/assets/image/shoes/foam-shoes-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/foam-shoes-blue-in.png";
+      break;
+    case "/assets/image/shoes/foam-shoes-pink-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/foam-shoes-pink-in.png";
+      break;
+    case "/assets/image/shoes/foam-shoes-white-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/foam-shoes-white-in.png";
+      break;
+    case "/assets/image/shoes/Heelys-coloruful-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/Heelys-coloruful-in.png";
+      break;
+    case "/assets/image/shoes/Heelys-pink-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/Heelys-pink-in.png";
+      break;
+    case "/assets/image/shoes/Heelys-yellow-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/Heelys-yellow-in.png";
+      break;
+    case "/assets/image/shoes/magical-shoes-black-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/magical-shoes-black-in.png";
+      break;
+    case "/assets/image/shoes/magical-shoes-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/magical-shoes-blue-in.png";
+      break;
+    case "/assets/image/shoes/magical-shoes-white-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/magical-shoes-white-in.png";
+      break;
+    case "/assets/image/shoes/rain-boots-pop-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/rain-boots-pop-in.png";
+      break;
     case "/assets/image/shoes/rain-boots-red-out.png":
       document.querySelector(".default-shoes").src =
         "/assets/image/shoes/rain-boots-red-in.png";
+      break;
+    case "/assets/image/shoes/rain-boots-yellow-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/rain-boots-yellow-in.png";
+      break;
+    case "/assets/image/shoes/sneakers-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/sneakers-blue-in.png";
+      break;
+    case "/assets/image/shoes/sneakers-orange-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/sneakers-orange-in.png";
+      break;
+    case "/assets/image/shoes/sneakers-purple-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/sneakers-purple-in.png";
       break;
     case "/assets/image/shoes/super-shoes-black-out.png":
       document.querySelector(".default-shoes").src =
         "/assets/image/shoes/super-shoes-black-in.png";
       break;
+    case "/assets/image/shoes/super-shoes-blue-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/super-shoes-blue-in.png";
+      break;
+    case "/assets/image/shoes/super-shoes-red-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/super-shoes-red-in.png";
+      break;
     case "/assets/image/shoes/worker-boots-brown-out.png":
       document.querySelector(".default-shoes").src =
         "/assets/image/shoes/worker-boots-brown-in.png";
+      break;
+    case "/assets/image/shoes/worker-boots-red-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/worker-boots-red-in.png";
+      break;
+    case "/assets/image/shoes/worker-boots-white-out.png":
+      document.querySelector(".default-shoes").src =
+        "/assets/image/shoes/worker-boots-white-in.png";
       break;
 
     default:

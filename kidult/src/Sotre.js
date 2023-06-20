@@ -3,8 +3,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 let bodyimg = createSlice({
   name: "bodyimg",
   initialState: [
-    { src: "assets/image/body/asian1-out.png", name: "asian1" },
-    { src: "assets/image/body/asian2-out.png", name: "asian2" },
+    { src: "assets/image/body/asian-out.png", name: "asian" },
     { src: "assets/image/body/black1-out.png", name: "black1" },
     { src: "assets/image/body/black2-out.png", name: "black2" },
     { src: "assets/image/body/white-out.png", name: "white" },
@@ -471,41 +470,49 @@ let shoesimg = createSlice({
   name: "shoesimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/shoes/boots-brown-out.png", name: "boots-brown" },
     {
-      src: "assets/image/shoes/fairy-tale-shoes-blue-out.png",
-      name: "fairy-tale-shoes-blue",
-    },
-    { src: "assets/image/shoes/magical-shoes-out.png", name: "magical-shoes" },
-    {
-      src: "assets/image/shoes/sneakers-orange-out.png",
-      name: "sneakers-orange",
+      src: "assets/image/shoes/balance-shoes-gray-out.png",
+      name: "balance-shoes-gray",
     },
     {
-      src: "assets/image/shoes/foam-shoes2-white-out.png",
-      name: "foam-shoes2-white",
+      src: "assets/image/shoes/balance-shoes-green-out.png",
+      name: "balance-shoes-green",
     },
     {
-      src: "assets/image/shoes/foam-shoes1-white-out.png",
-      name: "foam-shoes1-white",
-    },
-    {
-      src: "assets/image/shoes/chunky-heel-red-out.png",
-      name: "chunky-heel-red",
+      src: "assets/image/shoes/balance-shoes-pink-out.png",
+      name: "balance-shoes-pink",
     },
     {
       src: "assets/image/shoes/basketball-shoes-blue-out.png",
       name: "basketball-shoes-blue",
     },
-    { src: "assets/image/shoes/crocs-blue-out.png", name: "crocs-blue" },
-    { src: "assets/image/shoes/Heelys-pink-out.png", name: "Heelys-pink" },
     {
-      src: "assets/image/shoes/smooth-shoes-green-out.png",
-      name: "smooth-shoes-green",
+      src: "assets/image/shoes/basketball-shoes-green-out.png",
+      name: "basketball-shoes-green",
     },
     {
-      src: "assets/image/shoes/balance-shoes-gray-out.png",
-      name: "balance-shoes-gray",
+      src: "assets/image/shoes/basketball-shoes-red-out.png",
+      name: "basketball-shoes-red",
+    },
+    {
+      src: "assets/image/shoes/boots-black-out.png",
+      name: "boots-black",
+    },
+    {
+      src: "assets/image/shoes/boots-brown-out.png",
+      name: "boots-brown",
+    },
+    {
+      src: "assets/image/shoes/boots-green-out.png",
+      name: "boots-green",
+    },
+    {
+      src: "assets/image/shoes/canvas-shoes-black-out.png",
+      name: "canvas-shoes-black",
+    },
+    {
+      src: "assets/image/shoes/canvas-shoes-mint-out.png",
+      name: "canvas-shoes-mint",
     },
     {
       src: "assets/image/shoes/canvas-shoes-red-out.png",
@@ -516,25 +523,133 @@ let shoesimg = createSlice({
       name: "chelsea-boots-black",
     },
     {
+      src: "assets/image/shoes/chelsea-boots-orange-out.png",
+      name: "chelsea-boots-orange",
+    },
+    {
+      src: "assets/image/shoes/chelsea-boots-white-out.png",
+      name: "chelsea-boots-white",
+    },
+    {
+      src: "assets/image/shoes/chunky-heel-blue-out.png",
+      name: "chunky-heel-blue",
+    },
+    {
+      src: "assets/image/shoes/chunky-heel-red-out.png",
+      name: "chunky-heel-red",
+    },
+    {
+      src: "assets/image/shoes/chunky-heel-yellow-out.png",
+      name: "chunky-heel-yellow",
+    },
+    {
+      src: "assets/image/shoes/crocs-blue-out.png",
+      name: "crocs-blue",
+    },
+    {
+      src: "assets/image/shoes/crocs-red-out.png",
+      name: "crocs-red",
+    },
+    {
+      src: "assets/image/shoes/crocs-yellow-out.png",
+      name: "crocs-yellow",
+    },
+    {
+      src: "assets/image/shoes/fairy-tale-shoes-blue-out.png",
+      name: "fairy-tale-shoes-blue",
+    },
+    {
+      src: "assets/image/shoes/fairy-tale-shoes-brown-out.png",
+      name: "fairy-tale-shoes-brown",
+    },
+    {
+      src: "assets/image/shoes/fairy-tale-shoes-pink-out.png",
+      name: "fairy-tale-shoes-pink",
+    },
+    {
+      src: "assets/image/shoes/foam-shoes-blue-out.png",
+      name: "foam-shoes-blue",
+    },
+    {
+      src: "assets/image/shoes/foam-shoes-pink-out.png",
+      name: "foam-shoes-pink",
+    },
+    {
+      src: "assets/image/shoes/foam-shoes-white-out.png",
+      name: "foam-shoes-white",
+    },
+    {
+      src: "assets/image/shoes/Heelys-coloruful-out.png",
+      name: "Heelys-coloruful",
+    },
+    {
+      src: "assets/image/shoes/Heelys-pink-out.png",
+      name: "Heelys-pink",
+    },
+    {
+      src: "assets/image/shoes/Heelys-yellow-out.png",
+      name: "Heelys-yellow",
+    },
+    {
+      src: "assets/image/shoes/magical-shoes-black-out.png",
+      name: "magical-shoes-black",
+    },
+    {
+      src: "assets/image/shoes/magical-shoes-blue-out.png",
+      name: "magical-shoes-blue",
+    },
+    {
+      src: "assets/image/shoes/magical-shoes-white-out.png",
+      name: "magical-shoes-white",
+    },
+    {
+      src: "assets/image/shoes/rain-boots-pop-out.png",
+      name: "rain-boots-pop",
+    },
+    {
       src: "assets/image/shoes/rain-boots-red-out.png",
       name: "rain-boots-red",
+    },
+    {
+      src: "assets/image/shoes/rain-boots-yellow-out.png",
+      name: "rain-boots-yellow",
+    },
+    {
+      src: "assets/image/shoes/sneakers-blue-out.png",
+      name: "sneakers-blue",
+    },
+    {
+      src: "assets/image/shoes/sneakers-orange-out.png",
+      name: "sneakers-orange",
+    },
+    {
+      src: "assets/image/shoes/sneakers-purple-out.png",
+      name: "sneakers-purple",
     },
     {
       src: "assets/image/shoes/super-shoes-black-out.png",
       name: "super-shoes-black",
     },
     {
+      src: "assets/image/shoes/super-shoes-blue-out.png",
+      name: "super-shoes-blue",
+    },
+    {
+      src: "assets/image/shoes/super-shoes-red-out.png",
+      name: "super-shoes-red",
+    },
+    {
       src: "assets/image/shoes/worker-boots-brown-out.png",
       name: "worker-boots-brown",
     },
     {
-      src: "assets/image/shoes/authentic-sneakers.png",
-      name: "authentic-sneakers",
+      src: "assets/image/shoes/worker-boots-red-out.png",
+      name: "worker-boots-red",
     },
-    { src: "assets/image/shoes/sandal.png", name: "sandal" },
-    // { src: "assets/image/shoes/shoes-stocking.png", name: "shoes-stocking" },
-    { src: "assets/image/shoes/slip-sneakers.png", name: "slip-sneakers" },
-    { src: "assets/image/shoes/Thong-Sandal.png", name: "Thong-Sandal" },
+    {
+      src: "assets/image/shoes/worker-boots-white-out.png",
+      name: "worker-boots-white",
+    },
   ],
 });
 

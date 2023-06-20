@@ -6,11 +6,11 @@ function Kidult() {
     <div className="default">
       <div className="default-inner">
         <img
-          src="/assets/image/default-arms/asian1-body-in.png"
+          src="/assets/image/default-arms/asian-body-in.png"
           className="default-body"
         ></img>
         <img
-          src="/assets/image/default-arms/asian1-arms-in.png"
+          src="/assets/image/default-arms/asian-arms-in.png"
           className="default-arms"
         ></img>
         <img src="" className="default-feel"></img>
