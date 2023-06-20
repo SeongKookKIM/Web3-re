@@ -312,8 +312,12 @@ let bottomimg = createSlice({
     { src: "assets/image/none.png", name: "none" },
     // Low
     {
-      src: "assets/image/bottom-Low/balloon-pants-brown-out.png",
-      name: "none",
+      src: "assets/image/bottom-Low/choker-pants-blue-out.png",
+      name: "choker-pants-blue",
+    },
+    {
+      src: "assets/image/bottom-Low/choker-pants-yellow-out.png",
+      name: "choker-pants-yellow",
     },
     {
       src: "assets/image/bottom-Low/long-pants-black-out.png",
@@ -324,6 +328,46 @@ let bottomimg = createSlice({
       name: "long-pants-blue",
     },
     {
+      src: "assets/image/bottom-Low/long-pants-orange-out.png",
+      name: "long-pants-orange",
+    },
+    {
+      src: "assets/image/bottom-Low/plaid-pants-black-out.png",
+      name: "plaid-pants-black",
+    },
+    {
+      src: "assets/image/bottom-Low/plaid-pants-red-out.png",
+      name: "plaid-pants-red",
+    },
+    {
+      src: "assets/image/bottom-Low/plaid-pants-yellow-out.png",
+      name: "plaid-pants-yellow",
+    },
+    {
+      src: "assets/image/bottom-Low/ring-pants-green-out.png",
+      name: "ring-pants-green",
+    },
+    {
+      src: "assets/image/bottom-Low/ring-pants-mint-out.png",
+      name: "ring-pants-mint",
+    },
+    {
+      src: "assets/image/bottom-Low/ring-pants-orange-out.png",
+      name: "ring-pants-orange",
+    },
+    {
+      src: "assets/image/bottom-Low/ripped-panties-black-out.png",
+      name: "ripped-panties-black",
+    },
+    {
+      src: "assets/image/bottom-Low/ripped-panties-pink-out.png",
+      name: "ripped-panties-pink",
+    },
+    {
+      src: "assets/image/bottom-Low/ripped-panties-red-out.png",
+      name: "ripped-panties-red",
+    },
+    {
       src: "assets/image/bottom-Low/short-pants-black-out.png",
       name: "short-pants-black",
     },
@@ -332,20 +376,8 @@ let bottomimg = createSlice({
       name: "short-pants-blue",
     },
     {
-      src: "assets/image/bottom-Low/check-pants-green-out.png",
-      name: "check-pants-green",
-    },
-    {
-      src: "assets/image/bottom-Low/choke-pants-black-out.png",
-      name: "choke-pants-black",
-    },
-    {
-      src: "assets/image/bottom-Low/ring-pants-mint-out.png",
-      name: "ring-pants-mint",
-    },
-    {
-      src: "assets/image/bottom-Low/ripped-panties-red-out.png",
-      name: "ripped-panties-red",
+      src: "assets/image/bottom-Low/short-pants-white-out.png",
+      name: "short-pants-white",
     },
 
     // Hight

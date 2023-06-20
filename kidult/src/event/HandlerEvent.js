@@ -504,9 +504,14 @@ function handleBottomImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-bottom").src = "";
       break;
-    case "/assets/image/bottom-Low/balloon-pants-brown-out.png":
+    // LOW
+    case "/assets/image/bottom-Low/choker-pants-blue-out.png":
       document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-Low/balloon-pants-brown-in.png";
+        "/assets/image/bottom-Low/choker-pants-blue-in.png";
+      break;
+    case "/assets/image/bottom-Low/choker-pants-yellow-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/choker-pants-yellow-in.png";
       break;
     case "/assets/image/bottom-Low/long-pants-black-out.png":
       document.querySelector(".default-bottom").src =
@@ -516,6 +521,46 @@ function handleBottomImg(e) {
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-Low/long-pants-blue-in.png";
       break;
+    case "/assets/image/bottom-Low/long-pants-orange-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/long-pants-orange-in.png";
+      break;
+    case "/assets/image/bottom-Low/plaid-pants-black-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/plaid-pants-black-in.png";
+      break;
+    case "/assets/image/bottom-Low/plaid-pants-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/plaid-pants-red-in.png";
+      break;
+    case "/assets/image/bottom-Low/plaid-pants-yellow-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/plaid-pants-yellow-in.png";
+      break;
+    case "/assets/image/bottom-Low/ring-pants-green-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ring-pants-green-in.png";
+      break;
+    case "/assets/image/bottom-Low/ring-pants-mint-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ring-pants-mint-in.png";
+      break;
+    case "/assets/image/bottom-Low/ring-pants-orange-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ring-pants-orange-in.png";
+      break;
+    case "/assets/image/bottom-Low/ripped-panties-black-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ripped-panties-black-in.png";
+      break;
+    case "/assets/image/bottom-Low/ripped-panties-pink-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ripped-panties-pink-in.png";
+      break;
+    case "/assets/image/bottom-Low/ripped-panties-red-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/ripped-panties-red-in.png";
+      break;
     case "/assets/image/bottom-Low/short-pants-black-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-Low/short-pants-black-in.png";
@@ -524,23 +569,11 @@ function handleBottomImg(e) {
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-Low/short-pants-blue-in.png";
       break;
+    case "/assets/image/bottom-Low/short-pants-white-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/short-pants-white-in.png";
+      break;
 
-    case "/assets/image/bottom-Low/check-pants-green-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-Low/check-pants-green-in.png";
-      break;
-    case "/assets/image/bottom-Low/choke-pants-black-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-Low/choke-pants-black-in.png";
-      break;
-    case "/assets/image/bottom-Low/ring-pants-mint-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-Low/ring-pants-mint-in.png";
-      break;
-    case "/assets/image/bottom-Low/ripped-panties-red-out.png":
-      document.querySelector(".default-bottom").src =
-        "/assets/image/bottom-Low/ripped-panties-red-in.png";
-      break;
     // Hight
     case "/assets/image/bottom-High/long-skirt-out.png":
       document.querySelector(".default-bottom").src =
