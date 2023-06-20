@@ -2083,29 +2083,93 @@ function handleBoxEffectImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-boxeffect").src = "";
       break;
-    case "/assets/image/boxeffect/coin-bronze-out.png":
-      document.querySelector(".default-boxeffect").src =
-        "/assets/image/boxeffect/coin-bronze-in.png";
-      break;
+
+    // LOW
     case "/assets/image/boxeffect/coin-gold-out.png":
       document.querySelector(".default-boxeffect").src =
         "/assets/image/boxeffect/coin-gold-in.png";
       break;
-    case "/assets/image/boxeffect/coin-silver-out.png":
+    case "/assets/image/boxeffect/grass-standee-blue-out.png":
       document.querySelector(".default-boxeffect").src =
-        "/assets/image/boxeffect/coin-silver-in.png";
+        "/assets/image/boxeffect/grass-standee-blue-in.png";
       break;
-    case "/assets/image/boxeffect/grass-standee-out.png":
+    case "/assets/image/boxeffect/grass-standee-brown-out.png":
       document.querySelector(".default-boxeffect").src =
-        "/assets/image/boxeffect/grass-standee-in.png";
+        "/assets/image/boxeffect/grass-standee-brown-in.png";
+      break;
+    case "/assets/image/boxeffect/grass-standee-green-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/grass-standee-green-in.png";
+      break;
+    case "/assets/image/boxeffect/light-green-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/light-green-in.png";
+      break;
+    case "/assets/image/boxeffect/light-pink-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/light-pink-in.png";
       break;
     case "/assets/image/boxeffect/light-yellow-out.png":
       document.querySelector(".default-boxeffect").src =
         "/assets/image/boxeffect/light-yellow-in.png";
       break;
 
+    // HIGHT
+    case "/assets/image/boxeffect/galaxy-green-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/galaxy-green-in.png";
+      break;
+    case "/assets/image/boxeffect/galaxy-purple-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/galaxy-purple-in.png";
+      break;
+    case "/assets/image/boxeffect/galaxy-red-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/galaxy-red-in.png";
+      break;
+    case "/assets/image/boxeffect/gas-black-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/gas-black-in.png";
+      break;
+    case "/assets/image/boxeffect/gas-green-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/gas-green-in.png";
+      break;
+    case "/assets/image/boxeffect/gas-white-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/gas-white-in.png";
+      break;
+    case "/assets/image/boxeffect/water-blue-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/water-blue-in.png";
+      break;
+    case "/assets/image/boxeffect/water-green-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/water-green-in.png";
+      break;
+    case "/assets/image/boxeffect/water-yellow-out.png":
+      document.querySelector(".default-boxeffect").src =
+        "/assets/image/boxeffect/water-yellow-in.png";
+      break;
+
     default:
       break;
+  }
+
+  if (
+    relativeSrc === "/assets/image/boxeffect/galaxy-green-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/galaxy-purple-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/galaxy-red-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/gas-black-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/gas-green-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/gas-white-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/water-blue-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/water-green-out.png" ||
+    relativeSrc === "/assets/image/boxeffect/water-yellow-out.png"
+  ) {
+    document.querySelector(".default-boxeffect").style.zIndex = "19";
+  } else {
+    document.querySelector(".default-boxeffect").style.zIndex = "1";
   }
 }
 function handleSealImg(e) {

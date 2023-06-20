@@ -1846,16 +1846,69 @@ let boxeffectimg = createSlice({
   name: "boxeffectimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/boxeffect/coin-bronze-out.png", name: "coin-bronze" },
-    { src: "assets/image/boxeffect/coin-silver-out.png", name: "coin-silver" },
+    //Low
     { src: "assets/image/boxeffect/coin-gold-out.png", name: "coin-gold" },
     {
-      src: "assets/image/boxeffect/grass-standee-out.png",
-      name: "grass-standee",
+      src: "assets/image/boxeffect/grass-standee-blue-out.png",
+      name: "grass-standee-blue",
+    },
+    {
+      src: "assets/image/boxeffect/grass-standee-brown-out.png",
+      name: "grass-standee-brown",
+    },
+    {
+      src: "assets/image/boxeffect/grass-standee-green-out.png",
+      name: "grass-standee-green",
+    },
+    {
+      src: "assets/image/boxeffect/light-green-out.png",
+      name: "light-green",
+    },
+    {
+      src: "assets/image/boxeffect/light-pink-out.png",
+      name: "light-pink",
     },
     {
       src: "assets/image/boxeffect/light-yellow-out.png",
       name: "light-yellow",
+    },
+
+    //Hight
+    {
+      src: "assets/image/boxeffect/galaxy-green-out.png",
+      name: "galaxy-green",
+    },
+    {
+      src: "assets/image/boxeffect/galaxy-purple-out.png",
+      name: "galaxy-purple",
+    },
+    {
+      src: "assets/image/boxeffect/galaxy-red-out.png",
+      name: "galaxy-red",
+    },
+    {
+      src: "assets/image/boxeffect/gas-black-out.png",
+      name: "gas-black",
+    },
+    {
+      src: "assets/image/boxeffect/gas-green-out.png",
+      name: "gas-green",
+    },
+    {
+      src: "assets/image/boxeffect/gas-white-out.png",
+      name: "gas-white",
+    },
+    {
+      src: "assets/image/boxeffect/water-blue-out.png",
+      name: "water-blue",
+    },
+    {
+      src: "assets/image/boxeffect/water-green-out.png",
+      name: "water-green",
+    },
+    {
+      src: "assets/image/boxeffect/water-yellow-out.png",
+      name: "water-yellow",
     },
   ],
 });
