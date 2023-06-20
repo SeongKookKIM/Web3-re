@@ -115,17 +115,186 @@ let faceimg = createSlice({
   name: "faceimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/face/glasses-white-out.png", name: "glasses-white" },
-    { src: "assets/image/face/beak.png", name: "beak" },
-    { src: "assets/image/face/dust mask.png", name: "dust mask" },
-    { src: "assets/image/face/earring.png", name: "earring" },
-    { src: "assets/image/face/gas mask.png", name: "gas mask" },
-    { src: "assets/image/face/mini glasses.png", name: "mini glasses" },
     {
-      src: "assets/image/face/plaid birthday glasses.png",
-      name: "plaid birthday glasses",
+      src: "assets/image/face/aio-glasses-blue-out.png",
+      name: "aio-glasses-blue",
     },
-    { src: "assets/image/face/welding cap.png", name: "welding cap" },
+    {
+      src: "assets/image/face/aio-glasses-green-out.png",
+      name: "aio-glasses-green",
+    },
+    {
+      src: "assets/image/face/aio-glasses-pink-out.png",
+      name: "aio-glasses-pink",
+    },
+    {
+      src: "assets/image/face/animal-face-black-out.png",
+      name: "animal-face-black",
+    },
+    {
+      src: "assets/image/face/animal-face-purple-out.png",
+      name: "animal-face-purple",
+    },
+    {
+      src: "assets/image/face/animal-face-red-out.png",
+      name: "animal-face-red",
+    },
+    {
+      src: "assets/image/face/beak-black-out.png",
+      name: "beak-black",
+    },
+    {
+      src: "assets/image/face/beak-blue-out.png",
+      name: "beak-blue",
+    },
+    {
+      src: "assets/image/face/beak-yellow-out.png",
+      name: "beak-yellow",
+    },
+    {
+      src: "assets/image/face/birthday-glasses-black-out.png",
+      name: "birthday-glasses-black",
+    },
+    {
+      src: "assets/image/face/birthday-glasses-plaid-out.png",
+      name: "birthday-glasses-plaid",
+    },
+    {
+      src: "assets/image/face/birthday-glasses-rainbow-out.png",
+      name: "birthday-glasses-rainbow",
+    },
+    {
+      src: "assets/image/face/bubble-gum-blue-out.png",
+      name: "bubble-gum-blue",
+    },
+    {
+      src: "assets/image/face/bubble-gum-pink-out.png",
+      name: "bubble-gum-pink",
+    },
+    {
+      src: "assets/image/face/bubble-gum-yellow-out.png",
+      name: "bubble-gum-yellow",
+    },
+    {
+      src: "assets/image/face/dust-mask-black-out.png",
+      name: "dust-mask-black",
+    },
+    {
+      src: "assets/image/face/dust-mask-blue-out.png",
+      name: "dust-mask-blue",
+    },
+    {
+      src: "assets/image/face/dust-mask-white-out.png",
+      name: "dust-mask-white",
+    },
+    {
+      src: "assets/image/face/gas-mask-black-out.png",
+      name: "gas-mask-black",
+    },
+    {
+      src: "assets/image/face/gas-mask-blue-out.png",
+      name: "gas-mask-blue",
+    },
+    {
+      src: "assets/image/face/gas-mask-gold-out.png",
+      name: "gas-mask-gold",
+    },
+    {
+      src: "assets/image/face/gauze-black-out.png",
+      name: "gauze-black",
+    },
+    {
+      src: "assets/image/face/gauze-brown-out.png",
+      name: "gauze-brown",
+    },
+    {
+      src: "assets/image/face/gauze-white-out.png",
+      name: "gauze-white",
+    },
+    {
+      src: "assets/image/face/iron-sunglasses-black-out.png",
+      name: "iron-sunglasses-black",
+    },
+    {
+      src: "assets/image/face/iron-sunglasses-gold-out.png",
+      name: "iron-sunglasses-gold",
+    },
+    {
+      src: "assets/image/face/iron-sunglasses-red-out.png",
+      name: "iron-sunglasses-red",
+    },
+    {
+      src: "assets/image/face/lucky-glasses-black-out.png",
+      name: "lucky-glasses-black",
+    },
+    {
+      src: "assets/image/face/lucky-glasses-brown-out.png",
+      name: "lucky-glasses-brown",
+    },
+    {
+      src: "assets/image/face/lucky-glasses-white-out.png",
+      name: "lucky-glasses-white",
+    },
+    {
+      src: "assets/image/face/mini-glasses-black-out.png",
+      name: "mini-glasses-black",
+    },
+    {
+      src: "assets/image/face/mini-glasses-blue-out.png",
+      name: "mini-glasses-blue",
+    },
+    {
+      src: "assets/image/face/mini-glasses-yellow-out.png",
+      name: "mini-glasses-yellow",
+    },
+    {
+      src: "assets/image/face/mustache-black-out.png",
+      name: "mustache-black",
+    },
+    {
+      src: "assets/image/face/mustache-brown-out.png",
+      name: "mustache-brown",
+    },
+    {
+      src: "assets/image/face/mustache-white-out.png",
+      name: "mustache-white",
+    },
+    {
+      src: "assets/image/face/piercing-gold-out.png",
+      name: "piercing-gold",
+    },
+    {
+      src: "assets/image/face/piercing-rose-gold-out.png",
+      name: "piercing-rose-gold",
+    },
+    {
+      src: "assets/image/face/piercing-silver-out.png",
+      name: "piercing-silver",
+    },
+    {
+      src: "assets/image/face/scouter-blue-out.png",
+      name: "scouter-blue",
+    },
+    {
+      src: "assets/image/face/scouter-green-out.png",
+      name: "scouter-green",
+    },
+    {
+      src: "assets/image/face/scouter-red-out.png",
+      name: "scouter-red",
+    },
+    {
+      src: "assets/image/face/stick-tongue-out-green-out.png",
+      name: "stick-tongue-out-green",
+    },
+    {
+      src: "assets/image/face/stick-tongue-out-purple-out.png",
+      name: "stick-tongue-out-purple",
+    },
+    {
+      src: "assets/image/face/stick-tongue-out-red-out.png",
+      name: "stick-tongue-out-red",
+    },
   ],
 });
 

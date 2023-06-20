@@ -1067,30 +1067,30 @@ function handleFeelingImg(e) {
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
-      document.querySelector(".default-face").src = "";
+      document.querySelector(".default-feel").src = "";
       break;
     case "/assets/image/feeling/blush-L-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/blush-L-in.png";
       break;
     case "/assets/image/feeling/blush-S-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/blush-S-in.png";
       break;
     case "/assets/image/feeling/nausea-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/nausea-in.png";
       break;
     case "/assets/image/feeling/rage-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/rage-in.png";
       break;
     case "/assets/image/feeling/shady-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/shady-in.png";
       break;
     case "/assets/image/feeling/shyness-out.png":
-      document.querySelector(".default-face").src =
+      document.querySelector(".default-feel").src =
         "/assets/image/feeling/shyness-in.png";
       break;
 
@@ -1101,16 +1101,192 @@ function handleFeelingImg(e) {
 function handleFaceImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-face").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
       document.querySelector(".default-face").src = "";
       break;
-    case "/assets/image/face/glasses-white-out.png":
+    case "/assets/image/face/aio-glasses-blue-out.png":
       document.querySelector(".default-face").src =
-        "/assets/image/face/glasses-white-in.png";
+        "/assets/image/face/aio-glasses-blue-in.png";
       break;
+    case "/assets/image/face/aio-glasses-green-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/aio-glasses-green-in.png";
+      break;
+    case "/assets/image/face/aio-glasses-pink-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/aio-glasses-pink-in.png";
+      break;
+    case "/assets/image/face/animal-face-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/animal-face-black-in.png";
+      break;
+    case "/assets/image/face/animal-face-purple-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/animal-face-purple-in.png";
+      break;
+    case "/assets/image/face/animal-face-red-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/animal-face-red-in.png";
+      break;
+    case "/assets/image/face/beak-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/beak-black-in.png";
+      break;
+    case "/assets/image/face/beak-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/beak-blue-in.png";
+      break;
+    case "/assets/image/face/beak-yellow-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/beak-yellow-in.png";
+      break;
+    case "/assets/image/face/birthday-glasses-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/birthday-glasses-black-in.png";
+      break;
+    case "/assets/image/face/birthday-glasses-plaid-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/birthday-glasses-plaid-in.png";
+      break;
+    case "/assets/image/face/birthday-glasses-rainbow-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/birthday-glasses-rainbow-in.png";
+      break;
+    case "/assets/image/face/bubble-gum-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/bubble-gum-blue-in.png";
+      break;
+    case "/assets/image/face/bubble-gum-pink-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/bubble-gum-pink-in.png";
+      break;
+    case "/assets/image/face/bubble-gum-yellow-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/bubble-gum-yellow-in.png";
+      break;
+    case "/assets/image/face/dust-mask-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/dust-mask-black-in.png";
+      break;
+    case "/assets/image/face/dust-mask-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/dust-mask-blue-in.png";
+      break;
+    case "/assets/image/face/dust-mask-white-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/dust-mask-white-in.png";
+      break;
+    case "/assets/image/face/gas-mask-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gas-mask-black-in.png";
+      break;
+    case "/assets/image/face/gas-mask-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gas-mask-blue-in.png";
+      break;
+    case "/assets/image/face/gas-mask-gold-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gas-mask-gold-in.png";
+      break;
+    case "/assets/image/face/gauze-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gauze-black-in.png";
+      break;
+    case "/assets/image/face/gauze-brown-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gauze-brown-in.png";
+      break;
+    case "/assets/image/face/gauze-white-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/gauze-white-in.png";
+      break;
+    case "/assets/image/face/iron-sunglasses-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/iron-sunglasses-black-in.png";
+      break;
+    case "/assets/image/face/iron-sunglasses-gold-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/iron-sunglasses-gold-in.png";
+      break;
+    case "/assets/image/face/iron-sunglasses-red-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/iron-sunglasses-red-in.png";
+      break;
+    case "/assets/image/face/lucky-glasses-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/lucky-glasses-black-in.png";
+      break;
+    case "/assets/image/face/lucky-glasses-brown-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/lucky-glasses-brown-in.png";
+      break;
+    case "/assets/image/face/lucky-glasses-white-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/lucky-glasses-white-in.png";
+      break;
+    case "/assets/image/face/mini-glasses-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mini-glasses-black-in.png";
+      break;
+    case "/assets/image/face/mini-glasses-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mini-glasses-blue-in.png";
+      break;
+    case "/assets/image/face/mini-glasses-yellow-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mini-glasses-yellow-in.png";
+      break;
+    case "/assets/image/face/mustache-black-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mustache-black-in.png";
+      break;
+    case "/assets/image/face/mustache-brown-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mustache-brown-in.png";
+      break;
+    case "/assets/image/face/mustache-white-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/mustache-white-in.png";
+      break;
+    case "/assets/image/face/piercing-gold-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/piercing-gold-in.png";
+      break;
+    case "/assets/image/face/piercing-rose-gold-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/piercing-rose-gold-in.png";
+      break;
+    case "/assets/image/face/piercing-silver-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/piercing-silver-in.png";
+      break;
+    case "/assets/image/face/scouter-blue-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/scouter-blue-in.png";
+      break;
+    case "/assets/image/face/scouter-green-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/scouter-green-in.png";
+      break;
+    case "/assets/image/face/scouter-red-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/scouter-red-in.png";
+      break;
+    case "/assets/image/face/stick-tongue-out-green-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/stick-tongue-out-green-in.png";
+      break;
+    case "/assets/image/face/stick-tongue-out-purple-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/stick-tongue-out-purple-in.png";
+      break;
+    case "/assets/image/face/stick-tongue-out-red-out.png":
+      document.querySelector(".default-face").src =
+        "/assets/image/face/stick-tongue-out-red-in.png";
+      break;
+
     default:
       break;
   }
