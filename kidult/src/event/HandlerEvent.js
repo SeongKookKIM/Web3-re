@@ -1901,23 +1901,190 @@ function handleBzoneImg(e) {
 function handlePartnerImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-partner").src = relativeSrc;
 
   switch (relativeSrc) {
     case "/assets/image/none.png":
       document.querySelector(".default-partner").src = "";
       break;
-    case "/assets/image/czone/crow-out.png":
+    case "/assets/image/czone/bee-blue-out.png":
       document.querySelector(".default-partner").src =
-        "/assets/image/czone/crow-in.png";
+        "/assets/image/czone/bee-blue-in.png";
       break;
-    case "/assets/image/czone/lion-out.png":
+    case "/assets/image/czone/bee-orange-out.png":
       document.querySelector(".default-partner").src =
-        "/assets/image/czone/lion-in.png";
+        "/assets/image/czone/bee-orange-in.png";
       break;
-    case "/assets/image/czone/wooden-totem-out.png":
+    case "/assets/image/czone/bee-yellow-out.png":
       document.querySelector(".default-partner").src =
-        "/assets/image/czone/wooden-totem-in.png";
+        "/assets/image/czone/bee-yellow-in.png";
+      break;
+    case "/assets/image/czone/crow-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/crow-black-in.png";
+      break;
+    case "/assets/image/czone/crow-mint-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/crow-mint-in.png";
+      break;
+    case "/assets/image/czone/crow-yellow-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/crow-yellow-in.png";
+      break;
+    case "/assets/image/czone/dinosaur-gold-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dinosaur-gold-in.png";
+      break;
+    case "/assets/image/czone/dinosaur-green-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dinosaur-green-in.png";
+      break;
+    case "/assets/image/czone/dinosaur-purple-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dinosaur-purple-in.png";
+      break;
+    case "/assets/image/czone/dog-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dog-black-in.png";
+      break;
+    case "/assets/image/czone/dog-red-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dog-red-in.png";
+      break;
+    case "/assets/image/czone/dog-white-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/dog-white-in.png";
+      break;
+    case "/assets/image/czone/fox-gold-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/fox-gold-in.png";
+      break;
+    case "/assets/image/czone/fox-orange-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/fox-orange-in.png";
+      break;
+    case "/assets/image/czone/fox-white-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/fox-white-in.png";
+      break;
+    case "/assets/image/czone/ladybug-gold-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ladybug-gold-in.png";
+      break;
+    case "/assets/image/czone/ladybug-purple-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ladybug-purple-in.png";
+      break;
+    case "/assets/image/czone/ladybug-red-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ladybug-red-in.png";
+      break;
+    case "/assets/image/czone/lion-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lion-black-in.png";
+      break;
+    case "/assets/image/czone/lion-blue-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lion-blue-in.png";
+      break;
+    case "/assets/image/czone/lion-brown-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lion-brown-in.png";
+      break;
+    case "/assets/image/czone/lizard-blue-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lizard-blue-in.png";
+      break;
+    case "/assets/image/czone/lizard-pink-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lizard-pink-in.png";
+      break;
+    case "/assets/image/czone/lizard-yellow-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/lizard-yellow-in.png";
+      break;
+    case "/assets/image/czone/mandrake-beige-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/mandrake-beige-in.png";
+      break;
+    case "/assets/image/czone/mandrake-blue-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/mandrake-blue-in.png";
+      break;
+    case "/assets/image/czone/mandrake-red-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/mandrake-red-in.png";
+      break;
+    case "/assets/image/czone/monkey-brown-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/monkey-brown-in.png";
+      break;
+    case "/assets/image/czone/monkey-gold-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/monkey-gold-in.png";
+      break;
+    case "/assets/image/czone/monkey-white-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/monkey-white-in.png";
+      break;
+    case "/assets/image/czone/octopus-blue-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/octopus-blue-in.png";
+      break;
+    case "/assets/image/czone/octopus-purple-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/octopus-purple-in.png";
+      break;
+    case "/assets/image/czone/octopus-red-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/octopus-red-in.png";
+      break;
+    case "/assets/image/czone/polarbear-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/polarbear-black-in.png";
+      break;
+    case "/assets/image/czone/polarbear-brown-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/polarbear-brown-in.png";
+      break;
+    case "/assets/image/czone/polarbear-white-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/polarbear-white-in.png";
+      break;
+    case "/assets/image/czone/totem-brown-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/totem-brown-in.png";
+      break;
+    case "/assets/image/czone/totem-gold-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/totem-gold-in.png";
+      break;
+    case "/assets/image/czone/totem-white-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/totem-white-in.png";
+      break;
+    case "/assets/image/czone/ufo-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ufo-black-in.png";
+      break;
+    case "/assets/image/czone/ufo-gray-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ufo-gray-in.png";
+      break;
+    case "/assets/image/czone/ufo-pink-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/ufo-pink-in.png";
+      break;
+    case "/assets/image/czone/vintage-robot-black-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/vintage-robot-black-in.png";
+      break;
+    case "/assets/image/czone/vintage-robot-blue-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/vintage-robot-blue-in.png";
+      break;
+    case "/assets/image/czone/vintage-robot-red-out.png":
+      document.querySelector(".default-partner").src =
+        "/assets/image/czone/vintage-robot-red-in.png";
       break;
 
     default:

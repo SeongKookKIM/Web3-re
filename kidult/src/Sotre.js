@@ -1568,21 +1568,171 @@ let partnerimg = createSlice({
   name: "partnerimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/czone/crow-out.png", name: "crow" },
-    { src: "assets/image/czone/lion-out.png", name: "lion" },
-    { src: "assets/image/czone/wooden-totem-out.png", name: "wooden-totem" },
-    { src: "assets/image/czone/bee.png", name: "bee" },
-    { src: "assets/image/czone/butterfly.png", name: "butterfly" },
-    { src: "assets/image/czone/dog.png", name: "dog" },
-    { src: "assets/image/czone/elephant.png", name: "elephant" },
-    { src: "assets/image/czone/snake.png", name: "snake" },
+    { src: "assets/image/czone/bee-blue-out.png", name: "bee-blue" },
+    { src: "assets/image/czone/bee-orange-out.png", name: "bee-orange" },
+    { src: "assets/image/czone/bee-yellow-out.png", name: "bee-yellow" },
+    { src: "assets/image/czone/crow-black-out.png", name: "crow-black" },
+    { src: "assets/image/czone/crow-mint-out.png", name: "crow-mint" },
+    { src: "assets/image/czone/crow-yellow-out.png", name: "crow-yellow" },
+    { src: "assets/image/czone/dinosaur-gold-out.png", name: "dinosaur-gold" },
+    {
+      src: "assets/image/czone/dinosaur-green-out.png",
+      name: "dinosaur-green",
+    },
+    {
+      src: "assets/image/czone/dinosaur-purple-out.png",
+      name: "dinosaur-purple",
+    },
+    {
+      src: "assets/image/czone/dog-black-out.png",
+      name: "dog-black",
+    },
+    {
+      src: "assets/image/czone/dog-red-out.png",
+      name: "dog-red",
+    },
+    {
+      src: "assets/image/czone/dog-white-out.png",
+      name: "dog-white",
+    },
+    {
+      src: "assets/image/czone/fox-gold-out.png",
+      name: "fox-gold",
+    },
+    {
+      src: "assets/image/czone/fox-orange-out.png",
+      name: "fox-orange",
+    },
+    {
+      src: "assets/image/czone/fox-white-out.png",
+      name: "fox-white",
+    },
+    {
+      src: "assets/image/czone/ladybug-gold-out.png",
+      name: "ladybug-gold",
+    },
+    {
+      src: "assets/image/czone/ladybug-purple-out.png",
+      name: "ladybug-purple",
+    },
+    {
+      src: "assets/image/czone/ladybug-red-out.png",
+      name: "ladybug-red",
+    },
+    {
+      src: "assets/image/czone/lion-black-out.png",
+      name: "lion-black",
+    },
+    {
+      src: "assets/image/czone/lion-blue-out.png",
+      name: "lion-blue",
+    },
+    {
+      src: "assets/image/czone/lion-brown-out.png",
+      name: "lion-brown",
+    },
+    {
+      src: "assets/image/czone/lizard-blue-out.png",
+      name: "lizard-blue",
+    },
+    {
+      src: "assets/image/czone/lizard-pink-out.png",
+      name: "lizard-pink",
+    },
+    {
+      src: "assets/image/czone/lizard-yellow-out.png",
+      name: "lizard-yellow",
+    },
+    {
+      src: "assets/image/czone/mandrake-beige-out.png",
+      name: "mandrake-beige",
+    },
+    {
+      src: "assets/image/czone/mandrake-blue-out.png",
+      name: "mandrake-blue",
+    },
+    {
+      src: "assets/image/czone/mandrake-red-out.png",
+      name: "mandrake-red",
+    },
+    {
+      src: "assets/image/czone/monkey-brown-out.png",
+      name: "monkey-brown",
+    },
+    {
+      src: "assets/image/czone/monkey-gold-out.png",
+      name: "monkey-gold",
+    },
+    {
+      src: "assets/image/czone/monkey-white-out.png",
+      name: "monkey-white",
+    },
+    {
+      src: "assets/image/czone/octopus-blue-out.png",
+      name: "octopus-blue",
+    },
+    {
+      src: "assets/image/czone/octopus-purple-out.png",
+      name: "octopus-purple",
+    },
+    {
+      src: "assets/image/czone/octopus-red-out.png",
+      name: "octopus-red",
+    },
+    {
+      src: "assets/image/czone/polarbear-black-out.png",
+      name: "polarbear-black",
+    },
+    {
+      src: "assets/image/czone/polarbear-brown-out.png",
+      name: "polarbear-brown",
+    },
+    {
+      src: "assets/image/czone/polarbear-white-out.png",
+      name: "polarbear-white",
+    },
+    {
+      src: "assets/image/czone/totem-brown-out.png",
+      name: "totem-brown",
+    },
+    {
+      src: "assets/image/czone/totem-gold-out.png",
+      name: "totem-gold",
+    },
+    {
+      src: "assets/image/czone/totem-white-out.png",
+      name: "totem-white",
+    },
+    {
+      src: "assets/image/czone/ufo-black-out.png",
+      name: "ufo-black",
+    },
+    {
+      src: "assets/image/czone/ufo-gray-out.png",
+      name: "ufo-gray",
+    },
+    {
+      src: "assets/image/czone/ufo-pink-out.png",
+      name: "ufo-pink",
+    },
+    {
+      src: "assets/image/czone/vintage-robot-black-out.png",
+      name: "vintage-robot-black",
+    },
+    {
+      src: "assets/image/czone/vintage-robot-blue-out.png",
+      name: "vintage-robot-blue",
+    },
+    {
+      src: "assets/image/czone/vintage-robot-red-out.png",
+      name: "vintage-robot-red",
+    },
   ],
 });
 
 let packageimg = createSlice({
   name: "packageimg",
   initialState: [
-    // "assets/image/none.png",
     {
       src: "assets/image/package/pack-color-white-out.png",
       name: "pack-color-white",
