@@ -791,6 +791,10 @@ let bottomimg = createSlice({
     { src: "assets/image/none.png", name: "none" },
     // Low
     {
+      src: "assets/image/bottom-Low/choker-pants-black-out.png",
+      name: "choker-pants-black",
+    },
+    {
       src: "assets/image/bottom-Low/choker-pants-blue-out.png",
       name: "choker-pants-blue",
     },

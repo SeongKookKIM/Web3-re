@@ -650,6 +650,10 @@ function handleBottomImg(e) {
       document.querySelector(".default-bottom").src = "";
       break;
     // LOW
+    case "/assets/image/bottom-Low/choker-pants-black-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/choker-pants-black-in.png";
+      break;
     case "/assets/image/bottom-Low/choker-pants-blue-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-Low/choker-pants-blue-in.png";
