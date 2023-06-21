@@ -1,10 +1,30 @@
 /*eslint-disable */
-import React from "react";
+import html2canvas from "html2canvas";
+import { saveAs } from "file-saver";
+import React, { useRef } from "react";
 
 function Kidult() {
+  const captureRef = useRef(null);
+
+  const handleCapture = async () => {
+    if (!captureRef.current) return;
+
+    try {
+      const div = captureRef.current;
+      const canva = await html2canvas(div, { scale: 2 });
+      canva.toBlob((blob) => {
+        if (blob !== null) {
+          saveAs(blob, "result.jpg");
+        }
+      });
+    } catch (error) {
+      console.error("Error converting div to image:", error);
+    }
+  };
+
   return (
     <div className="default">
-      <div className="default-inner">
+      <div className="default-inner" ref={captureRef}>
         <img
           src="/assets/image/default-arms/asian-body-in.png"
           className="default-body"
@@ -56,6 +76,7 @@ function Kidult() {
         <img src="assets/image/emoticon/reset.png" className="reset"></img>
         <p>RESET</p>
       </div>
+      <button onClick={handleCapture}>capture</button>
     </div>
   );
 }
