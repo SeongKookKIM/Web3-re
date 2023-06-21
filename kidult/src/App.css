@@ -29,6 +29,31 @@
   align-items: center;
   flex-flow: column nowrap;
 }
+.item-mobile {
+  width: 90%;
+  border: 5px solid #464646;
+  border-bottom: none;
+  margin-top: 50px;
+  border-radius: 20px 20px 0 0;
+  background-color: #afafaf;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+.item-mobile .swiper-slide.check {
+  background-color: #fff;
+}
+.item-mobile .swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+}
 .item {
   width: 95%;
   border: 5px solid #464646;

@@ -1,6 +1,11 @@
 /*eslint-disable */
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode } from "swiper";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
 import ListMenu from "./ListMenu";
 
 function List() {
@@ -23,26 +28,58 @@ function List() {
     };
   }, [tab]);
 
+  // Mobile
+  const isSmallScreen = window.innerWidth <= 650;
+
   return (
     <div className="list">
       <div className="list-wrapper">
-        <div className="item">
-          <ul>
-            {store.itemimg.map((it, i) => {
-              return (
-                <li key={i} className={tab === i ? "check" : ""}>
-                  <img
-                    src={it}
-                    alt="item-list"
-                    onClick={() => {
-                      setTab(i);
-                    }}
-                  ></img>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        {isSmallScreen ? (
+          <div className="item-mobile">
+            {" "}
+            <Swiper
+              slidesPerView={6}
+              spaceBetween={0}
+              freeMode={true}
+              modules={[FreeMode]}
+              className="mySwiper"
+            >
+              {store.itemimg.map((it, i) => {
+                return (
+                  <SwiperSlide key={i} className={tab == i ? "check" : ""}>
+                    <img
+                      src={it}
+                      alt="item-list"
+                      onClick={() => {
+                        if (tab !== i) {
+                          setTab(i);
+                        }
+                      }}
+                    ></img>
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
+        ) : (
+          <div className="item">
+            <ul>
+              {store.itemimg.map((it, i) => {
+                return (
+                  <li key={i} className={tab == i ? "check" : ""}>
+                    <img
+                      src={it}
+                      alt="item-list"
+                      onClick={() => {
+                        setTab(i);
+                      }}
+                    ></img>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
 
         <div className="item-box">
           {
