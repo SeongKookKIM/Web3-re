@@ -495,7 +495,6 @@ function handleEyesImg(e) {
 function handleTopImg(e) {
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
-  document.querySelector(".default-top").src = relativeSrc;
   let onepiece = document.querySelector(".default-onepiece");
   onepiece.src = "";
 
@@ -503,101 +502,245 @@ function handleTopImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-top").src = "";
       break;
+    case "/assets/image/top/blazer-black-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/blazer-black-in.png";
+      break;
+    case "/assets/image/top/blazer-blue-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/blazer-blue-in.png";
+      break;
+    case "/assets/image/top/blazer-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/blazer-red-in.png";
+      break;
+    case "/assets/image/top/broken-heart-gold-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/broken-heart-gold-in.png";
+      break;
+    case "/assets/image/top/broken-heart-purple-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/broken-heart-purple-in.png";
+      break;
+    case "/assets/image/top/broken-heart-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/broken-heart-red-in.png";
+      break;
     case "/assets/image/top/cardigan-gray-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/cardigan-gray-in.png";
+      break;
+    case "/assets/image/top/cardigan-green-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/cardigan-green-in.png";
+      break;
+    case "/assets/image/top/cardigan-yellow-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/cardigan-yellow-in.png";
+      break;
+    case "/assets/image/top/chain-necklace-gold-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/chain-necklace-gold-in.png";
+      break;
+    case "/assets/image/top/chain-necklace-mint-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/chain-necklace-mint-in.png";
+      break;
+    case "/assets/image/top/chain-necklace-silver-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/chain-necklace-silver-in.png";
+      break;
+    case "/assets/image/top/coach-jacket-brown-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/coach-jacket-brown-in.png";
       break;
     case "/assets/image/top/coach-jacket-indigo-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/coach-jacket-indigo-in.png";
       break;
-    case "/assets/image/top/gingham-shirts-green-out.png":
+    case "/assets/image/top/coach-jacket-white-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/gingham-shirts-green-in.png";
+        "/assets/image/top/coach-jacket-white-in.png";
       break;
-    case "/assets/image/top/hoodie-zip-up-white-out.png":
+    case "/assets/image/top/crop-top-cyber-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/hoodie-zip-up-white-in.png";
+        "/assets/image/top/crop-top-cyber-in.png";
       break;
-    case "/assets/image/top/lace-crop-top-black-out.png":
+    case "/assets/image/top/crop-top-green-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/lace-crop-top-black-in.png";
-      break;
-    case "/assets/image/top/long-sleeved-T-shirt-blue-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/long-sleeved-T-shirt-blue-in.png";
-      break;
-    case "/assets/image/top/long-sleeved-T-shirt-red-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/long-sleeved-T-shirt-red-in.png";
-      break;
-    case "/assets/image/top/polo-shirts-blue-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/polo-shirts-blue-in.png";
-      break;
-    case "/assets/image/top/short-sleeved-T-shirt-blue-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/short-sleeved-T-shirt-blue-in.png";
-      break;
-    case "/assets/image/top/short-sleeved-T-shirt-red-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/short-sleeved-T-shirt-red-in.png";
-      break;
-    case "/assets/image/top/sleeveless-shirt-blue-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/sleeveless-shirt-blue-in.png";
-      break;
-    case "/assets/image/top/sleeveless-shirt-red-out.png":
-      document.querySelector(".default-top").src =
-        "/assets/image/top/sleeveless-shirt-red-in.png";
+        "/assets/image/top/crop-top-green-in.png";
       break;
     case "/assets/image/top/crop-top-white-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/crop-top-white-in.png";
       break;
-    case "/assets/image/top/turtle-neck-black-out.png":
+    case "/assets/image/top/decent-lace-top-beige-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/turtle-neck-black-in.png";
+        "/assets/image/top/decent-lace-top-beige-in.png";
       break;
-    case "/assets/image/top/leopard-wide-shirt-yellow-out.png":
+    case "/assets/image/top/decent-lace-top-black-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/leopard-wide-shirt-yellow-in.png";
+        "/assets/image/top/decent-lace-top-black-in.png";
+      break;
+    case "/assets/image/top/decent-lace-top-mint-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/decent-lace-top-mint-in.png";
+      break;
+    case "/assets/image/top/gingham-shirts-gold-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/gingham-shirts-gold-in.png";
+      break;
+    case "/assets/image/top/gingham-shirts-indigo-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/gingham-shirts-indigo-in.png";
+      break;
+    case "/assets/image/top/gingham-shirts-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/gingham-shirts-red-in.png";
+      break;
+    case "/assets/image/top/heart-knit-blue-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/heart-knit-blue-in.png";
+      break;
+    case "/assets/image/top/heart-knit-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/heart-knit-red-in.png";
+      break;
+    case "/assets/image/top/heart-knit-yellow-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/heart-knit-yellow-in.png";
+      break;
+    case "/assets/image/top/hoodie-pocket-beige-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-pocket-beige-in.png";
+      break;
+    case "/assets/image/top/hoodie-pocket-gray-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-pocket-gray-in.png";
+      break;
+    case "/assets/image/top/hoodie-pocket-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-pocket-red-in.png";
+      break;
+    case "/assets/image/top/hoodie-zip-up-green-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-zip-up-green-in.png";
+      break;
+    case "/assets/image/top/hoodie-zip-up-white-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-zip-up-white-in.png";
+      break;
+    case "/assets/image/top/hoodie-zip-up-yellow-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/hoodie-zip-up-yellow-in.png";
+      break;
+    case "/assets/image/top/lace-crop-top-black-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/lace-crop-top-black-in.png";
+      break;
+    case "/assets/image/top/lace-crop-top-orange-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/lace-crop-top-orange-in.png";
+      break;
+    case "/assets/image/top/lace-crop-top-white-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/lace-crop-top-white-in.png";
+      break;
+    case "/assets/image/top/off-shoulder-purple-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/off-shoulder-purple-in.png";
       break;
     case "/assets/image/top/off-shoulder-red-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/off-shoulder-red-in.png";
       break;
-    case "/assets/image/top/shirt-knit-pink-out.png":
+    case "/assets/image/top/off-shoulder-yellow-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/shirt-knit-pink-in.png";
+        "/assets/image/top/off-shoulder-yellow-in.png";
       break;
-    case "/assets/image/top/short-sleeve-heart-knit-red-out.png":
+    case "/assets/image/top/pattern-wide-shirt-flower-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/short-sleeve-heart-knit-red-in.png";
+        "/assets/image/top/pattern-wide-shirt-flower-in.png";
+      break;
+    case "/assets/image/top/pattern-wide-shirt-marine-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/pattern-wide-shirt-marine-in.png";
+      break;
+    case "/assets/image/top/pattern-wide-shirt-reopard-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/pattern-wide-shirt-reopard-in.png";
+      break;
+    case "/assets/image/top/pointed-necklace-green-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/pointed-necklace-green-in.png";
+      break;
+    case "/assets/image/top/pointed-necklace-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/pointed-necklace-red-in.png";
+      break;
+    case "/assets/image/top/pointed-necklace-white-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/pointed-necklace-white-in.png";
+      break;
+    case "/assets/image/top/polo-shirts-blue-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/polo-shirts-blue-in.png";
+      break;
+    case "/assets/image/top/polo-shirts-green-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/polo-shirts-green-in.png";
+      break;
+    case "/assets/image/top/polo-shirts-purple-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/polo-shirts-purple-in.png";
+      break;
+    case "/assets/image/top/shirt-knit-blue-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/shirt-knit-blue-in.png";
+      break;
+    case "/assets/image/top/shirt-knit-purple-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/shirt-knit-purple-in.png";
+      break;
+    case "/assets/image/top/shirt-knit-red-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/shirt-knit-red-in.png";
       break;
     case "/assets/image/top/short-sleeve-shirt-black-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/short-sleeve-shirt-black-in.png";
       break;
-    case "/assets/image/top/blazer-black-out.png":
+    case "/assets/image/top/short-sleeve-shirt-blue-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/blazer-black-in.png";
+        "/assets/image/top/short-sleeve-shirt-blue-in.png";
       break;
-    case "/assets/image/top/blazer-short-black-out.png":
+    case "/assets/image/top/short-sleeve-shirt-white-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/blazer-short-black-in.png";
+        "/assets/image/top/short-sleeve-shirt-white-in.png";
       break;
-    case "/assets/image/top/hoodie-pocket-black-out.png":
+    case "/assets/image/top/turtle-neck-black-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/hoodie-pocket-black-in.png";
+        "/assets/image/top/turtle-neck-black-in.png";
       break;
-    case "/assets/image/top/sleeveless-shirt2-white-out.png":
+    case "/assets/image/top/turtle-neck-blue-out.png":
       document.querySelector(".default-top").src =
-        "/assets/image/top/sleeveless-shirt2-white-in.png";
+        "/assets/image/top/turtle-neck-blue-in.png";
+      break;
+    case "/assets/image/top/turtle-neck-white-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/turtle-neck-white-in.png";
       break;
     case "/assets/image/top/varsity-black-out.png":
       document.querySelector(".default-top").src =
         "/assets/image/top/varsity-black-in.png";
+      break;
+    case "/assets/image/top/varsity-blue-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/varsity-blue-in.png";
+      break;
+    case "/assets/image/top/varsity-purple-out.png":
+      document.querySelector(".default-top").src =
+        "/assets/image/top/varsity-purple-in.png";
       break;
 
     default:

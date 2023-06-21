@@ -673,92 +673,237 @@ let topimg = createSlice({
   name: "topimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    { src: "assets/image/top/cardigan-gray-out.png", name: "cardigan-gray" },
+    { src: "assets/image/top/blazer-black-out.png", name: "blazer-black" },
+    { src: "assets/image/top/blazer-blue-out.png", name: "blazer-blue" },
+    { src: "assets/image/top/blazer-red-out.png", name: "blazer-red" },
+    {
+      src: "assets/image/top/broken-heart-gold-out.png",
+      name: "broken-heart-gold",
+    },
+    {
+      src: "assets/image/top/broken-heart-purple-out.png",
+      name: "broken-heart-purple",
+    },
+    {
+      src: "assets/image/top/broken-heart-red-out.png",
+      name: "broken-heart-red",
+    },
+    {
+      src: "assets/image/top/cardigan-gray-out.png",
+      name: "cardigan-gray",
+    },
+    {
+      src: "assets/image/top/cardigan-green-out.png",
+      name: "cardigan-green",
+    },
+    {
+      src: "assets/image/top/cardigan-yellow-out.png",
+      name: "cardigan-yellow",
+    },
+    {
+      src: "assets/image/top/chain-necklace-gold-out.png",
+      name: "chain-necklace-gold",
+    },
+    {
+      src: "assets/image/top/chain-necklace-mint-out.png",
+      name: "chain-necklace-mint",
+    },
+    {
+      src: "assets/image/top/chain-necklace-silver-out.png",
+      name: "chain-necklace-silver",
+    },
+    {
+      src: "assets/image/top/coach-jacket-brown-out.png",
+      name: "coach-jacket-brown",
+    },
     {
       src: "assets/image/top/coach-jacket-indigo-out.png",
       name: "coach-jacket-indigo",
     },
     {
-      src: "assets/image/top/gingham-shirts-green-out.png",
-      name: "gingham-shirts-green",
+      src: "assets/image/top/coach-jacket-white-out.png",
+      name: "coach-jacket-white",
+    },
+    {
+      src: "assets/image/top/crop-top-cyber-out.png",
+      name: "crop-top-cyber",
+    },
+    {
+      src: "assets/image/top/crop-top-green-out.png",
+      name: "crop-top-green",
+    },
+    {
+      src: "assets/image/top/crop-top-white-out.png",
+      name: "crop-top-white",
+    },
+    {
+      src: "assets/image/top/decent-lace-top-beige-out.png",
+      name: "decent-lace-top-beige",
+    },
+    {
+      src: "assets/image/top/decent-lace-top-black-out.png",
+      name: "decent-lace-top-black",
+    },
+    {
+      src: "assets/image/top/decent-lace-top-mint-out.png",
+      name: "decent-lace-top-mint",
+    },
+    {
+      src: "assets/image/top/gingham-shirts-gold-out.png",
+      name: "gingham-shirts-gold",
+    },
+    {
+      src: "assets/image/top/gingham-shirts-indigo-out.png",
+      name: "gingham-shirts-indigo",
+    },
+    {
+      src: "assets/image/top/gingham-shirts-red-out.png",
+      name: "gingham-shirts-red",
+    },
+    {
+      src: "assets/image/top/heart-knit-blue-out.png",
+      name: "heart-knit-blue",
+    },
+    {
+      src: "assets/image/top/heart-knit-red-out.png",
+      name: "heart-knit-red",
+    },
+    {
+      src: "assets/image/top/heart-knit-yellow-out.png",
+      name: "heart-knit-yellow",
+    },
+    {
+      src: "assets/image/top/hoodie-pocket-beige-out.png",
+      name: "hoodie-pocket-beige",
+    },
+    {
+      src: "assets/image/top/hoodie-pocket-gray-out.png",
+      name: "hoodie-pocket-gray",
+    },
+    {
+      src: "assets/image/top/hoodie-pocket-red-out.png",
+      name: "hoodie-pocket-red",
+    },
+    {
+      src: "assets/image/top/hoodie-zip-up-green-out.png",
+      name: "hoodie-zip-up-green",
     },
     {
       src: "assets/image/top/hoodie-zip-up-white-out.png",
       name: "hoodie-zip-up-white",
     },
     {
+      src: "assets/image/top/hoodie-zip-up-yellow-out.png",
+      name: "hoodie-zip-up-yellow",
+    },
+    {
       src: "assets/image/top/lace-crop-top-black-out.png",
       name: "lace-crop-top-black",
     },
     {
-      src: "assets/image/top/long-sleeved-T-shirt-blue-out.png",
-      name: "long-sleeved-T-shirt-blue",
+      src: "assets/image/top/lace-crop-top-orange-out.png",
+      name: "lace-crop-top-orange",
     },
     {
-      src: "assets/image/top/long-sleeved-T-shirt-red-out.png",
-      name: "long-sleeved-T-shirt-red",
+      src: "assets/image/top/lace-crop-top-white-out.png",
+      name: "lace-crop-top-white",
     },
     {
-      src: "assets/image/top/polo-shirts-blue-out.png",
-      name: "polo-shirts-blue",
-    },
-    {
-      src: "assets/image/top/short-sleeved-T-shirt-blue-out.png",
-      name: "short-sleeved-T-shirt-blue",
-    },
-    {
-      src: "assets/image/top/short-sleeved-T-shirt-red-out.png",
-      name: "short-sleeved-T-shirt-red",
-    },
-    {
-      src: "assets/image/top/sleeveless-shirt-blue-out.png",
-      name: "sleeveless-shirt-blue",
-    },
-    {
-      src: "assets/image/top/sleeveless-shirt-red-out.png",
-      name: "sleeveless-shirt-red",
-    },
-    { src: "assets/image/top/crop-top-white-out.png", name: "crop-top-white" },
-    {
-      src: "assets/image/top/turtle-neck-black-out.png",
-      name: "turtle-neck-black",
-    },
-    {
-      src: "assets/image/top/leopard-wide-shirt-yellow-out.png",
-      name: "leopard-wide-shirt-yellow",
+      src: "assets/image/top/off-shoulder-purple-out.png",
+      name: "off-shoulder-purple",
     },
     {
       src: "assets/image/top/off-shoulder-red-out.png",
       name: "off-shoulder-red",
     },
     {
-      src: "assets/image/top/shirt-knit-pink-out.png",
-      name: "shirt-knit-pink",
+      src: "assets/image/top/off-shoulder-yellow-out.png",
+      name: "off-shoulder-yellow",
     },
     {
-      src: "assets/image/top/short-sleeve-heart-knit-red-out.png",
-      name: "short-sleeve-heart-knit-red",
+      src: "assets/image/top/pattern-wide-shirt-flower-out.png",
+      name: "pattern-wide-shirt-flower",
+    },
+    {
+      src: "assets/image/top/pattern-wide-shirt-marine-out.png",
+      name: "pattern-wide-shirt-marine",
+    },
+    {
+      src: "assets/image/top/pattern-wide-shirt-reopard-out.png",
+      name: "pattern-wide-shirt-reopard",
+    },
+    {
+      src: "assets/image/top/pointed-necklace-green-out.png",
+      name: "pointed-necklace-green",
+    },
+    {
+      src: "assets/image/top/pointed-necklace-red-out.png",
+      name: "pointed-necklace-red",
+    },
+    {
+      src: "assets/image/top/pointed-necklace-white-out.png",
+      name: "pointed-necklace-white",
+    },
+    {
+      src: "assets/image/top/polo-shirts-blue-out.png",
+      name: "polo-shirts-blue",
+    },
+    {
+      src: "assets/image/top/polo-shirts-green-out.png",
+      name: "polo-shirts-green",
+    },
+    {
+      src: "assets/image/top/polo-shirts-purple-out.png",
+      name: "polo-shirts-purple",
+    },
+    {
+      src: "assets/image/top/shirt-knit-blue-out.png",
+      name: "shirt-knit-blue",
+    },
+    {
+      src: "assets/image/top/shirt-knit-purple-out.png",
+      name: "shirt-knit-purple",
+    },
+    {
+      src: "assets/image/top/shirt-knit-red-out.png",
+      name: "shirt-knit-red",
     },
     {
       src: "assets/image/top/short-sleeve-shirt-black-out.png",
       name: "short-sleeve-shirt-black",
     },
-    { src: "assets/image/top/blazer-black-out.png", name: "blazer-black" },
     {
-      src: "assets/image/top/blazer-short-black-out.png",
-      name: "blazer-short-black",
+      src: "assets/image/top/short-sleeve-shirt-blue-out.png",
+      name: "short-sleeve-shirt-blue",
     },
     {
-      src: "assets/image/top/hoodie-pocket-black-out.png",
-      name: "hoodie-pocket-black",
+      src: "assets/image/top/short-sleeve-shirt-white-out.png",
+      name: "short-sleeve-shirt-white",
     },
     {
-      src: "assets/image/top/sleeveless-shirt2-white-out.png",
-      name: "sleeveless-shirt2-white",
+      src: "assets/image/top/turtle-neck-black-out.png",
+      name: "turtle-neck-black",
     },
-    { src: "assets/image/top/varsity-black-out.png", name: "varsity-black" },
-    { src: "assets/image/top/trench-coat-1.png", name: "trench-coat-1" },
-    { src: "assets/image/top/trench-coat-2.png", name: "trench-coat-2" },
+    {
+      src: "assets/image/top/turtle-neck-blue-out.png",
+      name: "turtle-neck-blue",
+    },
+    {
+      src: "assets/image/top/turtle-neck-white-out.png",
+      name: "turtle-neck-white",
+    },
+    {
+      src: "assets/image/top/varsity-black-out.png",
+      name: "varsity-black",
+    },
+    {
+      src: "assets/image/top/varsity-blue-out.png",
+      name: "varsity-blue",
+    },
+    {
+      src: "assets/image/top/varsity-purple-out.png",
+      name: "varsity-purple",
+    },
   ],
 });
 
