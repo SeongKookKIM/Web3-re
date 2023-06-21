@@ -11,7 +11,7 @@ function Kidult() {
 
     try {
       const div = captureRef.current;
-      const canva = await html2canvas(div, { width: 500, height: 500 });
+      const canva = await html2canvas(div, { scale: 1 });
       canva.toBlob((blob) => {
         if (blob !== null) {
           saveAs(blob, "result.jpg");

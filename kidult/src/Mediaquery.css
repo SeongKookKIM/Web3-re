@@ -49,6 +49,7 @@
   }
   .default {
     width: 70%;
+    height: 100%;
   }
   .item-box h3 {
     font-size: 2rem;
@@ -79,6 +80,7 @@
   .reset-box p {
     font-size: 1rem;
   }
+
   .default .default-reset {
     display: block;
     position: absolute;
