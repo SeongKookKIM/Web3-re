@@ -912,20 +912,184 @@ let onepieceimg = createSlice({
   initialState: [
     { src: "assets/image/none.png", name: "none" },
     {
-      src: "assets/image/top-onepiece/magical-dress-indigo-out.png",
-      name: "magical-dress-indigo",
+      src: "assets/image/top-onepiece/zigzag-dress-purple-out.png",
+      name: "zigzag-dress-purple",
     },
     {
-      src: "assets/image/top-onepiece/suspenders-dress-blue-out.png",
-      name: "suspenders-dress-blue",
+      src: "assets/image/top-onepiece/zigzag-dress-orange-out.png",
+      name: "zigzag-dress-orange",
+    },
+    {
+      src: "assets/image/top-onepiece/zigzag-dress-green-out.png",
+      name: "zigzag-dress-green",
     },
     {
       src: "assets/image/top-onepiece/tight-dress-white-out.png",
       name: "tight-dress-white",
     },
     {
-      src: "assets/image/top-onepiece/zigzag-dress-red-out.png",
-      name: "zigzag-dress-red",
+      src: "assets/image/top-onepiece/tight-dress-gold-out.png",
+      name: "tight-dress-gold",
+    },
+    {
+      src: "assets/image/top-onepiece/tight-dress-blue-out.png",
+      name: "tight-dress-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/suspenders-dress-green-out.png",
+      name: "suspenders-dress-green",
+    },
+    {
+      src: "assets/image/top-onepiece/suspenders-dress-blue-out.png",
+      name: "suspenders-dress-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/suspenders-dress-black-out.png",
+      name: "suspenders-dress-black",
+    },
+    {
+      src: "assets/image/top-onepiece/roman-clothes-red-out.png",
+      name: "roman-clothes-red",
+    },
+    {
+      src: "assets/image/top-onepiece/roman-clothes-purple-out.png",
+      name: "roman-clothes-purple",
+    },
+    {
+      src: "assets/image/top-onepiece/roman-clothes-green-out.png",
+      name: "roman-clothes-green",
+    },
+    {
+      src: "assets/image/top-onepiece/religious-robe-white-out.png",
+      name: "religious-robe-white",
+    },
+    {
+      src: "assets/image/top-onepiece/religious-robe-brown-out.png",
+      name: "religious-robe-brown",
+    },
+    {
+      src: "assets/image/top-onepiece/religious-robe-black-out.png",
+      name: "religious-robe-black",
+    },
+    {
+      src: "assets/image/top-onepiece/plate-armor-iron-out.png",
+      name: "plate-armor-iron",
+    },
+    {
+      src: "assets/image/top-onepiece/plate-armor-gold-out.png",
+      name: "plate-armor-gold",
+    },
+    {
+      src: "assets/image/top-onepiece/plate-armor-black-out.png",
+      name: "plate-armor-black",
+    },
+    {
+      src: "assets/image/top-onepiece/pilot-suit-red-out.png",
+      name: "pilot-suit-red",
+    },
+    {
+      src: "assets/image/top-onepiece/pilot-suit-orange-out.png",
+      name: "pilot-suit-orange",
+    },
+    {
+      src: "assets/image/top-onepiece/pilot-suit-green-out.png",
+      name: "pilot-suit-green",
+    },
+    {
+      src: "assets/image/top-onepiece/overalls-white-out.png",
+      name: "overalls-white",
+    },
+    {
+      src: "assets/image/top-onepiece/overalls-red-out.png",
+      name: "overalls-red",
+    },
+    {
+      src: "assets/image/top-onepiece/overalls-brown-out.png",
+      name: "overalls-brown",
+    },
+    {
+      src: "assets/image/top-onepiece/martial-arts-uniform-white-out.png",
+      name: "martial-arts-uniform-white",
+    },
+    {
+      src: "assets/image/top-onepiece/martial-arts-uniform-gray-out.png",
+      name: "martial-arts-uniform-gray",
+    },
+    {
+      src: "assets/image/top-onepiece/martial-arts-uniform-black-out.png",
+      name: "martial-arts-uniform-black",
+    },
+    {
+      src: "assets/image/top-onepiece/magical-dress-white-out.png",
+      name: "magical-dress-white",
+    },
+    {
+      src: "assets/image/top-onepiece/magical-dress-blue-out.png",
+      name: "magical-dress-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/magical-dress-black-out.png",
+      name: "magical-dress-black",
+    },
+    {
+      src: "assets/image/top-onepiece/long-sleeved-coat-red-out.png",
+      name: "long-sleeved-coat-red",
+    },
+    {
+      src: "assets/image/top-onepiece/long-sleeved-coat-purple-out.png",
+      name: "long-sleeved-coat-purple",
+    },
+    {
+      src: "assets/image/top-onepiece/long-sleeved-coat-green-out.png",
+      name: "long-sleeved-coat-green",
+    },
+    {
+      src: "assets/image/top-onepiece/loincloth-green-out.png",
+      name: "loincloth-green",
+    },
+    {
+      src: "assets/image/top-onepiece/loincloth-brown-out.png",
+      name: "loincloth-brown",
+    },
+    {
+      src: "assets/image/top-onepiece/loincloth-blue-out.png",
+      name: "loincloth-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/lace-dress-yellow-out.png",
+      name: "lace-dress-yellow",
+    },
+    {
+      src: "assets/image/top-onepiece/lace-dress-pink-out.png",
+      name: "lace-dress-pink",
+    },
+    {
+      src: "assets/image/top-onepiece/lace-dress-black-blood-out.png",
+      name: "lace-dress-black-blood",
+    },
+    {
+      src: "assets/image/top-onepiece/bodysuit-yellow-out.png",
+      name: "bodysuit-yellow",
+    },
+    {
+      src: "assets/image/top-onepiece/bodysuit-red-out.png",
+      name: "bodysuit-red",
+    },
+    {
+      src: "assets/image/top-onepiece/bodysuit-blue-out.png",
+      name: "bodysuit-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/bathrobe-white-out.png",
+      name: "bathrobe-white",
+    },
+    {
+      src: "assets/image/top-onepiece/bathrobe-blue-out.png",
+      name: "bathrobe-blue",
+    },
+    {
+      src: "assets/image/top-onepiece/bathrobe-black-out.png",
+      name: "bathrobe-black",
     },
   ],
 });

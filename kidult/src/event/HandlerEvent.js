@@ -749,7 +749,6 @@ function handleTopImg(e) {
 }
 
 function handleOnepieceImg(e) {
-  let cancle = false;
   let src = e.target.src;
   const relativeSrc = src.replace(/^.*\/\/[^\/]+/, "");
   let bottom = document.querySelector(".default-bottom");
@@ -761,22 +760,187 @@ function handleOnepieceImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-onepiece").src = "";
       break;
-    case "/assets/image/top-onepiece/magical-dress-indigo-out.png":
+    case "/assets/image/top-onepiece/zigzag-dress-purple-out.png":
       document.querySelector(".default-onepiece").src =
-        "/assets/image/top-onepiece/magical-dress-indigo-in.png";
+        "/assets/image/top-onepiece/zigzag-dress-purple-in.png";
       break;
-    case "/assets/image/top-onepiece/suspenders-dress-blue-out.png":
+    case "/assets/image/top-onepiece/zigzag-dress-orange-out.png":
       document.querySelector(".default-onepiece").src =
-        "/assets/image/top-onepiece/suspenders-dress-blue-in.png";
+        "/assets/image/top-onepiece/zigzag-dress-orange-in.png";
+      break;
+    case "/assets/image/top-onepiece/zigzag-dress-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/zigzag-dress-green-in.png";
       break;
     case "/assets/image/top-onepiece/tight-dress-white-out.png":
       document.querySelector(".default-onepiece").src =
         "/assets/image/top-onepiece/tight-dress-white-in.png";
       break;
-    case "/assets/image/top-onepiece/zigzag-dress-red-out.png":
+    case "/assets/image/top-onepiece/tight-dress-gold-out.png":
       document.querySelector(".default-onepiece").src =
-        "/assets/image/top-onepiece/zigzag-dress-red-in.png";
+        "/assets/image/top-onepiece/tight-dress-gold-in.png";
       break;
+    case "/assets/image/top-onepiece/tight-dress-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/tight-dress-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/suspenders-dress-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/suspenders-dress-green-in.png";
+      break;
+    case "/assets/image/top-onepiece/suspenders-dress-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/suspenders-dress-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/suspenders-dress-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/suspenders-dress-black-in.png";
+      break;
+    case "/assets/image/top-onepiece/roman-clothes-red-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/roman-clothes-red-in.png";
+      break;
+    case "/assets/image/top-onepiece/roman-clothes-purple-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/roman-clothes-purple-in.png";
+      break;
+    case "/assets/image/top-onepiece/roman-clothes-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/roman-clothes-green-in.png";
+      break;
+    case "/assets/image/top-onepiece/religious-robe-white-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/religious-robe-white-in.png";
+      break;
+    case "/assets/image/top-onepiece/religious-robe-brown-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/religious-robe-brown-in.png";
+      break;
+    case "/assets/image/top-onepiece/religious-robe-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/religious-robe-black-in.png";
+      break;
+    case "/assets/image/top-onepiece/plate-armor-iron-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/plate-armor-iron-in.png";
+      break;
+    case "/assets/image/top-onepiece/plate-armor-gold-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/plate-armor-gold-in.png";
+      break;
+    case "/assets/image/top-onepiece/plate-armor-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/plate-armor-black-in.png";
+      break;
+    case "/assets/image/top-onepiece/pilot-suit-red-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/pilot-suit-red-in.png";
+      break;
+    case "/assets/image/top-onepiece/pilot-suit-orange-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/pilot-suit-orange-in.png";
+      break;
+    case "/assets/image/top-onepiece/pilot-suit-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/pilot-suit-green-in.png";
+      break;
+    case "/assets/image/top-onepiece/overalls-white-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/overalls-white-in.png";
+      break;
+    case "/assets/image/top-onepiece/overalls-red-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/overalls-red-in.png";
+      break;
+    case "/assets/image/top-onepiece/overalls-brown-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/overalls-brown-in.png";
+      break;
+    case "/assets/image/top-onepiece/martial-arts-uniform-white-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/martial-arts-uniform-white-in.png";
+      break;
+    case "/assets/image/top-onepiece/martial-arts-uniform-gray-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/martial-arts-uniform-gray-in.png";
+      break;
+    case "/assets/image/top-onepiece/martial-arts-uniform-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/martial-arts-uniform-black-in.png";
+      break;
+    case "/assets/image/top-onepiece/magical-dress-white-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/magical-dress-white-in.png";
+      break;
+    case "/assets/image/top-onepiece/magical-dress-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/magical-dress-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/magical-dress-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/magical-dress-black-in.png";
+      break;
+    case "/assets/image/top-onepiece/long-sleeved-coat-red-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/long-sleeved-coat-red-in.png";
+      break;
+    case "/assets/image/top-onepiece/long-sleeved-coat-purple-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/long-sleeved-coat-purple-in.png";
+      break;
+    case "/assets/image/top-onepiece/long-sleeved-coat-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/long-sleeved-coat-green-in.png";
+      break;
+    case "/assets/image/top-onepiece/loincloth-green-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/loincloth-green-in.png";
+      break;
+    case "/assets/image/top-onepiece/loincloth-brown-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/loincloth-brown-in.png";
+      break;
+    case "/assets/image/top-onepiece/loincloth-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/loincloth-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/lace-dress-yellow-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/lace-dress-yellow-in.png";
+      break;
+    case "/assets/image/top-onepiece/lace-dress-pink-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/lace-dress-pink-in.png";
+      break;
+    case "/assets/image/top-onepiece/lace-dress-black-blood-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/lace-dress-black-blood-in.png";
+      break;
+    case "/assets/image/top-onepiece/bodysuit-yellow-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bodysuit-yellow-in.png";
+      break;
+    case "/assets/image/top-onepiece/bodysuit-red-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bodysuit-red-in.png";
+      break;
+    case "/assets/image/top-onepiece/bodysuit-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bodysuit-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/bathrobe-white-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bathrobe-white-in.png";
+      break;
+    case "/assets/image/top-onepiece/bathrobe-blue-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bathrobe-blue-in.png";
+      break;
+    case "/assets/image/top-onepiece/bathrobe-black-out.png":
+      document.querySelector(".default-onepiece").src =
+        "/assets/image/top-onepiece/bathrobe-black-in.png";
+      break;
+
     default:
       break;
   }
