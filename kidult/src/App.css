@@ -295,6 +295,7 @@
 /* Default */
 .default {
   width: 50%;
+  height: 100vh;
   aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
@@ -313,13 +314,37 @@
   display: none;
 }
 .default-inner {
-  width: 80%;
-  height: 56.8%;
+  width: 600px;
+  height: 600px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  border: 3px solid red;
+}
+@media screen and (max-width: 1350px) {
+  .default-inner {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .default-inner {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .default-inner {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .default-inner {
+    width: 400px;
+    height: 400px;
+  }
 }
 .default-inner img {
   width: 100%;
@@ -339,10 +364,10 @@
   z-index: 1;
 }
 .default .default-inner img.default-slot {
-  z-index: 2;
+  z-index: 3;
 }
 .default .default-inner img.default-pattern {
-  z-index: 3;
+  z-index: 2;
 }
 .default .default-inner img.default-design {
   z-index: 4;
