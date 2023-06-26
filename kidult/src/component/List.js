@@ -8,10 +8,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import ListMenu from "./ListMenu";
 
+import { TfiAngleDoubleUp } from "react-icons/tfi";
+
 function List() {
   let [tab, setTab] = useState(0);
   let [sealNum, setSealNum] = useState(0);
   let [fade, setFade] = useState("");
+  let [linkBar, setLinkBar] = useState(false);
 
   let store = useSelector((state) => {
     return state;
@@ -163,26 +166,39 @@ function List() {
           </div>
         </div>
 
-        <div className="item-bottom">
-          <img src={store.showimg.src}></img>
-          <h2>{store.showimg.name}</h2>
-          <div className="reset-box">
-            <div className="reset">
-              <img
-                src="assets/image/emoticon/reset.png"
-                className="reset"
-                onClick={() => {
-                  window.location.reload();
-                }}
-              ></img>
-              <p>RESET</p>
-            </div>
-            <div>
-              <img src="assets/image/emoticon/link.png" className="link"></img>
-              <p>LINK</p>
+        {isSmallScreen ? (
+          <div className="link-fade">
+            <TfiAngleDoubleUp
+              onClick={() => {
+                setLinkBar(true);
+              }}
+            />
+          </div>
+        ) : (
+          <div className="item-bottom">
+            <img src={store.showimg.src}></img>
+            <h2>{store.showimg.name}</h2>
+            <div className="reset-box">
+              <div className="reset">
+                <img
+                  src="assets/image/emoticon/reset.png"
+                  className="reset"
+                  onClick={() => {
+                    window.location.reload();
+                  }}
+                ></img>
+                <p>RESET</p>
+              </div>
+              <div>
+                <img
+                  src="assets/image/emoticon/link.png"
+                  className="link"
+                ></img>
+                <p>LINK</p>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
