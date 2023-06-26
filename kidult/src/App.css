@@ -340,6 +340,11 @@
     width: 500px;
     height: 500px;
   }
+  .default button {
+    width: 90px;
+    height: 90px;
+    bottom: 10%;
+  }
 }
 @media screen and (max-width: 1150px) {
   .default-inner {
@@ -353,16 +358,14 @@
     height: 400px;
   }
 }
-@media screen and (max-width: 800px) {
-  .default-inner {
-    width: 400px;
-    height: 400px;
-  }
-}
 @media screen and (max-width: 680px) {
   .default-inner {
     width: 350px;
     height: 350px;
+  }
+  .default button {
+    width: 70px;
+    height: 70px;
   }
 }
 .default-inner img {

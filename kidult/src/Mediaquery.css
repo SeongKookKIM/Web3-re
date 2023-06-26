@@ -105,6 +105,13 @@
     font-size: 1rem;
     color: #707070;
   }
+  .default button {
+    width: 80px;
+    height: 80px;
+    bottom: 0;
+    top: 2%;
+    right: 2%;
+  }
 }
 @media screen and (max-width: 650px) {
   .item {
@@ -124,6 +131,10 @@
   }
   .item-bottom h2 {
     font-size: 1.3rem;
+  }
+  .default button {
+    width: 50px;
+    height: 50px;
   }
 }
 @media screen and (max-width: 550px) {
