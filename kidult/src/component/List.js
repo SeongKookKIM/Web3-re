@@ -2,11 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/pagination";
 import ListMenu from "./ListMenu";
 
 function List() {
@@ -42,10 +41,7 @@ function List() {
               slidesPerView={6}
               spaceBetween={0}
               freeMode={true}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[FreeMode, Pagination]}
+              modules={[FreeMode]}
               className="mySwiper"
             >
               {store.itemimg.map((it, i) => {
