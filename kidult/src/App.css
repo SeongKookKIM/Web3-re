@@ -303,13 +303,27 @@
   position: relative;
 }
 .default button {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  padding: 0.5rem;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 5%;
+  right: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d4d4;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  z-index: 9999;
 }
+.default button img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
 .default .default-reset {
   display: none;
 }
@@ -320,7 +334,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid red;
 }
 @media screen and (max-width: 1350px) {
   .default-inner {
@@ -344,6 +357,12 @@
   .default-inner {
     width: 400px;
     height: 400px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .default-inner {
+    width: 350px;
+    height: 350px;
   }
 }
 .default-inner img {

@@ -76,7 +76,9 @@ function Kidult() {
         <img src="assets/image/emoticon/reset.png" className="reset"></img>
         <p>RESET</p>
       </div>
-      <button onClick={handleCapture}>capture</button>
+      <button onClick={handleCapture}>
+        <img src="assets/image/camera.svg" />
+      </button>
     </div>
   );
 }

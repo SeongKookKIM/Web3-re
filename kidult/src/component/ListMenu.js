@@ -257,6 +257,26 @@ function ListMenu({ tab, sealNum, fade }) {
               </li>
             );
           }),
+          store.packageimg.map((it, i) => {
+            return (
+              <li key={i} className={imgTab13 === i ? "checked" : ""}>
+                <img
+                  src={it.src}
+                  alt="package"
+                  onClick={(e) => {
+                    setImgTab13(i);
+                    handlePackageImg(e);
+                    dispatch(
+                      changeShow({
+                        src: it.src,
+                        name: it.name,
+                      })
+                    );
+                  }}
+                ></img>
+              </li>
+            );
+          }),
           store.azoneimg.map((it, i) => {
             return (
               <li key={i} className={imgTab10 === i ? "checked" : ""}>
@@ -317,26 +337,7 @@ function ListMenu({ tab, sealNum, fade }) {
               </li>
             );
           }),
-          store.packageimg.map((it, i) => {
-            return (
-              <li key={i} className={imgTab13 === i ? "checked" : ""}>
-                <img
-                  src={it.src}
-                  alt="package"
-                  onClick={(e) => {
-                    setImgTab13(i);
-                    handlePackageImg(e);
-                    dispatch(
-                      changeShow({
-                        src: it.src,
-                        name: it.name,
-                      })
-                    );
-                  }}
-                ></img>
-              </li>
-            );
-          }),
+
           store.packDesignimg.map((it, i) => {
             return (
               <li key={i} className={imgTab14 === i ? "checked" : ""}>
