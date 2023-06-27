@@ -106,7 +106,7 @@
   .default .default-reset {
     display: block;
     position: absolute;
-    top: 95%;
+    top: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -161,6 +161,9 @@
   .default button {
     width: 50px;
     height: 50px;
+  }
+  .default {
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 550px) {

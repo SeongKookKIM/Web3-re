@@ -15,7 +15,6 @@ function List() {
   let [sealNum, setSealNum] = useState(0);
   let [fade, setFade] = useState("");
   let [linkBar, setLinkBar] = useState(false);
-  console.log(linkBar);
 
   let store = useSelector((state) => {
     return state;
