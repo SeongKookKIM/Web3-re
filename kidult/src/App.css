@@ -236,10 +236,10 @@
 
 /* item-bottom(MOBILE) */
 .link-fade {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: fixed;
-  bottom: 0;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -248,6 +248,7 @@
   border-radius: 50%;
   background-color: #afafaf;
   z-index: 20;
+  opacity: 0.9;
 }
 .mobile-wrapper {
   width: 100%;
