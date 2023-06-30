@@ -14,7 +14,7 @@ function Kidult() {
       const canva = await html2canvas(div, { scale: 1 });
       canva.toBlob((blob) => {
         if (blob !== null) {
-          saveAs(blob, "result.jpg");
+          saveAs(blob, "result.png");
         }
       });
     } catch (error) {
