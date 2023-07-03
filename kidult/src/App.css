@@ -371,7 +371,7 @@
   height: 100px;
   position: fixed;
   bottom: 5%;
-  right: 22%;
+  right: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,7 +398,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
 }
 
 @media screen and (max-width: 1350px) {
@@ -409,7 +408,6 @@
   .default button {
     width: 90px;
     height: 90px;
-    bottom: 10%;
   }
 }
 @media screen and (max-width: 1150px) {
@@ -418,22 +416,22 @@
     height: 800px;
   }
 }
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .default-inner {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 680px) {
   .default-inner {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: auto;
   }
   .default button {
     width: 70px;
     height: 70px;
   }
-} */
+}
 .default-inner img {
   width: 100%;
   position: absolute;
