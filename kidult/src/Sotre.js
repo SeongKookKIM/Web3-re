@@ -302,18 +302,7 @@ let hairimg = createSlice({
   name: "hairimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
-    {
-      src: "assets/image/hair/angry-cut-black-out.png",
-      name: "angry-cut-black",
-    },
-    {
-      src: "assets/image/hair/angry-cut-green-out.png",
-      name: "angry-cut-green",
-    },
-    {
-      src: "assets/image/hair/angry-cut-red-out.png",
-      name: "angry-cut-red",
-    },
+
     {
       src: "assets/image/hair/blind-cut-black-out.png",
       name: "blind-cut-black",
