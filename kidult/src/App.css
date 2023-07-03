@@ -419,13 +419,19 @@
 @media screen and (max-width: 800px) {
   .default-inner {
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  .default-inner img {
+    width: 100%;
   }
 }
 @media screen and (max-width: 680px) {
   .default-inner {
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  .default-inner img {
+    width: 100%;
   }
   .default button {
     width: 70px;
