@@ -145,6 +145,9 @@
   }
 }
 @media screen and (max-width: 650px) {
+  .list {
+    height: auto;
+  }
   .item {
     width: 90%;
   }
