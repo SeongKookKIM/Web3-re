@@ -129,6 +129,9 @@
 .item ul li:nth-child(17) {
   border-bottom: none;
 }
+.item ul li:nth-child(18) {
+  border-bottom: none;
+}
 
 .item ul li:hover {
   background-color: rgb(167, 167, 167);
@@ -188,22 +191,24 @@
 
 .item-box .item-box-list {
   width: 98%;
-  height: 450px;
+  height: 75%;
   /* height: 600px; */
   overflow-y: scroll;
   background-color: #d4d4d4;
   border-radius: 20px;
   position: relative;
+  top: 30px;
 }
 .item-box .item-box-list::-webkit-scrollbar {
   display: none;
 }
 
 .item-box-list ul {
+  width: 100%;
   position: absolute;
   top: -50%;
   opacity: 0;
-  width: 100%;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -368,6 +373,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .default button {
   width: 100px;
@@ -401,7 +407,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 @media screen and (max-width: 1350px) {

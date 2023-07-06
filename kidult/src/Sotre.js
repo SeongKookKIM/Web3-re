@@ -340,16 +340,16 @@ let hairimg = createSlice({
       name: "buzz-cut-yellow",
     },
     {
-      src: "assets/image/hair/calm-hair-brown-out.png",
-      name: "calm-hair-brown",
+      src: "assets/image/hair/calm-cut-black-out.png",
+      name: "calm-cut-black",
     },
     {
-      src: "assets/image/hair/calm-hair-green-out.png",
-      name: "calm-hair-green",
+      src: "assets/image/hair/calm-cut-green-out.png",
+      name: "calm-cut-green",
     },
     {
-      src: "assets/image/hair/calm-hair-red-out.png",
-      name: "calm-hair-red",
+      src: "assets/image/hair/calm-cut-red-out.png",
+      name: "calm-cut-red",
     },
     {
       src: "assets/image/hair/curly-cut-brown-out.png",

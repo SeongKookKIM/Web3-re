@@ -137,17 +137,17 @@ function handleHairImg(e) {
       document.querySelector(".default-hair").src =
         "/assets/image/hair/buzz-cut-yellow-in.png";
       break;
-    case "/assets/image/hair/calm-hair-brown-out.png":
+    case "/assets/image/hair/calm-cut-black-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/calm-hair-brown-in.png";
+        "/assets/image/hair/calm-cut-black-in.png";
       break;
-    case "/assets/image/hair/calm-hair-green-out.png":
+    case "/assets/image/hair/calm-cut-green-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/calm-hair-green-in.png";
+        "/assets/image/hair/calm-cut-green-in.png";
       break;
-    case "/assets/image/hair/calm-hair-red-out.png":
+    case "/assets/image/hair/calm-cut-red-out.png":
       document.querySelector(".default-hair").src =
-        "/assets/image/hair/calm-hair-red-in.png";
+        "/assets/image/hair/calm-cut-red-in.png";
       break;
     case "/assets/image/hair/curly-cut-brown-out.png":
       document.querySelector(".default-hair").src =
