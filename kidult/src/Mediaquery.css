@@ -70,7 +70,7 @@
   }
   .default-inner {
     width: 100%;
-    height: auto;
+    height: 100%;
     transform: scale(1);
   }
   .item-box h3 {
@@ -179,7 +179,7 @@
     margin-top: 0px;
   }
   .default .default-reset {
-    bottom: -10%;
+    bottom: 0%;
   }
 }
 @media screen and (max-width: 550px) {
@@ -226,6 +226,9 @@
   .default .default-reset img {
     width: 40px;
   }
+  .default .default-reset {
+    bottom: -5%;
+  }
   .default .default-reset p {
     font-size: 0.7rem;
   }
@@ -233,5 +236,8 @@
 @media screen and (max-width: 400px) {
   .item-box {
     margin-bottom: 0px;
+  }
+  .default .default-reset {
+    bottom: -10%;
   }
 }
