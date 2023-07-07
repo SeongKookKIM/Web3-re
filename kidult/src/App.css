@@ -465,9 +465,7 @@
 .default .default-inner img.default-boxeffect {
   z-index: 1;
 }
-.default .default-inner img.default-slot {
-  z-index: 3;
-}
+
 .default .default-inner img.default-pattern {
   z-index: 2;
 }
@@ -523,4 +521,7 @@
 }
 .default .default-inner img.default-seal {
   z-index: 21;
+}
+.default .default-inner img.default-slot {
+  z-index: 22;
 }
