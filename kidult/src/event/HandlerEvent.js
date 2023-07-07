@@ -149,6 +149,18 @@ function handleHairImg(e) {
       document.querySelector(".default-hair").src =
         "/assets/image/hair/calm-cut-red-in.png";
       break;
+    case "/assets/image/hair/calm-hair-brown-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-brown-in.png";
+      break;
+    case "/assets/image/hair/calm-hair-green-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-green-in.png";
+      break;
+    case "/assets/image/hair/calm-hair-red-out.png":
+      document.querySelector(".default-hair").src =
+        "/assets/image/hair/calm-hair-red-in.png";
+      break;
     case "/assets/image/hair/curly-cut-brown-out.png":
       document.querySelector(".default-hair").src =
         "/assets/image/hair/curly-cut-brown-in.png";
@@ -957,6 +969,30 @@ function handleBottomImg(e) {
       document.querySelector(".default-bottom").src = "";
       break;
     // LOW
+    case "/assets/image/bottom-Low/balloon-pants-brown-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/balloon-pants-brown-in.png";
+      break;
+    case "/assets/image/bottom-Low/balloon-pants-green-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/balloon-pants-green-in.png";
+      break;
+    case "/assets/image/bottom-Low/balloon-pants-pink-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/balloon-pants-pink-in.png";
+      break;
+    case "/assets/image/bottom-Low/check-pants-green-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/check-pants-green-in.png";
+      break;
+    case "/assets/image/bottom-Low/check-pants-purple-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/check-pants-purple-in.png";
+      break;
+    case "/assets/image/bottom-Low/check-pants-yellow-out.png":
+      document.querySelector(".default-bottom").src =
+        "/assets/image/bottom-Low/check-pants-yellow-in.png";
+      break;
     case "/assets/image/bottom-Low/choker-pants-black-out.png":
       document.querySelector(".default-bottom").src =
         "/assets/image/bottom-Low/choker-pants-black-in.png";

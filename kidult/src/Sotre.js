@@ -352,6 +352,18 @@ let hairimg = createSlice({
       name: "calm-cut-red",
     },
     {
+      src: "assets/image/hair/calm-hair-brown-out.png",
+      name: "calm-hair-brown",
+    },
+    {
+      src: "assets/image/hair/calm-hair-green-out.png",
+      name: "calm-hair-green",
+    },
+    {
+      src: "assets/image/hair/calm-hair-red-out.png",
+      name: "calm-hair-red",
+    },
+    {
       src: "assets/image/hair/curly-cut-brown-out.png",
       name: "curly-cut-brown",
     },
@@ -1088,6 +1100,30 @@ let bottomimg = createSlice({
   initialState: [
     { src: "assets/image/none.png", name: "none" },
     // Low
+    {
+      src: "assets/image/bottom-Low/balloon-pants-brown-out.png",
+      name: "balloon-pants-brown",
+    },
+    {
+      src: "assets/image/bottom-Low/balloon-pants-green-out.png",
+      name: "balloon-pants-green",
+    },
+    {
+      src: "assets/image/bottom-Low/balloon-pants-pink-out.png",
+      name: "balloon-pants-pink",
+    },
+    {
+      src: "assets/image/bottom-Low/check-pants-green-out.png",
+      name: "check-pants-green",
+    },
+    {
+      src: "assets/image/bottom-Low/check-pants-purple-out.png",
+      name: "check-pants-purple",
+    },
+    {
+      src: "assets/image/bottom-Low/check-pants-yellow-out.png",
+      name: "check-pants-yellow",
+    },
     {
       src: "assets/image/bottom-Low/choker-pants-black-out.png",
       name: "choker-pants-black",
