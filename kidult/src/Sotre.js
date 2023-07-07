@@ -11,7 +11,6 @@ let bodyimg = createSlice({
     { src: "assets/image/body/dummy-black-out.png", name: "dummy-black" },
     { src: "assets/image/body/dummy-white-out.png", name: "dummy-white" },
     { src: "assets/image/body/gold-out.png", name: "gold" },
-    { src: "assets/image/body/real-gold-out.png", name: "real-gold" },
     { src: "assets/image/body/red-out.png", name: "red" },
   ],
 });

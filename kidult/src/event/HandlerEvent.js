@@ -64,12 +64,7 @@ function handleBodyImg(e) {
       document.querySelector(".default-arms").src =
         "/assets/image/default-arms/gold-arms-in.png";
       break;
-    case "/assets/image/body/real-gold-out.png":
-      document.querySelector(".default-body").src =
-        "/assets/image/default-arms/real-gold-body-in.png";
-      document.querySelector(".default-arms").src =
-        "/assets/image/default-arms/real-gold-arms-in.png";
-      break;
+
     case "/assets/image/body/red-out.png":
       document.querySelector(".default-body").src =
         "/assets/image/default-arms/red-body-in.png";
