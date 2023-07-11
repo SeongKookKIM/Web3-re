@@ -2689,56 +2689,89 @@ function handleSealImg(e) {
     case "/assets/image/none.png":
       document.querySelector(".default-seal").src = "";
       break;
-    case "/assets/image/seal/seal-silver1-out.png":
+    // Circle
+    case "/assets/image/seal/circle-architecture-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/seal-silver1-in.png";
+        "/assets/image/seal/circle-architecture-in.png";
       break;
-    case "/assets/image/seal/seal-silver2-out.png":
+    case "/assets/image/seal/circle-artist-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/seal-silver2-in.png";
+        "/assets/image/seal/circle-artist-in.png";
       break;
-    case "/assets/image/seal/seal-silver3-out.png":
+    case "/assets/image/seal/circle-beauty-fashion-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/seal-silver3-in.png";
+        "/assets/image/seal/circle-beauty-fashion-in.png";
       break;
-
-    case "/assets/image/seal/dia-a.png":
+    case "/assets/image/seal/circle-education-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/dia-a.png";
+        "/assets/image/seal/circle-education-in.png";
       break;
-    case "/assets/image/seal/dia-b.png":
+    case "/assets/image/seal/circle-food-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/dia-b.png";
+        "/assets/image/seal/circle-food-in.png";
       break;
-    case "/assets/image/seal/haert-a.png":
+    case "/assets/image/seal/circle-music-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/haert-a.png";
+        "/assets/image/seal/circle-music-in.png";
       break;
-    case "/assets/image/seal/haert-b.png":
+    case "/assets/image/seal/circle-politics-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/haert-b.png";
+        "/assets/image/seal/circle-politics-in.png";
       break;
-    case "/assets/image/seal/seal-DIA.png":
+    case "/assets/image/seal/circle-science-technology-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/seal-DIA.png";
+        "/assets/image/seal/circle-science-technology-in.png";
       break;
-    case "/assets/image/seal/star-a.png":
+    case "/assets/image/seal/circle-security-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/star-a.png";
+        "/assets/image/seal/circle-security-in.png";
       break;
-    case "/assets/image/seal/star-b.png":
+    case "/assets/image/seal/circle-sport-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/star-b.png";
+        "/assets/image/seal/circle-sport-in.png";
       break;
-    case "/assets/image/seal/zigzag-a.png":
+    // Diamond
+    case "/assets/image/seal/diamond-architecture-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/zigzag-a.png";
+        "/assets/image/seal/diamond-architecture-in.png";
       break;
-    case "/assets/image/seal/zigzag-b.png":
+    case "/assets/image/seal/diamond-artist-out.png":
       document.querySelector(".default-seal").src =
-        "/assets/image/seal/zigzag-b.png";
+        "/assets/image/seal/diamond-artist-in.png";
       break;
-    // 06-13추가
+    case "/assets/image/seal/diamond-beauty-fashion-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-beauty-fashion-in.png";
+      break;
+    case "/assets/image/seal/diamond-education-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-education-in.png";
+      break;
+    case "/assets/image/seal/diamond-food-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-food-in.png";
+      break;
+    case "/assets/image/seal/diamond-music-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-music-in.png";
+      break;
+    case "/assets/image/seal/diamond-politics-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-politics-in.png";
+      break;
+    case "/assets/image/seal/diamond-science-technology-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-science-technology-in.png";
+      break;
+    case "/assets/image/seal/diamond-security-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-security-in.png";
+      break;
+    case "/assets/image/seal/diamond-sport-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/diamond-sport-in.png";
+      break;
+    // Heart
     case "/assets/image/seal/heart-architecture-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/heart-architecture-in.png";
@@ -2755,9 +2788,17 @@ function handleSealImg(e) {
       document.querySelector(".default-seal").src =
         "/assets/image/seal/heart-education-in.png";
       break;
+    case "/assets/image/seal/heart-food-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/heart-food-in.png";
+      break;
     case "/assets/image/seal/heart-music-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/heart-music-in.png";
+      break;
+    case "/assets/image/seal/heart-politics-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/heart-politics-in.png";
       break;
     case "/assets/image/seal/heart-science-technology-out.png":
       document.querySelector(".default-seal").src =
@@ -2767,6 +2808,93 @@ function handleSealImg(e) {
       document.querySelector(".default-seal").src =
         "/assets/image/seal/heart-security-in.png";
       break;
+    case "/assets/image/seal/heart-sport-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/heart-sport-in.png";
+      break;
+    // Square
+    case "/assets/image/seal/square-architecture-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-architecture-in.png";
+      break;
+    case "/assets/image/seal/square-artist-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-artist-in.png";
+      break;
+    case "/assets/image/seal/square-beauty-fashion-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-beauty-fashion-in.png";
+      break;
+    case "/assets/image/seal/square-education-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-education-in.png";
+      break;
+    case "/assets/image/seal/square-food-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-food-in.png";
+      break;
+    case "/assets/image/seal/square-music-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-music-in.png";
+      break;
+    case "/assets/image/seal/square-politics-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-politics-in.png";
+      break;
+    case "/assets/image/seal/square-science-technology-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-science-technology-in.png";
+      break;
+    case "/assets/image/seal/square-security-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-security-in.png";
+      break;
+    case "/assets/image/seal/square-sport-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/square-sport-in.png";
+      break;
+    // Star
+    case "/assets/image/seal/star-architecture-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-architecture-in.png";
+      break;
+    case "/assets/image/seal/star-artist-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-artist-in.png";
+      break;
+    case "/assets/image/seal/star-beauty-fashion-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-beauty-fashion-in.png";
+      break;
+    case "/assets/image/seal/star-education-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-education-in.png";
+      break;
+    case "/assets/image/seal/star-food-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-food-in.png";
+      break;
+    case "/assets/image/seal/star-music-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-music-in.png";
+      break;
+    case "/assets/image/seal/star-politics-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-politics-in.png";
+      break;
+    case "/assets/image/seal/star-science-technology-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-science-technology-in.png";
+      break;
+    case "/assets/image/seal/star-security-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-security-in.png";
+      break;
+    case "/assets/image/seal/star-sport-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/star-sport-in.png";
+      break;
+    // Starburst
     case "/assets/image/seal/starburst-architecture-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/starburst-architecture-in.png";
@@ -2783,9 +2911,17 @@ function handleSealImg(e) {
       document.querySelector(".default-seal").src =
         "/assets/image/seal/starburst-education-in.png";
       break;
+    case "/assets/image/seal/starburst-food-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/starburst-food-in.png";
+      break;
     case "/assets/image/seal/starburst-music-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/starburst-music-in.png";
+      break;
+    case "/assets/image/seal/starburst-politics-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/starburst-politics-in.png";
       break;
     case "/assets/image/seal/starburst-science-technology-out.png":
       document.querySelector(".default-seal").src =
@@ -2794,6 +2930,10 @@ function handleSealImg(e) {
     case "/assets/image/seal/starburst-security-out.png":
       document.querySelector(".default-seal").src =
         "/assets/image/seal/starburst-security-in.png";
+      break;
+    case "/assets/image/seal/starburst-sport-out.png":
+      document.querySelector(".default-seal").src =
+        "/assets/image/seal/starburst-sport-in.png";
       break;
 
     default:

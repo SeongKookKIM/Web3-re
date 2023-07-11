@@ -2100,11 +2100,97 @@ let sealimg = createSlice({
   name: "sealimg",
   initialState: [
     { src: "assets/image/none.png", name: "none" },
+    // Circle
+    {
+      src: "assets/image/seal/circle-architecture-out.png",
+      name: "circle-architecture",
+    },
+    {
+      src: "assets/image/seal/circle-artist-out.png",
+      name: "circle-artist",
+    },
+    {
+      src: "assets/image/seal/circle-beauty-fashion-out.png",
+      name: "circle-beauty-fashion",
+    },
+    {
+      src: "assets/image/seal/circle-education-out.png",
+      name: "circle-education",
+    },
+    {
+      src: "assets/image/seal/circle-food-out.png",
+      name: "circle-food",
+    },
+    {
+      src: "assets/image/seal/circle-music-out.png",
+      name: "circle-music",
+    },
+    {
+      src: "assets/image/seal/circle-politics-out.png",
+      name: "circle-politics",
+    },
+    {
+      src: "assets/image/seal/circle-science-technology-out.png",
+      name: "circle-science-technology",
+    },
+    {
+      src: "assets/image/seal/circle-security-out.png",
+      name: "circle-security",
+    },
+    {
+      src: "assets/image/seal/circle-sport-out.png",
+      name: "circle-sport",
+    },
+    // Diamond
+    {
+      src: "assets/image/seal/diamond-architecture-out.png",
+      name: "diamond-architecture",
+    },
+    {
+      src: "assets/image/seal/diamond-artist-out.png",
+      name: "diamond-artist",
+    },
+    {
+      src: "assets/image/seal/diamond-beauty-fashion-out.png",
+      name: "diamond-beauty-fashion",
+    },
+    {
+      src: "assets/image/seal/diamond-education-out.png",
+      name: "diamond-education",
+    },
+    {
+      src: "assets/image/seal/diamond-food-out.png",
+      name: "diamond-food",
+    },
+    {
+      src: "assets/image/seal/diamond-music-out.png",
+      name: "diamond-music",
+    },
+    {
+      src: "assets/image/seal/diamond-politics-out.png",
+      name: "diamond-politics",
+    },
+    {
+      src: "assets/image/seal/diamond-science-technology-out.png",
+      name: "diamond-science-technology",
+    },
+    {
+      src: "assets/image/seal/diamond-security-out.png",
+      name: "diamond-security",
+    },
+    {
+      src: "assets/image/seal/diamond-sport-out.png",
+      name: "diamond-sport",
+    },
+    // Heart
     {
       src: "assets/image/seal/heart-architecture-out.png",
       name: "heart-architecture",
     },
-    { src: "assets/image/seal/heart-artist-out.png", name: "heart-artist" },
+    {
+      src: "assets/image/seal/heart-artist-out.png",
+      name: "heart-artist",
+    },
     {
       src: "assets/image/seal/heart-beauty-fashion-out.png",
       name: "heart-beauty-fashion",
@@ -2113,15 +2199,113 @@ let sealimg = createSlice({
       src: "assets/image/seal/heart-education-out.png",
       name: "heart-education",
     },
-    { src: "assets/image/seal/heart-music-out.png", name: "heart-music" },
+    {
+      src: "assets/image/seal/heart-food-out.png",
+      name: "heart-food",
+    },
+    {
+      src: "assets/image/seal/heart-music-out.png",
+      name: "heart-music",
+    },
+    {
+      src: "assets/image/seal/heart-politics-out.png",
+      name: "heart-politics",
+    },
     {
       src: "assets/image/seal/heart-science-technology-out.png",
       name: "heart-science-technology",
     },
     {
       src: "assets/image/seal/heart-security-out.png",
-      name: "heart-education-securityon",
+      name: "heart-security",
     },
+    {
+      src: "assets/image/seal/heart-sport-out.png",
+      name: "heart-sport",
+    },
+    // Square
+    {
+      src: "assets/image/seal/square-architecture-out.png",
+      name: "square-architecture",
+    },
+    {
+      src: "assets/image/seal/square-artist-out.png",
+      name: "square-artist",
+    },
+    {
+      src: "assets/image/seal/square-beauty-fashion-out.png",
+      name: "square-beauty-fashion",
+    },
+    {
+      src: "assets/image/seal/square-education-out.png",
+      name: "square-education",
+    },
+    {
+      src: "assets/image/seal/square-food-out.png",
+      name: "square-food",
+    },
+    {
+      src: "assets/image/seal/square-music-out.png",
+      name: "square-music",
+    },
+    {
+      src: "assets/image/seal/square-politics-out.png",
+      name: "square-politics",
+    },
+    {
+      src: "assets/image/seal/square-science-technology-out.png",
+      name: "square-science-technology",
+    },
+    {
+      src: "assets/image/seal/square-security-out.png",
+      name: "square-security",
+    },
+    {
+      src: "assets/image/seal/square-sport-out.png",
+      name: "square-sport",
+    },
+    // Star
+    {
+      src: "assets/image/seal/star-architecture-out.png",
+      name: "star-architecture",
+    },
+    {
+      src: "assets/image/seal/star-artist-out.png",
+      name: "star-artist",
+    },
+    {
+      src: "assets/image/seal/star-beauty-fashion-out.png",
+      name: "star-beauty-fashion",
+    },
+    {
+      src: "assets/image/seal/star-education-out.png",
+      name: "star-education",
+    },
+    {
+      src: "assets/image/seal/star-food-out.png",
+      name: "star-food",
+    },
+    {
+      src: "assets/image/seal/star-music-out.png",
+      name: "star-music",
+    },
+    {
+      src: "assets/image/seal/star-politics-out.png",
+      name: "star-politics",
+    },
+    {
+      src: "assets/image/seal/star-science-technology-out.png",
+      name: "star-science-technology",
+    },
+    {
+      src: "assets/image/seal/star-security-out.png",
+      name: "star-security",
+    },
+    {
+      src: "assets/image/seal/star-sport-out.png",
+      name: "star-sport",
+    },
+    // Starburst
     {
       src: "assets/image/seal/starburst-architecture-out.png",
       name: "starburst-architecture",
@@ -2139,8 +2323,16 @@ let sealimg = createSlice({
       name: "starburst-education",
     },
     {
+      src: "assets/image/seal/starburst-food-out.png",
+      name: "starburst-food",
+    },
+    {
       src: "assets/image/seal/starburst-music-out.png",
       name: "starburst-music",
+    },
+    {
+      src: "assets/image/seal/starburst-politics-out.png",
+      name: "starburst-politics",
     },
     {
       src: "assets/image/seal/starburst-science-technology-out.png",
@@ -2149,6 +2341,10 @@ let sealimg = createSlice({
     {
       src: "assets/image/seal/starburst-security-out.png",
       name: "starburst-security",
+    },
+    {
+      src: "assets/image/seal/starburst-sport-out.png",
+      name: "starburst-sport",
     },
   ],
 });
@@ -2175,8 +2371,16 @@ let stickerImg = createSlice({
         name: "starburst-education",
       },
       {
+        src: "assets/image/seal/starburst-food-out.png",
+        name: "starburst-food",
+      },
+      {
         src: "assets/image/seal/starburst-music-out.png",
         name: "starburst-music",
+      },
+      {
+        src: "assets/image/seal/starburst-politics-out.png",
+        name: "starburst-politics",
       },
       {
         src: "assets/image/seal/starburst-science-technology-out.png",
@@ -2186,17 +2390,150 @@ let stickerImg = createSlice({
         src: "assets/image/seal/starburst-security-out.png",
         name: "starburst-security",
       },
+      {
+        src: "assets/image/seal/starburst-sport-out.png",
+        name: "starburst-sport",
+      },
     ],
-    [{ src: "assets/image/none.png", name: "none" }],
-    [{ src: "assets/image/none.png", name: "none" }],
-    [{ src: "assets/image/none.png", name: "none" }],
+    [
+      { src: "assets/image/none.png", name: "none" },
+      {
+        src: "assets/image/seal/circle-architecture-out.png",
+        name: "circle-architecture",
+      },
+      {
+        src: "assets/image/seal/circle-artist-out.png",
+        name: "circle-artist",
+      },
+      {
+        src: "assets/image/seal/circle-beauty-fashion-out.png",
+        name: "circle-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/circle-education-out.png",
+        name: "circle-education",
+      },
+      {
+        src: "assets/image/seal/circle-food-out.png",
+        name: "circle-food",
+      },
+      {
+        src: "assets/image/seal/circle-music-out.png",
+        name: "circle-music",
+      },
+      {
+        src: "assets/image/seal/circle-politics-out.png",
+        name: "circle-politics",
+      },
+      {
+        src: "assets/image/seal/circle-science-technology-out.png",
+        name: "circle-science-technology",
+      },
+      {
+        src: "assets/image/seal/circle-security-out.png",
+        name: "circle-security",
+      },
+      {
+        src: "assets/image/seal/circle-sport-out.png",
+        name: "circle-sport",
+      },
+    ],
+    [
+      { src: "assets/image/none.png", name: "none" },
+      {
+        src: "assets/image/seal/square-architecture-out.png",
+        name: "square-architecture",
+      },
+      {
+        src: "assets/image/seal/square-artist-out.png",
+        name: "square-artist",
+      },
+      {
+        src: "assets/image/seal/square-beauty-fashion-out.png",
+        name: "square-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/square-education-out.png",
+        name: "square-education",
+      },
+      {
+        src: "assets/image/seal/square-food-out.png",
+        name: "square-food",
+      },
+      {
+        src: "assets/image/seal/square-music-out.png",
+        name: "square-music",
+      },
+      {
+        src: "assets/image/seal/square-politics-out.png",
+        name: "square-politics",
+      },
+      {
+        src: "assets/image/seal/square-science-technology-out.png",
+        name: "square-science-technology",
+      },
+      {
+        src: "assets/image/seal/square-security-out.png",
+        name: "square-security",
+      },
+      {
+        src: "assets/image/seal/square-sport-out.png",
+        name: "square-sport",
+      },
+    ],
+    [
+      { src: "assets/image/none.png", name: "none" },
+      {
+        src: "assets/image/seal/diamond-architecture-out.png",
+        name: "diamond-architecture-out",
+      },
+      {
+        src: "assets/image/seal/diamond-artist-out.png",
+        name: "diamond-artist",
+      },
+      {
+        src: "assets/image/seal/diamond-beauty-fashion-out.png",
+        name: "diamond-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/diamond-education-out.png",
+        name: "diamond-education",
+      },
+      {
+        src: "assets/image/seal/diamond-food-out.png",
+        name: "diamond-food",
+      },
+      {
+        src: "assets/image/seal/diamond-music-out.png",
+        name: "diamond-music",
+      },
+      {
+        src: "assets/image/seal/diamond-politics-out.png",
+        name: "diamond-politics",
+      },
+      {
+        src: "assets/image/seal/diamond-science-technology-out.png",
+        name: "diamond-science-technology",
+      },
+      {
+        src: "assets/image/seal/diamond-security-out.png",
+        name: "diamond-security",
+      },
+      {
+        src: "assets/image/seal/diamond-sport-out.png",
+        name: "diamond-sport",
+      },
+    ],
     [
       { src: "assets/image/none.png", name: "none" },
       {
         src: "assets/image/seal/heart-architecture-out.png",
         name: "heart-architecture",
       },
-      { src: "assets/image/seal/heart-artist-out.png", name: "heart-artist" },
+      {
+        src: "assets/image/seal/heart-artist-out.png",
+        name: "heart-artist",
+      },
       {
         src: "assets/image/seal/heart-beauty-fashion-out.png",
         name: "heart-beauty-fashion",
@@ -2205,17 +2542,74 @@ let stickerImg = createSlice({
         src: "assets/image/seal/heart-education-out.png",
         name: "heart-education",
       },
-      { src: "assets/image/seal/heart-music-out.png", name: "heart-music" },
+      {
+        src: "assets/image/seal/heart-food-out.png",
+        name: "heart-food",
+      },
+      {
+        src: "assets/image/seal/heart-music-out.png",
+        name: "heart-music",
+      },
+      {
+        src: "assets/image/seal/heart-politics-out.png",
+        name: "heart-politics",
+      },
       {
         src: "assets/image/seal/heart-science-technology-out.png",
         name: "heart-science-technology",
       },
       {
         src: "assets/image/seal/heart-security-out.png",
-        name: "heart-education-securityon",
+        name: "heart-security",
+      },
+      {
+        src: "assets/image/seal/heart-sport-out.png",
+        name: "heart-sport",
       },
     ],
-    [{ src: "assets/image/none.png", name: "none" }],
+    [
+      { src: "assets/image/none.png", name: "none" },
+      {
+        src: "assets/image/seal/star-architecture-out.png",
+        name: "star-architecture",
+      },
+      {
+        src: "assets/image/seal/star-artist-out.png",
+        name: "star-artist",
+      },
+      {
+        src: "assets/image/seal/star-beauty-fashion-out.png",
+        name: "star-beauty-fashion",
+      },
+      {
+        src: "assets/image/seal/star-education-out.png",
+        name: "star-education",
+      },
+      {
+        src: "assets/image/seal/star-food-out.png",
+        name: "star-food",
+      },
+      {
+        src: "assets/image/seal/star-music-out.png",
+        name: "star-music",
+      },
+      {
+        src: "assets/image/seal/star-politics-out.png",
+        name: "star-politics",
+      },
+      {
+        src: "assets/image/seal/star-science-technology-out.png",
+        name: "star-science-technology",
+      },
+      {
+        src: "assets/image/seal/star-security-out.png",
+        name: "star-security",
+      },
+      {
+        src: "assets/image/seal/star-sport-out.png",
+        name: "star-sport",
+      },
+    ],
   ],
 });
 
