@@ -9,7 +9,7 @@
   /* background-color: #1d9954; */
   display: flex;
   min-height: 100vh;
-  background: url(../public/assets/image/bg2.png) center center no-repeat;
+  background: url(../public/assets/image/bg.png) center center no-repeat;
   background-size: cover;
 }
 .logo {
